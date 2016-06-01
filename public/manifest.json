@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "webgefrickel",
+  "short_name": "webgefrickel",
+  "icons": [{
+    "src": "apple-touch-icon.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }],
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#F78474",
+  "background_color": "#F78474"
+}
