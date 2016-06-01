@@ -1,0 +1,20 @@
+// notes
+// ======================================================================
+
+.note {
+  @include spacing;
+
+}
+
+.note__footer {
+  @include font-size(small);
+  @include spacing(b 1/2);
+
+  @include mediaquery(l) {
+    @include font-size(h4);
+  }
+}
+
+.note__image {
+  @include spacing(b 1/2);
+}

@@ -1,0 +1,14 @@
+* text=auto
+public/assets/css/main.css -diff
+public/assets/css/main.min.css -diff
+public/assets/css/critical.min.css -diff
+public/assets/js/main.js -diff
+public/assets/js/main.min.js -diff
+public/assets/js/loadcss.min.js -diff
+public/assets/css/main.css merge=ours
+public/assets/css/main.min.css merge=ours
+public/assets/css/critical.min.css merge=ours
+public/assets/js/main.js merge=ours
+public/assets/js/main.min.js merge=ours
+public/assets/js/loadcss.min.js merge=ours
+

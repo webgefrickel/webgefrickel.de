@@ -1,0 +1,122 @@
+// navigation styles
+// ======================================================================
+
+.nav {
+  @extend %animate--height;
+  @include block(block);
+  @include background-color(default);
+  height: 0;
+
+  @include mediaquery(l) {
+    @include center(horizontal);
+    @include z-index(head);
+    @include background-color(transparent);
+    @include spacing-inner(l 4);
+    width: auto;
+    height: auto;
+    transition: unset;
+  }
+
+  @include mediaquery(xl) {
+    @include spacing-inner(l 0);
+  }
+
+  &--active {
+    height: calc(100vh - #{$height-header});
+
+    @include mediaquery(l) {
+      height: auto;
+    }
+  }
+}
+
+.nav__list {
+  @include spacing(b 0);
+
+  @include mediaquery(l) {
+    width: 40vw;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @include mediaquery(xxl) {
+    width: 30vw;
+  }
+}
+
+.nav__item {
+  @include font-size(h1-mobile);
+  @include font-weight(default);
+  position: relative;
+  flex: 2;
+
+  @include mediaquery(minheight, true) {
+    flex: 4;
+  }
+
+  @include mediaquery(l) {
+    @include background-color(transparent);
+    @include spacing-inner(a 0);
+    width: auto;
+    flex: none;
+  }
+}
+
+.nav__link {
+  @include center(cover);
+  @include spacing-inner(h 1/2);
+  display: flex;
+  align-items: center;
+
+  @include mediaquery(l) {
+    @include font-size(default);
+    @include color(main);
+    @include static;
+    @include spacing-inner(a 0);
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: $height-header;
+
+    @include attention {
+      text-decoration: none;
+    }
+  }
+}
+
+.nav__item--legal-notice {
+  @include background-color(default);
+  @include font-size(h3);
+  border-bottom: 1px solid color(main);
+  flex: 1;
+
+  @include mediaquery(l) {
+    display: none;
+  }
+
+  .nav__link {
+    @include color(main);
+  }
+}
+
+@each $nav-item-color in $areas {
+  .nav__item--#{$nav-item-color} {
+    .nav__link {
+      @include mediaquery(l) {
+        @include attention {
+          @include color($nav-item-color);
+        }
+      }
+    }
+  }
+
+  .nav__item--#{$nav-item-color} {
+    .nav__link--active {
+      @include mediaquery(l) {
+        @include color($nav-item-color);
+      }
+    }
+  }
+}
+

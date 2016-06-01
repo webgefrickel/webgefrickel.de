@@ -1,0 +1,11 @@
+.DS_Store
+npm-debug.log
+dploy.yaml
+.sass-cache
+node_modules
+public/site/accounts/
+public/site/cache/
+public/thumbs/
+tmp--*.html
+public/site/config/config.php
+.webmentions/

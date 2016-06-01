@@ -1,0 +1,29 @@
+// box ratio / add custom boxes with a fixed (responsive) ratio
+// ======================================================================
+
+// boxes with a fixed ratio use like:
+// <div class="box  box--16-9">
+//   <div class="box__content"></div>
+// </div>
+
+.box {
+  @include block(block);
+
+  &::before {
+    @include block(pseudo);
+    @include ratio-box;
+  }
+}
+
+.box__content {
+  @include center(cover);
+}
+
+// and now - the various box sizes
+.box--2-1 {
+  @include ratio-box(2, 1);
+}
+
+.box--4-3 {
+  @include ratio-box(4, 3);
+}

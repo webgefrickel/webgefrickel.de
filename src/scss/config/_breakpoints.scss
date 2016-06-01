@@ -1,0 +1,18 @@
+// breakpoints used throughout the project - use with mixin and js-module
+// ======================================================================
+
+// please only use px and em to define breakpoints. px-values will
+// automatically be converted to em-mediaqueries in the mixin and
+// the provieded javascript-module
+
+$breakpoints: (
+  s: 480px,
+  m: 640px,
+  l: 720px,
+  xl: 960px,
+  xxl: 1100px,
+  xxxl: 1250px,
+  xxxxl: 1600px,
+  // to use this, set the second parameter of the mixin to true
+  minheight: '(min-height: 480px)'
+);

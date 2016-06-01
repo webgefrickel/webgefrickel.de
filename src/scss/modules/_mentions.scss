@@ -1,0 +1,39 @@
+// webmentions styling
+// ======================================================================
+
+.webmentions-mentions,
+.webmentions-reposts,
+.webmentions-replies,
+.webmentions-likes {
+  @extend %clearfix;
+  clear: both;
+}
+
+.webmention {
+  @include font-size(h4);
+
+  @include mediaquery(l) {
+    @include spacing(b 1);
+    @include spacing-inner(r 1);
+    width: 50%;
+    float: left;
+  }
+}
+
+.webmention-author {
+  @include spacing(b 0);
+}
+
+.webmention-author-meta {
+  @include font-size(small);
+}
+
+.webmention-author-photo {
+  @include spacing(b 1/4);
+  display: block;
+
+  img {
+    @include spacing(b 1/2, r 1/2);
+    max-width: 100px;
+  }
+}

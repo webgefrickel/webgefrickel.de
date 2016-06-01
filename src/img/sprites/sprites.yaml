@@ -1,0 +1,35 @@
+icon--arrow-left:
+  title: Previous
+  description: A chevron pointing to the left
+
+icon--arrow-right:
+  title: Next
+  description: A chevron pointing to the right
+
+icon--close:
+  title: Close
+  description: A cross to close things
+
+icon--code:
+  title: Code
+  description: A closing HTML-Tag, for showing the code of this page
+
+icon--github:
+  title: GitHub
+  description: The official GitHub icon
+
+icon--header:
+  title: Heart
+  description: A heart
+
+icon--logo:
+  title: Logo
+  description: The webgefrickel logo
+
+icon--menu:
+  title: Menu
+  description: A burger-menu icon for opening/closing the navigation
+
+icon--twitter:
+  title: Twitter
+  description: The official Twitter icon

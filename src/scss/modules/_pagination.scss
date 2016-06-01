@@ -1,0 +1,15 @@
+// pagination styles
+// ======================================================================
+
+.pagination {
+  @include spacing(t 1);
+
+  &__newer {
+    float: right;
+  }
+
+  &__older {
+    float: left;
+  }
+
+}

@@ -1,0 +1,82 @@
+// content styles
+// ======================================================================
+
+.content-wrapper {
+  @extend %clearfix;
+
+  @include mediaquery(xl) {
+    @include spacing-inner(t 1);
+  }
+
+}
+
+.content {
+  @include mediaquery(xl) {
+    @include spacing-inner(l 2);
+    width: 60%;
+    float: left;
+  }
+}
+
+.content--project {
+  display: none;
+
+  @include mediaquery(xl) {
+    display: block;
+  }
+}
+
+.content--blog {
+  @include mediaquery(xl) {
+    @include spacing(t -2.5);
+    width: 72%;
+  }
+}
+
+.content--legal-notice {
+  @include font-size(small);
+
+  @include mediaquery(l) {
+    @include font-size(h4);
+  }
+}
+
+// stuff inside the content
+// ======================================================================
+
+.content__buzzwords {
+  @extend %clearfix;
+
+  .list--ul {
+    @include spacing(b 0, l 2%);
+    @include spacing-inner(l 0);
+    float: left;
+    width: 48%;
+    line-height: 2;
+    border-top: 4px solid color(default);
+    list-style: none;
+
+    &:nth-child(2n) {
+      @include spacing(l 0, r 2%);
+    }
+
+    &:last-child {
+      @include spacing(a 0);
+      @include spacing-inner(v 1/4);
+      @include line-height(default);
+      width: 100%;
+      float: none;
+      clear: both;
+    }
+  }
+
+  .list__item {
+    @include spacing(b 0);
+    border-bottom: 2px solid color(default);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+

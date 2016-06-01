@@ -1,0 +1,17 @@
+// styles for the nerdy sourcebox
+// ======================================================================
+
+.sourcebox {
+  @include fixed(t $height-header, r 0, b 0, l 0);
+  @include background-color(default);
+  @include color(inverted);
+  @include z-index(belly);
+  @include font-size(small);
+  transform: translateZ(10px);
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+  }
+}

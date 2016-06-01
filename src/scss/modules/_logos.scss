@@ -1,0 +1,21 @@
+// logo styles
+// ======================================================================
+
+.logo {
+  @include color(main);
+  @include spacing(l 1/2);
+  float: left;
+  line-height: $height-header;
+
+  @include attention {
+    @include color(inverted);
+  }
+
+  @include mediaquery(l) {
+    @include spacing(l $width-link-section);
+  }
+
+  @include mediaquery(xxl) {
+    @include spacing(l $width-link-section * 1.5);
+  }
+}
