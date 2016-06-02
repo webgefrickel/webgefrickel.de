@@ -1,16 +1,16 @@
 (() => {
   // Update 'version' if you need to refresh the cache
   const baseUrl = 'https://webgefrickel.de';
-  const cacheVersion = '2.2.4'; // gets replaced with package.version
+  const cacheVersion = '3.0.0'; // gets replaced with package.version
   const alwaysCache = [
     '/',
     '/offline',
     '/contact',
     '/assets/img/404.png',
     '/assets/js/highlight.min.js',
-    '/assets/js/main.min.1187962052.js',
-    '/assets/css/main.min.1187962052.css',
-    '/assets/img/sprites.1187962052.svg'
+    '/assets/js/main.min.64920777.js',
+    '/assets/css/main.min.64920777.css',
+    '/assets/img/sprites.64920777.svg'
   ];
 
   const neverCache = [
