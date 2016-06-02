@@ -14,6 +14,7 @@
   ];
 
   const neverCache = [
+    '/panel',
     '/serviceworker.js',
     '/micropub.php'
   ];
