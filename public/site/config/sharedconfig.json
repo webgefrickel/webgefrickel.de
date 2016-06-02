@@ -1,0 +1,44 @@
+{ "version": "2.2.4","hash": 1187962052,
+"breakpoints": {
+  "s": "480px",
+  "m": "640px",
+  "l": "720px",
+  "xl": "960px",
+  "xxl": "1100px",
+  "xxxl": "1250px",
+  "xxxxl": "1600px",  "minheight": "'(min-height: 480px)'"
+},
+"font-config": {
+  "default": {
+    "family": "'Geomanist'",
+    "fallback": "'Helvetica, Arial, sans-serif'",
+    "weight": 600,
+    "style": "normal",
+    "line-height": 1.3333,
+    "fontface": true,
+    "file": "'geomanist-medium'"
+  },  "regular": {
+    "family": "'Geomanist'",
+    "fallback": "'Helvetica, Arial, sans-serif'",
+    "weight": 400,
+    "style": "normal",
+    "fontface": true,
+    "file": "'geomanist-regular'"
+  },  "code": {
+    "family": "'Inconsolata'",
+    "fallback": "'Hack, Menlo, Courier, monospace'",
+    "weight": 400,
+    "style": "normal",
+    "line-height": 1.2,
+    "fontface": false
+  }
+},
+"font-sizes": {
+  "h1": "64px",
+  "h1-mobile": "36px",
+  "h2": "48px",
+  "h3": "24px",
+  "h4": "18px",
+  "small": "14px",
+  "default": "24px"
+} }
