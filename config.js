@@ -1,19 +1,18 @@
 export default {
-
   // browsersync config - this is where you can test all your
   // devices on - create a vhosts-entry with the same name
   // set the port (if you want something different) and your
   // scheme, if you run your stuff locally via https or sth.
+  scheme: 'https',
   proxy: 'wgf.local.dev',
   port: 3000,
-  scheme: 'https',
 
-
-  // the two main folders, src for where your sources are
+  // the main folders, src for where your sources are
   // (everything scss, unminified images and js-modules
+  // and dest for your destination folder to compile to.
+  // root ist where your webserver will point to (this is
+  // needed for serviceworker config etc.
   src: './src/',
-
-  // and dest for your destination folder to compile to
   root: './public/',
   dest: './public/assets/',
 
@@ -21,10 +20,6 @@ export default {
   // tasks (build, watch etc.) - those should be defined in your
   // gulpfile directly
   tasks: './tasks/',
-
-  // you can create vendor folders in your src/js src/scss
-  // folder - anything in there will not be linted by default
-  vendor: 'vendor',
 
   // the main-filename: main will be used as your main js and
   // scss-file, as entry point and compile target (e.g. if
@@ -37,9 +32,10 @@ export default {
   sass: 'scss/',
   css: 'css/',
   fonts: 'fonts/',
-  scripts: 'js/',
+  js: 'js/',
   images: 'img/',
   sprite: 'img/sprites/',
+  vendor: 'vendor/',
 
   // additional config, parsing, bundling, linting
   // ======================================================================
@@ -50,14 +46,21 @@ export default {
   // default shared config are breakpoints and fonts, for fontfaceobserver and
   // the mediaquery-module bundled in this repository, feel free to add more
   // sass-maps and add them to this array if you need the values in your JavaScript
-  sharedConfig: [
+  shared: [
     'breakpoints',
     'fonts'
   ],
 
+  // autoprefixer browser-support matrix, this generates
+  // css-prefixes for the defined browsers
+  browsersupport: [
+    'last 2 versions',
+    'ie >= 11'
+  ],
+
   // define what you want to lint for errors
   lint: {
-    js: true, // using eslint - see /.eslintrc
+    js: true, // using eslint - see /.eslintrc.yml
     scss: true, // using scss_lint ruby gem - see /.scss-lint.yml
     html: true // using htmlhint, define the pages you want to lint below, see /.htmlhintrc
   },
@@ -67,35 +70,16 @@ export default {
   // if your proxy and the pages defined are not reachable, the htmlhint
   // task will throw and error and break your build, so make sure, that
   // everything in the pages-array is indeed a page in your website
+  // and your proxy/scheme variables are correct
   pages: [
     '/',
     '/blog',
     '/blog/styling-form-elements',
     '/blog/photos-from-new-zealand',
+    '/blog/beyond-tellerrand-and-indiewebcamp-2016',
     '/work',
     '/contact',
     '/legal-notice'
-  ],
-
-  // autoprefixer browser-support matrix, this generates
-  // css-prefixes for the defined browsers
-  browsersupport: [
-    'android >= 4.4',
-    'chrome >= 47',
-    'ff >= 43',
-    'ie >= 10',
-    'ios >= 8',
-    'opera >= 34',
-    'safari >= 8'
-  ],
-
-  // if you use libs that browserify should not parse for any
-  // additional require-statements, add them here to speed things up
-  // use this only for libraries that do not use require or import
-  // or things will break and dependencies cannot be resolved
-  noparselibs: [
-    'svgxuse',
-    'picturefill'
   ]
 
 };

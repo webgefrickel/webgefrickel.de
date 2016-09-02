@@ -1,10 +1,11 @@
 import config from '../config';
+import path from 'path';
 import pkg from '../package';
 import gulp from 'gulp';
 import fs from 'fs';
 import trimEnd from 'lodash/trimEnd';
 
-const configPath = `${config.src + config.sass}config/`;
+const configPath = path.join(config.src, config.sass, '/config/');
 
 const hashSbdm = (str) => {
   let hash = 0;
@@ -53,22 +54,22 @@ const convertToJson = (scssFile) => {
   return `${data}`;
 };
 
-gulp.task('sharedconfig', () => {
+gulp.task('shared', () => {
   let finalJson = '';
 
   // add the version + hash from package.json always
   finalJson += `"version": "${pkg.version}",`;
   finalJson += `"hash": ${hashSbdm(pkg.version)},`
 
-  if (config.sharedConfig.length >= 1) {
-    config.sharedConfig.forEach((identifier) => {
-      const fileJson = convertToJson(`${configPath}_${identifier}.scss`);
+  if (config.shared.length >= 1) {
+    config.shared.forEach((identifier) => {
+      const fileJson = convertToJson(path.join(configPath, `_${identifier}.scss`));
 
       finalJson += `${fileJson},`;
     });
 
     // since this is synchronous, we can now write the json config file
-    fs.writeFile(`${config.src + config.scripts}sharedconfig.json`, `{ ${trimEnd(finalJson, ',')} }`, 'utf8');
+    fs.writeFile(path.join(config.src, config.js, 'shared.json'), `{ ${trimEnd(finalJson, ',')} }`, 'utf8');
   }
 
   return false;

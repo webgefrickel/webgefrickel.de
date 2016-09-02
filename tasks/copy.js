@@ -1,5 +1,6 @@
 import config from '../config';
-import sharedconfig from '../src/js/sharedconfig';
+import shared from '../src/js/shared';
+import path from 'path';
 import gulp from 'gulp';
 import plugins from 'gulp-load-plugins';
 
@@ -7,34 +8,34 @@ const $ = plugins();
 
 gulp.task('copy:fonts', () =>
   gulp
-    .src(`${config.src + config.fonts}*.{svg,ttf,woff,woff2}`)
-    .pipe(gulp.dest(config.dest + config.fonts))
+    .src(path.join(config.src, config.fonts, '*.{woff,woff2}'))
+    .pipe(gulp.dest(path.join(config.dest, config.fonts)))
 );
 
 gulp.task('copy:images', () =>
   gulp
-    .src(`${config.src + config.images}*.{png,gif,jpg,svg}`)
-    .pipe(gulp.dest(config.dest + config.images))
+    .src(path.join(config.src, config.images, '*.{png,gif,jpg,svg,webp}'))
+    .pipe(gulp.dest(path.join(config.dest, config.images)))
 );
 
 gulp.task('copy:vendorjs', () =>
   gulp
-    .src(`${config.src + config.scripts + config.vendor}/*.js`)
-    .pipe(gulp.dest(config.dest + config.scripts))
+    .src(path.join(config.src, config.js, config.vendor, '*.js'))
+    .pipe(gulp.dest(path.join(config.dest, config.js)))
 );
 
 gulp.task('copy:serviceworker', () =>
   gulp
-    .src(`${config.src + config.scripts}/serviceworker.js`)
-    .pipe($.replace(/@@version@@/gi, sharedconfig.version))
-    .pipe($.replace(/@@hash@@/gi, sharedconfig.hash))
+    .src(path.join(config.src, config.js, 'serviceworker.js'))
+    .pipe($.replace(/@@version@@/gi, shared.version))
+    .pipe($.replace(/@@hash@@/gi, shared.hash))
     .pipe(gulp.dest(config.root))
 );
 
-gulp.task('copy:sharedconfig', () =>
+gulp.task('copy:shared', () =>
   gulp
-    .src(`${config.src + config.scripts}/sharedconfig.json`)
-    .pipe(gulp.dest(`${config.root}site/config/`))
+    .src(path.join(config.src, config.js, 'shared.json'))
+    .pipe(gulp.dest(config.root))
 );
 
 gulp.task('copy:loadcss', () =>
@@ -42,5 +43,5 @@ gulp.task('copy:loadcss', () =>
     .src('./node_modules/fg-loadcss/src/loadCSS.js')
     .pipe($.uglify())
     .pipe($.rename('loadcss.min.js'))
-    .pipe(gulp.dest(config.dest + config.scripts))
+    .pipe(gulp.dest(path.join(config.dest, config.js)))
 );

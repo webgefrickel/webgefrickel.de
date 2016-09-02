@@ -1,4 +1,4 @@
-import shared from '../sharedconfig';
+import shared from '../shared.json';
 
 const breakpoints = shared.breakpoints;
 

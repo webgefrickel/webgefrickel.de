@@ -1,18 +1,19 @@
 import config from '../config';
+import path from 'path';
 import gulp from 'gulp';
 import del from 'del';
 
 // do not return anything fixes watch-task
 gulp.task('clean', () => del([
-  `${config.root}tmp--*.html`,
-  `${config.root}site/config/sharedconfig.json`,
-  `${config.root}serviceworker.js`,
-  `${config.dest + config.css}**/*`,
-  `${config.dest + config.images}**/*`,
-  `${config.dest + config.scripts}**/*`,
-  `${config.dest + config.fonts}**/*`
+  path.join(config.root, 'tmp--*.html'),
+  path.join(config.root, 'sharedconfig.json'),
+  path.join(config.root, 'serviceworker.js'),
+  path.join(config.dest, config.css, '/**/*'),
+  path.join(config.dest, config.images, '/**/*'),
+  path.join(config.dest, config.js, '/**/*'),
+  path.join(config.dest, config.fonts, '/**/*')
 ]));
 
 gulp.task('clean:done', () => del([
-  `${config.root}tmp--*.html`
+  path.join(config.root, 'tmp--*.html')
 ]));

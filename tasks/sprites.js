@@ -1,4 +1,5 @@
 import config from '../config';
+import path from 'path';
 import gulp from 'gulp';
 import plugins from 'gulp-load-plugins';
 
@@ -7,12 +8,12 @@ const spriteConfig = {
   mode: {
     symbol: {
       dest: './',
-      sprite: `../${config.images}sprites.svg`
+      sprite: path.join('../', config.images, 'sprites.svg')
     }
   },
 
   shape: {
-    meta: `${config.src + config.sprite}sprites.yaml`,
+    meta: path.join(config.src, config.sprite, 'sprites.yaml'),
     id: {
       generator: 'icon--%s'
     }
@@ -22,8 +23,8 @@ const spriteConfig = {
 
 gulp.task('sprites', () =>
   gulp
-    .src(`${config.src + config.sprite}*.svg`)
+    .src(path.join(config.src, config.sprite, '*.svg'))
     .pipe($.plumber())
     .pipe($.svgSprite(spriteConfig))
-    .pipe(gulp.dest(config.src + config.images))
+    .pipe(gulp.dest(path.join(config.src, config.images)))
 );

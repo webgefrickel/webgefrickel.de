@@ -2,7 +2,7 @@ import config from '../config';
 import gulp from 'gulp';
 import browsersync from 'browser-sync';
 
-gulp.task('browsersync', () =>
+gulp.task('serve', () =>
   browsersync({
     proxy: config.proxy,
     port: config.port,
