@@ -6,6 +6,7 @@ node_modules
 public/site/accounts/
 public/site/cache/
 public/thumbs/
+public/assets/images/
 tmp--*.html
 public/site/config/config.php
 .webmentions/
