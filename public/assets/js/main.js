@@ -978,8 +978,8 @@ var es6Promise = createCommonjsModule(function (module) {
 }).call(commonjsGlobal);
 });
 
-var version = "3.0.1";
-var hash = 64920776;
+var version = "3.1.0";
+var hash = 56659272;
 var breakpoints = {"s":"480px","m":"640px","l":"720px","xl":"960px","xxl":"1100px","xxxl":"1250px","xxxxl":"1600px","minheight":"'(min-height: 480px)'"};
 var shared = {
 	version: version,
