@@ -16,7 +16,7 @@ c::set('languages', [[
 ]]);
 
 // load the shared config from the json file generated with gulp
-c::set('sharedconfig', json_decode(file_get_contents(dirname( __FILE__ ) . '/sharedconfig.json')));
+c::set('sharedconfig', json_decode(file_get_contents(dirname( __FILE__ ) . '/../../shared.json')));
 
 // markdown as a default over kirbytext
 c::set('content.file.extension', 'md');
