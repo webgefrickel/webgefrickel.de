@@ -10,30 +10,41 @@
 }
 
 .webmention {
-  @include font-size(h4);
+  @include spacing(b 1/2);
+
+  @include mediaquery(s) {
+    @include spacing-inner(r 1/2);
+    float: left;
+    width: 50%;
+  }
 
   @include mediaquery(l) {
-    @include spacing(b 1);
-    @include spacing-inner(r 1);
-    width: 50%;
-    float: left;
+    width: 33.3333%;
   }
 }
 
 .webmention-author {
+  @extend %clearfix;
   @include spacing(b 0);
+  position: relative;
 }
 
-.webmention-author-meta {
+.webmention-author__meta {
   @include font-size(small);
+  @include spacing-inner(t 1/4);
 }
 
-.webmention-author-photo {
-  @include spacing(b 1/4);
+.webmention-author__photo {
+  @include spacing(r 1/4);
+  float: left;
   display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
 
-  img {
-    @include spacing(b 1/2, r 1/2);
-    max-width: 100px;
-  }
+.webmention-text {
+  @include font-size(small);
+  @include spacing(v 1/2);
+  clear: left;
 }
