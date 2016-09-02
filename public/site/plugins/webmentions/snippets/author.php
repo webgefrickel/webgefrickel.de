@@ -1,13 +1,13 @@
 <figure class="webmention-author">
-  <a title="<?php echo $author->name() ?>" class="webmention-author-photo" href="<?php echo $author->url() ?>">
-    <?php if($author->photo()->exists()): ?>
-    <img src="<?php echo $author->photo()->url() ?>" alt="<?php echo $author->name() ?>">
+  <a title="<?= $author->name() ?>" class="webmention-author__link" href="<?= $author->url() ?>">
+    <?php if ($author->photo()->exists()): ?>
+      <img class="webmention-author__photo" src="<?= $author->photo()->url() ?>" alt="<?= $author->name() ?>">
     <?php endif ?>
   </a>
-  <figcaption class="webmention-author-meta">
-    <a href="<?php echo $author->url() ?>" class="webmention-author-name"><?php echo $author->name() ?></a>
-    <time class="webmention-author-date" datetime="<?php echo $mention->date('c') ?>">
-      <a href="<?php echo $mention->url() ?>"><?php echo $mention->date('d M Y - h:i') ?></a>
+  <figcaption class="webmention-author__meta">
+    <a href="<?= $author->url() ?>" class="webmention-author__name"><?= $author->name() ?></a><br />
+    <time class="webmention-author__date" datetime="<?= $mention->date('c') ?>">
+      <a href="<?= $mention->url() ?>"><?= $mention->date('d M Y - h:i') ?></a>
     </time>
   </figcaption>
 </figure>
