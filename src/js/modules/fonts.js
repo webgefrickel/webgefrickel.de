@@ -14,7 +14,7 @@ export default () => {
         new Observer(fontConfig[font].family.replace(/'/g, ''), {
           weight: fontConfig[font].weight,
           style: fontConfig[font].style
-        }).check()
+        })
       );
     }
   });
