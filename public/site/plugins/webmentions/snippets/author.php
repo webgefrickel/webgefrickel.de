@@ -1,7 +1,7 @@
 <figure class="webmention-author">
   <a title="<?= $author->name() ?>" class="webmention-author__link" href="<?= $author->url() ?>">
     <?php if ($author->photo()->exists()): ?>
-      <img class="webmention-author__photo" src="<?= $author->photo()->url() ?>" alt="<?= $author->name() ?>">
+      <img class="webmention-author__photo" src="<?= $author->photo()->url() ?>" alt="<?= $author->name() ?>" />
     <?php endif ?>
   </a>
   <figcaption class="webmention-author__meta">

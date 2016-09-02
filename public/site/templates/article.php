@@ -36,7 +36,7 @@
             <div class="gallery  js-gallery">
               <?php foreach ($gallery as $image): ?>
                 <a href="<?= $image['link'] ?>" class="gallery__link">
-                  <img src="<?= $image['thumb'] ?>" class="gallery__thumb" alt="">
+                  <img src="<?= $image['thumb'] ?>" class="gallery__thumb" alt="" />
                 </a>
               <?php endforeach ?>
             </div>
