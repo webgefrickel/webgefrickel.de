@@ -43,9 +43,15 @@
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@webgefrickel" />
-    <meta name="twitter:image" content="https://webgefrickel.de/apple-touch-icon.png" />
+    <meta name="twitter:image" content="https://webgefrickel.de/assets/img/apple-touch-icon.png" />
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#323232" />
+    <meta name="theme-color" content="#323232" />
+
+    <link rel="manifest" href="/manifest.json" />
     <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="Blog Feed" />
     <link rel="authorization_endpoint" href="<?= $site->authendpoint() ?>" />
     <link rel="token_endpoint" href="<?= $site->tokenendpoint() ?>" />
@@ -65,7 +71,6 @@
 
     <?php else: // just load the minified css, should be in cache now anyway ?>
       <link rel="stylesheet" href="/assets/css/main.min.<?= c::get('sharedconfig')->hash ?>.css" />
-
     <?php endif ?>
   </head>
   <body class="site  <?php e($page->isHomePage(), 'site--homepage') ?>">
