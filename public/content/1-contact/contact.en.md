@@ -95,4 +95,4 @@ Availability:
 
 ## Availability
 
-I am available for smaller and larger projects from July 2016.
+I am available for smaller projects in November and December 2016.
