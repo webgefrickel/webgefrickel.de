@@ -13,7 +13,7 @@ const hashSbdm = (str) => {
   for (let i = 0; i < str.length; i += 1) {
     const char = str.charCodeAt(i);
 
-    /* eslint no-bitwise: false */
+    /* eslint no-bitwise: 'off' */
     hash = char + (hash << 6) + (hash << 16) - hash;
   }
 
