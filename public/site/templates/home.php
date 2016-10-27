@@ -10,7 +10,7 @@
 
   <header class="welcome  js-welcome">
     <h1 class="welcome__inner">
-      <?= $page->welcome()->kirbytext() ?>
+      <?= html::breaks($page->welcome()) ?>
     </h1>
 
     <div class="header  header--welcome">
