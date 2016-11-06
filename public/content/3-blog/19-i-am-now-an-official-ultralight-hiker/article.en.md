@@ -94,7 +94,7 @@ When in airplane mode, my old iPhone still holds up for 1-2 days when just occas
 
 Total weight: **525g**
 
-The Leatherman Style PS is a nice addition if you want a small multitool in your packpack. There is no knife on this thing (since I carry one in my pocket anyway) but everything else you might need: small scissors, file, pliers and tweezers. I carried too much sunscreen and too much toiletries, but all in all, nothing to heavy to worry about, but an area where I can optimize :) I did not carry a copass this time, sinced I knew the area and actually planned on getting lost (and had my iPhone as a backup).
+The Leatherman Style PS is a nice addition if you want a small multitool in your packpack. There is no knife on this thing (since I carry one in my pocket anyway) but everything else you might need: small scissors, file, pliers and tweezers. I carried too much sunscreen and too much toiletries, but all in all, nothing to heavy to worry about, but an area where I can optimize :) I did not carry a compass this time, since I knew the area and actually planned on getting lost (and had my iPhone as a backup).
 
 --- 
 
