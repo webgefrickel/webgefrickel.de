@@ -83,5 +83,9 @@
     width: 100%;
     line-height: 1.05;
   }
+
+  @include mediaquery(maxminheight, true) {
+    font-size: 8vh;
+  }
 }
 

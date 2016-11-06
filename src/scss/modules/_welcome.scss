@@ -34,4 +34,8 @@
   @include spacing(b 0);
   flex: 1;
   font-size: inherit;
+
+  @include mediaquery(maxheight, true) {
+    font-size: 10vh;
+  }
 }
