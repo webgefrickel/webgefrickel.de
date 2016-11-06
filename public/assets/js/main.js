@@ -980,7 +980,7 @@ var es6Promise = createCommonjsModule(function (module) {
 
 var version = "3.1.0";
 var hash = 56659272;
-var breakpoints = {"s":"480px","m":"640px","l":"720px","xl":"960px","xxl":"1100px","xxxl":"1250px","xxxxl":"1600px","minheight":"'(min-height: 480px)'"};
+var breakpoints = {"s":"480px","m":"640px","l":"720px","xl":"960px","xxl":"1100px","xxxl":"1250px","xxxxl":"1600px","minheight":"'(min-height: 480px)'","maxheight":"'(min-width: 720px) and (max-height: 640px)'","maxminheight":"'(max-height: 640px)'"};
 var shared = {
 	version: version,
 	hash: hash,
