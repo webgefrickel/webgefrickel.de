@@ -10,8 +10,11 @@
 
   <footer class="note__footer">
     <a class="link-default  u-url" href="<?= $note->url() ?>">
-    <time class="note__date  dt-published" datetime="<?= $note->date('Y-m-d') ?>">
-      <?= $note->date('l, d. F Y, H:i') ?></time></a><br />
+      <time class="note__date  dt-published" datetime="<?= $note->date('Y-m-d') ?>">
+        Published on <?= $note->date('l, d. F Y, H:i') ?>
+      </time>
+    </a>
+    <br />
 
     <?php
       $taglist = [];
