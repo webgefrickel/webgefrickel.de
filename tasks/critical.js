@@ -10,7 +10,7 @@ gulp.task('critical', [ 'savehtml' ], () =>
     inline: false, // create css to be inlined in php
     src: 'tmp--home.html',
     css: path.join(config.dest, config.css, `${config.main}.min.css`),
-    dest: path.join(config.dest, config.css, 'critical.min.css'),
+    dest: path.join(config.dest.replace(config.root, ''), config.css, 'critical.min.css'),
     pathPrefix: config.dest.replace(config.root, ''), // strip the public local folder
     minify: true,
     extract: false, // do not extract css from the downloaded html (speeds things up)
