@@ -3,12 +3,15 @@
 return function($site, $pages, $page, $args) {
   $currentTag = false;
   $notesPerPage = 15;
-  $notes = $page->children()->paginate($notesPerPage);
+  $notes = $page->children()
+    ->sortBy('date', 'desc')
+    ->paginate($notesPerPage);
 
   // filter by tag if there are any see the blog-controller and routes
   if (isset($args['tag']) && !empty($args['tag'])) {
     $currentTag = $args['tag'];
     $notes = $page->children()
+      ->sortBy('date', 'desc')
       ->filterBy('tags', '==', $currentTag, ',')
       ->paginate($notesPerPage);
   }
