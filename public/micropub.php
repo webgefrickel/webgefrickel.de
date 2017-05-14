@@ -1,42 +1,41 @@
 <?php
-# Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-# http://creativecommons.org/publicdomain/zero/1.0/
-
-define('DS', DIRECTORY_SEPARATOR);
-
 $mysite = 'https://webgefrickel.de/';
 $tokenEndpoint = 'https://tokens.indieauth.com/token';
 
 // create a new article using the kirby helpers / api
 // ======================================================================
-
-// load kirby and toolkit
-require_once(__DIR__ . DS . 'kirby' . DS . 'bootstrap.php');
-require_once(__DIR__ . DS . 'kirby' . DS . 'toolkit' . DS . 'lib' . DS . 'str.php');
-
-// load the libs and endpoint check
-require_once(__DIR__ . DS . 'site' . DS . 'plugins' . DS . 'micropub' . DS . 'endpoint.php');
+require_once(__DIR__ . '/kirby/bootstrap.php');
+require_once(__DIR__ . '/toolkit/lib/str.php');
+require_once(__DIR__ . '/site/plugins/micropub/endpoint.php');
 
 // initialize kirby instance
 $kirby = kirby();
 
 // create a new blog post if the h ist entry and we have content
-if ($_POST['h'] === 'entry' && !empty($_POST['content'])):
+if ($_POST['h'] === 'entry' && !empty($_POST['content'])) {
 
   // content format ist as follows for this blog:
   // first line: title
   // second line: summary / intro
   // rest: text
-  $date = date('Y-m-d H:i:s');
-  $hash = sha1($date);
+  $time = time();
+  $hash = date('YmdHis');
+  $date = date('Y-m-d H:i:s', $time);
   $slug = (isset($_POST['slug'])) ? $_POST['slug'] : $hash;
   $location = (isset($_POST['location'])) ? explode(';', $_POST['location']) : false;
+  $syndicate = '';
+
+  // append the url for bridgy publish
+  if (!empty($_POST['syndicate-to'])) {
+    $syndicate = '<a href="https://brid.gy/publish/twitter"></a>';
+  }
 
   $note = [
     'title' => $hash,
     'date' => $date,
     'slug' => $slug,
     'text' => $_POST['content'],
+    'syndicate' => $syndicate,
     'location' => ($location) ? str_replace('geo:', '', $location[0]) : '',
     'replyto' => (isset($_POST['in-reply-to'])) ? $_POST['in-reply-to'] : '',
     'tags' => (isset($_POST['category'])) ? strtolower(implode(', ', $_POST['category'])) : ''
@@ -45,23 +44,35 @@ if ($_POST['h'] === 'entry' && !empty($_POST['content'])):
   // publish the article by sorting it (get last number + 1)
   $newPageNumber = sprintf('%03d', $lastPageNumber + 1);
   $newNote = page('notes')->children()->create($hash, 'note', $note);
+  $newUrl = $mysite . 'notes/' . $hash;
 
   // move the image to theh page folder if there is any
-
   if (!empty($_FILES)) {
     move_uploaded_file(
       $_FILES['photo']['tmp_name'],
-      __DIR__ . DS . 'content' . DS . 'notes' . DS . $slug . DS . 'image.jpg'
+      __DIR__ . '/content/notes/' . $slug . '/image.jpg'
     );
-
   }
 
-  // TODO post this stuff to twitter?
+  if ($syndicate !== '') {
+    $ch = curl_init();
+    $url = 'https://brid.gy/publish/webmention';
+    $query = http_build_query([
+      'source' => $newUrl,
+      'target' => 'https://brid.gy/publish/twitter'
+    ]);
 
-endif;
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, 2);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_exec($ch);
+    curl_close($ch);
+  }
+}
 
 // reply with a nice header
 // ======================================================================
 
 header($_SERVER['SERVER_PROTOCOL'] . ' 201 Created');
-header('Location: ' . $mysite . 'notes/' . $hash);
+header('Location: ' . $newUrl);

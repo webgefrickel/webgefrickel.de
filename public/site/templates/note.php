@@ -16,11 +16,8 @@
 
         <?php snippet('note', ['note' => $page]) ?>
 
-        <hr />
         <?= webmentions() ?>
-
       </div>
-
     </div>
 
   </div>

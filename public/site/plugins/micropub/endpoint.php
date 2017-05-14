@@ -25,12 +25,6 @@ if (!isset($_HEADERS['Authorization'])) {
   exit;
 }
 
-if (!isset($_POST['h'])) {
-  header($_SERVER['SERVER_PROTOCOL'] . ' 400 Bad Request');
-  echo 'Missing "h" value.';
-  exit;
-}
-
 $options = [
   CURLOPT_URL => $tokenEndpoint,
   CURLOPT_HTTPGET => TRUE,
@@ -73,9 +67,28 @@ if (strtolower($values['me']) != strtolower($mysite)) {
   exit;
 }
 
-if (!stristr($values['scope'], 'post')) {
+if (isset($_GET['q']) && $_GET['q'] === 'syndicate-to') {
+  header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
+  header('Content-Type: application/json');
+  echo '{ "syndicate-to": [
+    {
+      "uid": "https://twitter.com/webgefrickel",
+      "name": "Twitter"
+    }
+  ]}';
+  exit;
+}
+
+
+if (!stristr($values['scope'], 'create')) {
   header($_SERVER['SERVER_PROTOCOL'] . ' 403 Forbidden');
-  echo 'Missing "post" value in "scope".';
+  echo 'Missing "create" value in "scope".';
+  exit;
+}
+
+if (!isset($_POST['h'])) {
+  header($_SERVER['SERVER_PROTOCOL'] . ' 400 Bad Request');
+  echo 'Missing "h" value.';
   exit;
 }
 
@@ -84,3 +97,5 @@ if (!isset($_POST['content'])) {
   echo 'Missing "content" value.';
   exit;
 }
+
+

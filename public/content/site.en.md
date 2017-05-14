@@ -63,3 +63,7 @@ Authendpoint: https://indieauth.com/auth
 ----
 
 Tokenendpoint: https://tokens.indieauth.com/token
+
+----
+
+Micropubendpoint: https://webgefrickel.de/micropub.php

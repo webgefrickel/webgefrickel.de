@@ -17,7 +17,7 @@
       $taglist = [];
       $tagsArray = explode(',', $note->tags());
       foreach ($tagsArray as $tag) {
-      $taglist[] = '<a href="/notes/tagged-with/' . $tag . '" class="link-default  p-category">' . ucfirst($tag) . '</a>';
+        $taglist[] = '<a href="/notes/tagged-with/' . $tag . '" class="link-default  p-category">' . ucfirst($tag) . '</a>';
       }
       $taglist = implode(', ', $taglist);
     ?>
@@ -31,5 +31,6 @@
       <span class="p-longitude" ?><?= $latLon[1] ?></span>
     </a>
 
+    <div class="hidden visuallyhidden"><?= $note->syndicate() ?></div>
   </footer>
 </article>
