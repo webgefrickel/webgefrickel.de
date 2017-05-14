@@ -14,7 +14,7 @@ return function($site, $pages, $page) {
   $alltags = '';
   foreach($tagcloud as $tag) {
     $alltags .= '<li class="taglist__item">
-      <a class="taglist__link  link-inverted" href="/blog/tagged-with/' . $tag->name() .'">' .
+      <a class="taglist__link  link-inverted" href="/notes/tagged-with/' . $tag->name() .'">' .
         ucfirst($tag->name()) . ' (' . $tag->results() . ')' .
       '</a>' .
     '</li>';
