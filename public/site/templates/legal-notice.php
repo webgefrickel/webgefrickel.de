@@ -13,10 +13,6 @@
 
       <article class="content  content--legal-notice">
         <?= $page->text()->kirbytext() ?>
-
-        <?php if (!(c::get('debugmode'))): ?>
-          <iframe class="piwik" src="https://piwik.webgefrickel.net/index.php?module=CoreAdminHome&action=optOut&idsite=3&language=en"></iframe>
-        <?php endif ?>
       </article>
     </div>
   </div>
