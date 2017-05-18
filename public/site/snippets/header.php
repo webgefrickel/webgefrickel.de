@@ -20,45 +20,24 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
 
-    <?php if ($page->isHomePage()): ?>
-      <meta property="og:title" content="<?= html($site->title() . ' — ' . $site->subtitle()) ?>" />
-      <meta name="twitter:title" content="<?= html($site->title() . ' — ' . $site->subtitle()) ?>" />
-    <?php else: ?>
-      <meta property="og:title" content="<?= html($page->title() . ' | ' . $site->title()) ?>" />
-      <meta name="twitter:title" content="<?= html($page->title() . ' | ' . $site->title()) ?>" />
-    <?php endif ?>
-
-    <?php if ($page->template() === 'article'): ?>
-      <meta property="og:description" content="<?= html($page->intro()) ?>" />
-      <meta name="twitter:description" content="<?= html($page->intro()) ?>" />
-    <?php else: ?>
-      <meta property="og:description" content="<?= html($site->description()) ?>" />
-      <meta name="twitter:description" content="<?= html($site->description()) ?>" />
-    <?php endif ?>
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="<?= $page->url() ?>" />
-    <meta property="og:site_name" content="<?= html($site->title()) ?>" />
-    <meta property="og:image" content="https://webgefrickel.de/preview.png" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@webgefrickel" />
-    <meta name="twitter:image" content="https://webgefrickel.de/assets/img/apple-touch-icon.png" />
-
+    <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="Blog Feed" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16" />
     <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#323232" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#323232" />
 
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="Blog Feed" />
     <link rel="authorization_endpoint" href="<?= $site->authendpoint() ?>" />
     <link rel="token_endpoint" href="<?= $site->tokenendpoint() ?>" />
     <link rel="micropub" href="<?= $site->micropubendpoint() ?>" />
     <link rel="webmention" href="<?= url('webmention') ?>" />
     <link rel="me" href="https://twitter.com/webgefrickel" />
     <link rel="me" href="https://github.com/webgefrickel" />
+    <link rel="me" href="https://keybase.io/webgefrickel" />
+    <link rel="pgpkey" href="/public-key.txt">
+
+    <?php snippet('og-data') ?>
 
     <?php if (c::get('debugmode')): ?>
       <link rel="stylesheet" href="/assets/css/main.css" />
