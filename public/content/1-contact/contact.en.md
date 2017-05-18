@@ -6,7 +6,7 @@ Info:
 
 ## What I do
 
-I focus on frontend development and architecture, but I have absolutely no problem building full stack websites with small content management systems like WordPress, Kirby or ProcessWire.  I like DevOps and the terminal and care a lot about performance. And I like to teach about all that stuff and share my knowledge.
+I focus on frontend development and architecture, and love to build styleguides for the web. But I have absolutely no problem building full stack websites with small content management systems like WordPress or Kirby.  I like DevOps and the terminal and care a lot about performance. And I like to teach about all that stuff and share my knowledge.
 
 I mostly work with/for full-service agencies, other developers and graphic designers. I am a team player and don't give a fuck about tabs vs. spaces (as long as it's consistent). I'm not a designer, but I have an eye for what works and what doesn't.  I have a degree in computer science and tons of experience building websites.
 
@@ -20,8 +20,8 @@ Principles:
 
 1. Everything I do, every single line of code is open source.  If it's mine, it's yours.
 2. I am an honest and upfront person and we can talk about everything, and that's what I expect from you, too.
-3. I don't do non-responsive websites anymore.  It's 2016.
-4. A slow website is a bad website.  Performance matters, and I care a lot about it.
+3. A slow website is a bad website.  Performance matters, and I care a lot about it.
+4. I don't do non-responsive websites anymore.  It's 2017.
 5. Blind, dialog-free implementation of website layouts is boring.  I like to question and to be critical.
 6. I am open for *almost* any project, but if you are looking for a developer for your local right-wing party or hategroup: get lost.
 7. I have high expectations regarding my own work.  In return I expect fair and punctual payment.
@@ -45,21 +45,20 @@ Buzzwords:
 
 * CSS
 * Sass
-* SMACSS
 * ITCSS
 * BEM
 
 <!-- -->
 
 * JavaScript
+* ES2017
 * jQuery
-* ES2015
+* vue.js
 
 <!-- -->
 
 * WordPress
 * Kirby
-* ProcessWire
 
 <!-- -->
 
@@ -70,8 +69,8 @@ Buzzwords:
 
 * node
 * npm
-* grunt
 * gulp
+* webpack
 
 <!-- -->
 
@@ -82,7 +81,6 @@ Buzzwords:
 
 * Vim
 * zsh 
-* bash 
 * tmux
 
 <!-- -->
@@ -95,4 +93,4 @@ Availability:
 
 ## Availability
 
-I am available for smaller projects in November and December 2016.
+I am available for smaller projects starting from August 2017
