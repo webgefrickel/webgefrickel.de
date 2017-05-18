@@ -1181,8 +1181,8 @@ return Promise;
 
 });
 
-var version = "3.2.0";
-var hash = 48397767;
+var version = "3.2.1";
+var hash = 48397766;
 var breakpoints = {"s":"480px","m":"640px","l":"720px","xl":"960px","xxl":"1100px","xxxl":"1250px","xxxxl":"1600px","minheight":"'(min-height: 480px)'","maxheight":"'(min-width: 720px) and (max-height: 640px)'","maxminheight":"'(max-height: 640px)'"};
 var shared = {
 	version: version,

@@ -67,15 +67,15 @@ Buzzwords:
 
 <!-- -->
 
+* LAMP
+* nginx
+
+<!-- -->
+
 * node
 * npm
 * gulp
 * webpack
-
-<!-- -->
-
-* LAMP
-* nginx
 
 <!-- -->
 
