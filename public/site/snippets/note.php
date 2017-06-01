@@ -28,7 +28,7 @@
 
 
     <?php $latLon = explode(',', $note->location()) ?>
-    <?php if (!empty($latLon) && is_array($latLon)): ?>
+    <?php if (!empty($latLon) && is_array($latLon) && count($latLon) === 2): ?>
       This note was posted from here:
       <a class="link-default  p-location  h-adr" href="http://www.openstreetmap.org/#map=16/<?= $latLon[0] ?>/<?= $latLon[1] ?>">
         <span class="p-latitude" ?><?= $latLon[0] ?></span>
