@@ -28,11 +28,13 @@
 
 
     <?php $latLon = explode(',', $note->location()) ?>
-    This note was posted from here:
-    <a class="link-default  p-location  h-adr" href="http://www.openstreetmap.org/#map=16/<?= $latLon[0] ?>/<?= $latLon[1] ?>">
-      <span class="p-latitude" ?><?= $latLon[0] ?></span>
-      <span class="p-longitude" ?><?= $latLon[1] ?></span>
-    </a>
+    <?php if (!empty($latLon) && is_array($latLon)): ?>
+      This note was posted from here:
+      <a class="link-default  p-location  h-adr" href="http://www.openstreetmap.org/#map=16/<?= $latLon[0] ?>/<?= $latLon[1] ?>">
+        <span class="p-latitude" ?><?= $latLon[0] ?></span>
+        <span class="p-longitude" ?><?= $latLon[1] ?></span>
+      </a>
+    <?php endif ?>
 
     <div class="hidden visuallyhidden"><?= $note->syndicate() ?></div>
   </footer>

@@ -41,8 +41,6 @@ if ($_POST['h'] === 'entry' && !empty($_POST['content'])) {
     'tags' => (isset($_POST['category'])) ? strtolower(implode(', ', $_POST['category'])) : ''
   ];
 
-  // publish the article by sorting it (get last number + 1)
-  $newPageNumber = sprintf('%03d', $lastPageNumber + 1);
   $newNote = page('notes')->children()->create($hash, 'note', $note);
   $newUrl = $mysite . 'notes/' . $hash;
 
