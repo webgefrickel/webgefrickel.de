@@ -5,7 +5,7 @@
   </div>
 
   <?php if ($note->hasImages()): ?>
-    <img class="note__image" src="<?= $note->image()->url() ?>" alt="<?= $note->image()->caption() ?>" />
+    <?php snippet('image', [ 'classes' => 'note__image', 'image' => $note->image() ]) ?>
   <?php endif ?>
 
   <footer class="note__footer">
