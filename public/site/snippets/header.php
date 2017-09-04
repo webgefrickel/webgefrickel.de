@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <?php if ($page->isHomePage()): ?>
       <title><?= html($site->title() . ' — ' . $site->subtitle()) ?></title>
+    <?php elseif ($page->template() === 'note'): ?>
+      <title><?= html('A note from ' . $page->date() . ' | ' . $site->title()) ?></title>
     <?php else: ?>
       <title><?= html($page->title() . ' | ' . $site->title()) ?></title>
     <?php endif ?>
