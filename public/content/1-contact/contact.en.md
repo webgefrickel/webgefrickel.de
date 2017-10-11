@@ -93,4 +93,4 @@ Availability:
 
 ## Availability
 
-I am available for smaller projects starting from August 2017
+I am available for all kinds of projects, small and huge, starting again from 2018.
