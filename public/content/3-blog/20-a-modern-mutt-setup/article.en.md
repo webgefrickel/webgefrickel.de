@@ -2,11 +2,11 @@ Title: A modern mutt setup with neomutt, mbsync, msmtp and mu — part one
 
 ----
 
-Date: 2017-09-04
+Date: 2017-10-11
 
 ----
 
-Intro: I have switched to mutt as my main email client successfully for over half a year now. This is an in-depth post about how and why I did this. Prepare for config-files-porn!
+Intro: I have switched to mutt as my main email client successfully for over half a year now. This is the first part of an in-depth post about how and why I did this. Prepare for config-files-porn!
 
 ----
 
