@@ -21,12 +21,16 @@ html {
   }
 }
 
-
 body {
   @include font(default);
+  @include font-size(h4);
   @include background-color(background);
   margin: 0;
   padding: 0;
+
+  @include mediaquery(l) {
+    @include font-size(default);
+  }
 
   @include mediaquery(print) {
     * {

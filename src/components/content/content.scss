@@ -58,18 +58,18 @@
     flex: 1 0 40%;
     line-height: 2;
     list-style: none;
-  }
 
-  .list__item {
-    @include spacing(b 0);
-    border-bottom: 2px solid color(default);
+    .list__item {
+      @include spacing(b 0);
+      border-bottom: 2px solid color(default);
 
-    &:first-child {
-      border-top: 4px solid color(default);
-    }
+      &:first-child {
+        border-top: 4px solid color(default);
+      }
 
-    &:last-child {
-      border-bottom: 0;
+      &:last-child {
+        border-bottom: 0;
+      }
     }
   }
 }

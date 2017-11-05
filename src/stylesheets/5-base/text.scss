@@ -9,6 +9,7 @@ code {
 
 pre {
   @include block;
+  @include margin(a 0, b 1);
   @include padding(a 1/2);
   @include color(inverted);
   @include font-size(small);
@@ -19,13 +20,19 @@ pre {
   }
 }
 
-p > code {
-  @include padding(a 1/8);
-  @include font-size(small);
-  @include background-color(codetext);
+p {
+  @include margin(a 0, b 1);
+
+  > code {
+    @include padding(a 1/8);
+    @include font-size(small);
+    @include background-color(codetext);
+  }
 }
 
 hr {
+  @include block;
+  @include margin(a 0, b 1);
   @include color(default);
   height: $base-half / 3;
 }
