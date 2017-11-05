@@ -1,0 +1,8 @@
+// a small mixin for the box-ratio calculations
+// ======================================================================
+
+@mixin ratio-box($ratio-one: 1, $ratio-two: 1) {
+  &::before {
+    padding-top: $ratio-two / $ratio-one * 100%;
+  }
+}

@@ -1,0 +1,134 @@
+// typographic stuff and general typographic related helper classes
+// ======================================================================
+
+.markup--link,
+.link-default {
+  color: inherit;
+  text-decoration: underline;
+
+  @include attention {
+    text-decoration: none;
+  }
+}
+
+.link-large,
+.link-inverted {
+  color: inherit;
+  text-decoration: none;
+
+  @include attention {
+    text-decoration: underline;
+  }
+}
+
+%decorated,
+.decorated {
+  @include border-color(default);
+  border-bottom: $base-half / 2 solid;
+  text-decoration: none;
+
+  &--thin {
+    border-bottom: $base-half / 4 solid;
+  }
+}
+
+.link-section {
+  transition: background-color #{$animation-time-fast} ease, width #{$animation-time-default} ease;
+  display: none;
+
+  @include mediaquery(xl) {
+    @include block(block);
+    @include absolute(t 0, b 0);
+    @include color(transparent);
+    @include z-index(belly);
+    width: $width-link-section;
+  }
+
+  @include mediaquery(xxl) {
+    width: $width-link-section * 1.5;
+  }
+
+  @include attention {
+    width: $width-link-section * 1.5;
+
+    @include mediaquery(xxl) {
+      width: $width-link-section * 2;
+    }
+  }
+
+  &--fake {
+    left: 0;
+    width: 0;
+
+    @include mediaquery(xxl) {
+      width: 0;
+    }
+  }
+
+  &--change {
+    width: 100%;
+
+    @include attention {
+      width: 100%;
+    }
+  }
+}
+
+.link-as-button {
+  @include background-color(default);
+  @include padding(h 1/4);
+  @include color(main);
+  border: $base-half/3 solid color(default);
+
+  @include mediaquery(l) {
+    @include padding(v 1/2, h 1);
+  }
+
+  @include attention {
+    @include color(default);
+    @include background-color(transparent);
+    text-decoration: none;
+  }
+}
+
+@each $tile-color in $areas {
+  .link-section--#{$tile-color} {
+    @include background-color($tile-color);
+  }
+}
+
+// other stuff
+.list--ul {
+  @include padding(l 1.1em);
+
+  .list__item {
+    @include spacing(b 1/4);
+  }
+}
+
+.list--ol {
+  counter-reset: step-counter;
+  list-style: none;
+
+  .list__item {
+    @include padding(l 1.8em);
+    position: relative;
+    counter-increment: step-counter;
+
+    &::before {
+      @include absolute;
+      display: block;
+      content: counter(step-counter) '.';
+    }
+  }
+}
+
+.graf {
+  &--codeblock {
+    @include font-size(small);
+  }
+
+  &--h3 {
+    max-width: 90%;
+  }
+}

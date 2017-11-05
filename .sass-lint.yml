@@ -11,25 +11,19 @@ rules:
     - 1
     - convention: hyphenatedbem
 
-  # sassception! allow a maximum nesting depth of 4 levels deep
-  nesting-depth:
-    - 1
-    - max-depth: 4
-
   # those mixins do not have to be used before any other declarations
   mixins-before-declarations:
     - 1
-    - exclude: [ 'mediaquery', 'attention' ]
+    - exclude: [ 'breakpoint', 'mediaquery', 'attention' ]
 
-  # allow non-leading zero values like .2rem or .4rem
+  # allow leading zero values like 0.2rem or 0.01em
   leading-zero: 0
 
   # do not sort properties by name
   property-sort-order: 0
 
   # allow nested attribute and pseudo-selectors, this makes stuff
-  # more readable for humans and allow some edge-case-nesting issues,
-  # but still force element nesting, so the nesting-depth-rule makes sense
+  # more readable for humans and allows some edge-case-nesting issues,
   force-pseudo-nesting: 0
   force-attribute-nesting: 0
 
@@ -38,6 +32,3 @@ rules:
 
   # allow warnings for better sass-maps debugging
   no-warn: 0
-
-  # ignore broken warning
-  no-color-keywords: 0

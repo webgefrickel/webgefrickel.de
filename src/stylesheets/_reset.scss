@@ -1,0 +1,148 @@
+// Use sane box sizing throughout the whole project, don't adjust text
+// ======================================================================
+
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+}
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+
+// Basic elements reset styles, additional to frck-normalize
+// ======================================================================
+
+// Remove margin + padding from most block elements
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+hr,
+form,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+caption,
+hr {
+  margin:  0;
+  padding: 0;
+}
+
+
+// Forms, inputs, buttons: default sane styles
+// ======================================================================
+
+// allow resizing of textareas vertically
+textarea {
+  resize: vertical;
+}
+
+// no border for the fieldset
+fieldset {
+  border: 0;
+}
+
+// position labels on top of their related inputs by default,
+// and give them a hint to make them clickable by setting cursor
+label {
+  display: block;
+  cursor: pointer;
+}
+
+// dont allow unselectable elements to be selected
+[unselectable] {
+  user-select: none;
+}
+
+
+// Media elements, such as images, videos svg etc.
+// ======================================================================
+
+// Remove the gap between media elements such as audio, images, videos etc.
+// and the bottom of their containers
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+// make user content media elements responsive (max-width)
+audio,
+iframe,
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+// Lists
+// ======================================================================
+
+// never ever show lists in navigation or fieldsets blocks as lists
+nav,
+fieldset {
+  ul,
+  ol {
+    list-style: none;
+  }
+}
+
+
+// Tables
+// ======================================================================
+
+// use the full avaiable width by defaultj
+table {
+  width: 100%;
+}
+
+// align content in table cells to the top by default
+td,
+th {
+  vertical-align: top;
+}
+
+// align content to the left for table headings
+th {
+  text-align: left;
+}
+
+
+// Text and other inline elements
+// ======================================================================
+
+// default hr is just a single line 1px high, feel free to override
+hr {
+  display: block;
+  height: 1px;
+  margin: 0 auto;
+  border: 0;
+  background: currentColor;
+}
+

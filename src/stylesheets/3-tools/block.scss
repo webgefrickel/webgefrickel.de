@@ -1,0 +1,19 @@
+// mixin for setting display block and other often used combinations
+// ======================================================================
+
+@mixin block($block-value: default) {
+  @if $block-value == pseudo {
+    position: relative;
+    display: block;
+    content: '';
+
+  } @else if $block-value == block {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+  } @else { // default
+    position: relative;
+    display: block;
+  }
+}

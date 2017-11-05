@@ -1,0 +1,70 @@
+// easy positioning with custom mixins
+// ======================================================================
+
+// thanks to hugo giraudel: http://hugogiraudel.com/2014/05/19/new-offsets-sass-mixin/
+
+@mixin position($position, $position-args...) {
+  // default case for positions:
+  // fixed, absolute ==> top: 0; left: 0;
+  // static, relative: top: auto; left: auto;
+  position: $position;
+
+  @if length($position-args) == 0 {
+    @if $position == absolute or position == fixed {
+      top: 0;
+      left: 0;
+
+    } @else {
+      top: auto;
+      left: auto;
+    }
+
+
+  } @else {
+
+    @each $position-key, $position-value in $position-args {
+
+      @if not $position-value {
+        @warn 'You should provide a list of side/value pairs e.g. "b 2" for this mixin to work';
+
+      } @else if $position-key == 'a' {
+        $value: parse-unit($position-value);
+
+        top: $value;
+        right: $value;
+        bottom: $value;
+        left: $value;
+
+      } @else if $position-key == 'v' {
+        top: parse-unit($position-value);
+        bottom: parse-unit($position-value);
+
+      } @else if $position-key == 'h' {
+        right: parse-unit($position-value);
+        left: parse-unit($position-value);
+
+      } @else {
+        $side: position-map($position-key);
+        $value: parse-unit($position-value);
+
+        #{$side}: $value;
+      }
+    }
+  }
+}
+
+@mixin absolute($args...) {
+  @include position(absolute, $args...);
+}
+
+@mixin fixed($args...) {
+  @include position(fixed, $args...);
+}
+
+@mixin relative($args...) {
+  @include position(relative, $args...);
+}
+
+@mixin static($args...) {
+  @include position(static, $args...);
+}

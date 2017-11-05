@@ -1,0 +1,59 @@
+// general helper functions
+// ======================================================================
+
+@function px-to-rem($pxvalue) {
+  @if variable-exists(font-sizes) == false {
+    @warn '$font-sizes Sass-map does not exist, please provide one in your config. Defaulting to 16px-rem-equivalent';
+    @return ($pxvalue / 16px) * 1rem;
+
+  } @else if map-has-key($font-sizes, default) == false {
+    @warn 'Index "default" not found in $font-sizes Sass-map using function px-to-rem. Defaulting to 16px-rem-equivalent';
+    @return ($pxvalue / 16px) * 1rem;
+  }
+
+  @return ($pxvalue / map-get($font-sizes, default)) * 1rem;
+}
+
+// returns true if it is just a number without unit
+@function is-number($value) {
+  @return type-of($value) == 'number' and unitless($value);
+}
+
+// if a unitless number is given, this function returns $base-unit * value
+// (except for 0, 0 will be returned instantly)
+// if anything else is given, it will return its unqoted value;
+@function parse-unit($value) {
+  @if $value == 0 {
+    @return 0;
+  }
+
+  @if is-number($value) {
+    @if variable-exists(base-unit) == false {
+      @warn '$base-unit is not set, please set this variable in your config. Defaulting to 1.5rem';
+      $base-unit: 1.5rem;
+    } @else {
+      @return $base-unit * $value;
+    }
+  }
+
+  @return $value;
+}
+
+
+// returns the full value for any of the position/side short-forms
+@function position-map($short) {
+  $short-map: (
+    t: top,
+    r: right,
+    b: bottom,
+    l: left
+  );
+
+  @if map-has-key($short-map, $short) {
+    @return map-get($short-map, $short);
+  } @else {
+    @warn 'Short key "#{$short}" not avaiable. Avaiable keys are: t, r, b and l';
+
+    @return false;
+  }
+}

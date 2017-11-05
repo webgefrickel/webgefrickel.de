@@ -1,0 +1,36 @@
+// z-index mixin for use with the map in variables
+// ======================================================================
+
+// provide a default map for z-indexes used throughout the project
+// with an easy to remember stacking hierarchy — just look down your body!
+// If you want to use your own map, just provide one with the variable $z-indexes
+// before including this file in your main Sass file
+$z-indexes: (
+  sky: 1000,
+  hair: 50,
+  head: 40,
+  breast: 30,
+  belly: 20,
+  knees: 10,
+  feet: 1,
+  default: 0,
+  ground: -1
+) !default;
+
+// and an easy to use mixin to use a value from the map above use like this:
+// @include z-index(knees); ==> z-index: 10;
+
+@mixin z-index($z-value: default) {
+  z-index: z-index($z-value);
+}
+
+// and if needed a function to get the value from the map with,
+// this is basically just an alias for map-get($z-indexes...)
+@function z-index($z-value: default) {
+  @if map-has-key($z-indexes, $z-value) == false {
+    @warn 'Index "#{$z-value}" not found in $z-indexes Sass-map using mixin z-index. Defaulting to 0';
+    @return 0;
+  }
+
+  @return map-get($z-indexes, $z-value);
+}

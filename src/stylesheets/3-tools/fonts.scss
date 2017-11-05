@@ -1,0 +1,106 @@
+// mixin for getting the correct font-size
+// ======================================================================
+
+// function to easily get the font-size and convert it to rem
+@function font-size($fontsize-value: default) {
+  @if variable-exists(font-sizes) == false {
+    @warn '$font-sizes Sass-map does not exist, please provide one in your config. Defaulting to 16px';
+    @return px-to-rem(16px);
+
+  } @else if map-has-key($font-sizes, $fontsize-value) == false {
+    @warn 'Index "#{$fontsize-value}" not found in $font-sizes Sass-map using function font-size. Defaulting to 16px';
+    @return px-to-rem(16px);
+  }
+
+  @return px-to-rem(map-get($font-sizes, $fontsize-value));
+}
+
+// font-size mixin using the function above
+@mixin font-size($fontsize-value: default) {
+  font-size: font-size($fontsize-value);
+}
+
+
+// mixins for font-face, for usage with fontfaceobserver
+// ======================================================================
+
+@mixin font-family($family-value: default) {
+  $fallback: null;
+  $font: null;
+
+  @if variable-exists(fonts) == false {
+    @warn '$fonts Sass-map does not exist, please provide one in your config. Defaulting to sans-serf';
+    $fallback: sans-serif;
+    $font: sans-serif;
+
+  } @else if map-has-key($fonts, $family-value) == false {
+    @warn 'Index "#{$family-value}" not found in $fonts Sass map using mixin font-family. Defaulting to sans-serif';
+    $fallback: sans-serif;
+    $font: sans-serif;
+
+  } @else {
+    $fallback: unquote(map-get(map-get($fonts, $family-value), fallback));
+    $font: map-get(map-get($fonts, $family-value), family), $fallback;
+  }
+
+  // now that we have the font and fallback, if we use
+  // font-face, add the fonts-loaded class, if not, just use all
+
+  @if map-get(map-get($fonts, $family-value), fontface) == true {
+    font-family: $fallback;
+
+    .fonts-loaded & {
+      font-family: $font;
+    }
+
+  } @else {
+    font-family: $font;
+  }
+}
+
+// mixin for font-weight
+// ======================================================================
+
+@mixin font-weight($family-value: default) {
+  $this-font-weight: 400;
+
+  @if variable-exists(fonts) == false {
+    @warn '$fonts Sass-map does not exist, please provide one in your config. Defaulting to 400';
+
+  } @else if map-has-key($fonts, $family-value) == false {
+    @warn 'Index "#{$family-value}" not found in $fonts Sass map using mixin font-weight. Defaulting to 400';
+
+  } @else {
+    $this-font-weight: map-get(map-get($fonts, $family-value), weight);
+  }
+
+  font-weight: $this-font-weight;
+}
+
+// mixin for font-style
+// ======================================================================
+
+@mixin font-style($family-value: default) {
+  $this-font-style: normal;
+
+  @if variable-exists(fonts) == false {
+    @warn '$fonts Sass-map does not exist, please provide one in your config. Defaulting to normal';
+
+  } @else if map-has-key($fonts, $family-value) == false {
+    @warn 'Index "#{$family-value}" not found in $fonts Sass map using mixin font-style. Defaulting to normal';
+
+  } @else {
+    $this-font-style: unquote(map-get(map-get($fonts, $family-value), style));
+  }
+
+  font-style: $this-font-style;
+}
+
+// now all together, font-shorthand mixin
+// ======================================================================
+
+@mixin font($family-value: default) {
+  @include font-family($family-value);
+  @include font-weight($family-value);
+  @include font-style($family-value);
+}

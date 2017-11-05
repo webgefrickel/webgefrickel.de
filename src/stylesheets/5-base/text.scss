@@ -1,0 +1,38 @@
+// text styles, defaults
+// ======================================================================
+
+pre,
+code {
+  @include background-color(code);
+  @include font(code);
+}
+
+pre {
+  @include block;
+  @include padding(a 1/2);
+  @include color(inverted);
+  @include font-size(small);
+  overflow: scroll;
+
+  > code {
+    @include background-color(transparent);
+  }
+}
+
+p > code {
+  @include padding(a 1/8);
+  @include font-size(small);
+  @include background-color(codetext);
+}
+
+hr {
+  @include color(default);
+  height: $base-half / 3;
+}
+
+strong,
+b,
+i,
+em {
+  @include font(regular);
+}

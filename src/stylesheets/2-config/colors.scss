@@ -1,0 +1,26 @@
+// the colors map variables used throughout the project
+// ======================================================================
+
+$color-black: rgb(0, 0, 0);
+$color-white: rgb(255, 255, 255);
+$color-red: rgb(247, 132, 116);
+$color-blue: rgb(93, 197, 220);
+$color-green: rgb(112, 195, 130);
+$color-dark: rgb(50, 50, 50);
+$color-grey: rgb(153, 153, 153);
+$color-transparent: transparent;
+
+$colors: (
+  default: $color-dark,
+  main: $color-grey,
+  work: $color-red,
+  blog: $color-blue,
+  contact: $color-green,
+  legal-notice: $color-white,
+  error: $color-green,
+  code: $color-dark,
+  codetext: rgba($color-black, 0.1),
+  inverted: $color-white,
+  transparent: $color-transparent,
+  background: $color-white
+);

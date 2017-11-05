@@ -1,0 +1,34 @@
+// a mixin for centering with different methods
+// ======================================================================
+
+@mixin center($context: default) {
+  display: block;
+
+  @if $context == horizontal {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+  } @else if $context == vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+  } @else if $context == both {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  } @else if $context == cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+  } @else { // assuming default case - oldschool horizontal centering
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

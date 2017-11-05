@@ -1,0 +1,26 @@
+// Media elements, such as images, videos svg etc.
+// ======================================================================
+
+// Remove the gap between media elements such as audio, images, videos etc.
+// and the bottom of their containers
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+// make user content media elements responsive (max-width)
+audio,
+iframe,
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  @include margin(a 0, b 1);
+}
