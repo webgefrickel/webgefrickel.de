@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="<?= $site->language()->code() ?>" class="no-js  <?= (c::get('debugmode') || !$page->isHomePage()) ? 'fonts-loaded' : '' ?>">
+<html lang="<?= $site->language()->code() ?>" class="no-js  <?= (c::get('debugmode')) ? 'fonts-loaded' : '' ?>">
   <head>
     <meta charset="utf-8" />
     <?php if ($page->isHomePage()): ?>
