@@ -8,10 +8,10 @@ const alwaysCache = [
   '/',
   '/offline',
   '/contact',
-  `/${assetsPath}/img/404.png`,
-  `/${assetsPath}/js/main.min.js`,
-  `/${assetsPath}/css/main.min.css`,
-  `/${assetsPath}/img/sprite.svg`
+  `${assetsPath}img/404.png`,
+  `${assetsPath}js/main.min.js`,
+  `${assetsPath}css/main.min.css`,
+  `${assetsPath}img/sprite.svg`
 ];
 
 const neverCache = [
@@ -19,8 +19,6 @@ const neverCache = [
   '/serviceworker.js',
   '/micropub.php'
 ];
-
-console.log(alwaysCache, neverCache);
 
 // Store core files in a cache (including a page to display when offline)
 const updateStaticCache = () => caches.open(cacheVersion)
