@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="<?= $site->language()->code() ?>"
-  class="no-js  <?= (c::get('debugmode') || !$page->isHomePage()) ? 'fonts-loaded' : '' ?>">
+<html lang="<?= $site->language()->code() ?>" class="no-js  <?= (c::get('debugmode') || !$page->isHomePage()) ? 'fonts-loaded' : '' ?>">
   <head>
     <meta charset="utf-8" />
     <?php if ($page->isHomePage()): ?>
@@ -11,47 +10,15 @@
       <title><?= html($page->title() . ' | ' . $site->title()) ?></title>
     <?php endif ?>
 
-    <meta name="description" content="<?= html($site->description()) ?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index,follow" />
-    <meta name="revisit-after" content="7" />
-    <meta name="ICBM" content="<?= $site->lat() ?>, <?= $site->lon() ?>" />
-    <meta name="geo.position" content="<?= $site->lat() ?>;<?= $site->lon() ?>" />
-    <meta name="geo.region" content="<?= $site->region() ?>" />
-    <meta name="geo.placename" content="<?= $site->city() ?>" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-
-    <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="Blog Feed" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16" />
-    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#323232" />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#323232" />
-
-    <link rel="authorization_endpoint" href="<?= $site->authendpoint() ?>" />
-    <link rel="token_endpoint" href="<?= $site->tokenendpoint() ?>" />
-    <link rel="micropub" href="<?= $site->micropubendpoint() ?>" />
-    <link rel="webmention" href="<?= url('webmention') ?>" />
-    <link rel="me" href="https://twitter.com/webgefrickel" />
-    <link rel="me" href="https://github.com/webgefrickel" />
-    <link rel="me" href="https://keybase.io/webgefrickel" />
-    <link rel="pgpkey" href="/public-key.txt">
-
+    <?php snippet('metadata') ?>
+    <?php snippet('favicons') ?>
+    <?php snippet('indieweb') ?>
     <?php snippet('og-data') ?>
 
     <?php if (c::get('debugmode')): ?>
       <link rel="stylesheet" href="/assets/css/main.css" />
-
-    <?php elseif ($page->isHomePage()): // only load the critical stuff, rest via js ?>
-      <style><?= @file_get_contents('./assets/css/critical.min.css') ?></style>
-      <script><?= @file_get_contents('./assets/js/loadcss.min.js') ?></script>
-      <script>window.loadCSS('/assets/css/main.min.<?= c::get('sharedconfig')->hash ?>.css');</script>
-      <noscript><link rel="stylesheet" href="/assets/css/main.min.<?= c::get('sharedconfig')->hash ?>.css" /></noscript>
-
     <?php else: // just load the minified css, should be in cache now anyway ?>
-      <link rel="stylesheet" href="/assets/css/main.min.<?= c::get('sharedconfig')->hash ?>.css" />
+      <link rel="stylesheet" href="/assets/css/main.min.css" />
     <?php endif ?>
   </head>
   <body class="site  <?php e($page->isHomePage(), 'site--homepage') ?>">
@@ -59,7 +26,6 @@
     <header class="header  header--top  js-header">
       <?php snippet('nav') ?>
       <?php snippet('logo') ?>
-      <?php snippet('sourcecode') ?>
       <?php snippet('legallink') ?>
     </header>
 

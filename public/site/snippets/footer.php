@@ -8,13 +8,15 @@
     <?php endif ?>
 
     <?php if (c::get('debugmode')): ?>
-      <script src="/assets/js/main.js"></script>
+      <script type="module" src="/assets/js/main.js"></script>
 
     <?php else: ?>
-      <script src="/assets/js/main.min.<?= c::get('sharedconfig')->hash ?>.js"></script>
+      <?php /* load legacy js code for browser, that do not support es2017+ */ ?>
+      <script type="module" src="/assets/js/main.min.js"></script>
+      <script nomodule src="/assets/js/main.legacy.min.js"></script>
       <script>
         if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/serviceworker.<?= c::get('sharedconfig')->hash ?>.js');
+          navigator.serviceWorker.register('/serviceworker.js');
         }
       </script>
     <?php endif ?>
