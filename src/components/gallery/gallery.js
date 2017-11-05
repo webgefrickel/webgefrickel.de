@@ -1,4 +1,4 @@
-import lightbox from 'baguettebox.js';
+import lightbox from '@nodemodules/baguettebox.js/src/baguetteBox';
 
 export default () => {
   lightbox.run('.js-gallery');

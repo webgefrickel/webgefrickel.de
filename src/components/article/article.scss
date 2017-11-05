@@ -29,11 +29,11 @@
   @include spacing(b 1/2);
 
   &--single {
-    @include margin(b 1/4);
+    @include margin(b 1/2);
 
     @include mediaquery(l) {
       @include font-size(h1);
-      @include margin(b 1/4);
+      @include margin(b 1/2);
       line-height: 1.05;
     }
   }

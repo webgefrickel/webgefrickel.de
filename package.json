@@ -70,7 +70,7 @@
     "Firefox ESR"
   ],
   "frckl": {
-    "scheme": "https",
+    "scheme": "http",
     "proxy": "wgf.localhost",
     "port": 3000,
     "src": "./src/",

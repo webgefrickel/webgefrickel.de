@@ -4,6 +4,7 @@
 .project {
   @include spacing-inner(b 2);
   @include spacing(b 1);
+  overflow: hidden;
 
   // remove decoration on the last elements of the type .project
   &:last-of-type {

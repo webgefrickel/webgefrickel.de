@@ -4,8 +4,6 @@ import { rollup } from 'rollup';
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 import json from 'rollup-plugin-json';
-import uglify from 'rollup-plugin-uglify';
-import { minify } from 'uglify-es';
 import { frckl as config } from '../package';
 
 // the serviceworker task will build a production ready version
@@ -18,8 +16,7 @@ gulp.task('serviceworker', () =>
     plugins: [
       resolve(),
       commonjs(),
-      json(),
-      uglify({}, minify)
+      json()
     ]
   }).then(bundle => bundle.write({
     sourcemap: false,

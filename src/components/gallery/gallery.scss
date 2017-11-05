@@ -1,8 +1,10 @@
 // gallery styles
 // ======================================================================
+@import '../../node_modules/baguettebox.js/src/baguetteBox';
 
 .gallery {
   @include margin;
+  overflow: hidden;
 
   &__link {
     float: left;

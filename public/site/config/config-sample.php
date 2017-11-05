@@ -15,9 +15,6 @@ c::set('languages', [[
   'url' => '/'
 ]]);
 
-// load the shared config from the json file generated with gulp
-c::set('sharedconfig', json_decode(file_get_contents(dirname( __FILE__ ) . '/../../shared.json')));
-
 // markdown as a default over kirbytext
 c::set('content.file.extension', 'md');
 c::set('panel.kirbytext', false);
@@ -29,19 +26,14 @@ c::set('classymarkdown', true);
 // remove the env-file or add additional configs, e.g.
 // .env-staging for different environments and settings
 if (file_exists(dirname( __FILE__ ) . '/.env-development')) {
-
   c::set('debug', true); // this is for kirbys own debug mode
   c::set('debugmode', true); // this is used for including different css/js
-  c::set('ssl', true);
-
+  c::set('ssl', false);
 } else if (file_exists(dirname( __FILE__ ) . '/.env-staging')) {
-
   c::set('debug', true);
   c::set('debugmode', false);
   c::set('ssl', false);
-
 } else {
-
   c::set('debug', false);
   c::set('debugmode', false);
   c::set('ssl', true);

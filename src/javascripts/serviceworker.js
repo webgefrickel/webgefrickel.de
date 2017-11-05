@@ -1,14 +1,26 @@
 import { version, frckl as config } from '../../package.json';
 
 // Update 'version' if you need to refresh the cache
+const baseUrl = 'https://webgefrickel.de';
 const cacheVersion = version; // gets replaced with package.version
 const assetsPath = config.dest.replace(config.root, '/');
 const alwaysCache = [
   '/',
+  '/offline',
+  '/contact',
+  `/${assetsPath}/img/404.png`,
   `/${assetsPath}/js/main.min.js`,
   `/${assetsPath}/css/main.min.css`,
   `/${assetsPath}/img/sprite.svg`
 ];
+
+const neverCache = [
+  '/panel',
+  '/serviceworker.js',
+  '/micropub.php'
+];
+
+console.log(alwaysCache, neverCache);
 
 // Store core files in a cache (including a page to display when offline)
 const updateStaticCache = () => caches.open(cacheVersion)
@@ -38,6 +50,12 @@ self.addEventListener('fetch', e => {
     return;
   }
 
+  // if we have a reqest, that matches in neverCache, always return from network
+  if (neverCache.some(item => (new RegExp(`\\b${item}\\b`)).test(request.url.replace(baseUrl, '')))) {
+    e.respondWith(fetch(request).catch(() => caches.match('/offline')));
+    return;
+  }
+
   // For HTML requests, try the network first, fall back to the cache, finally the offline page
   if (request.headers.get('Accept').indexOf('text/html') !== -1) {
     // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
@@ -53,10 +71,12 @@ self.addEventListener('fetch', e => {
 
     e.respondWith(fetch(request)
       .then(response => {
+        const responseClone = response.clone();
+
         // Stash a copy of this page in the cache
         caches.open(cacheVersion)
           .then(cache => {
-            cache.put(request, response.clone());
+            cache.put(request, responseClone);
           });
 
         return response;

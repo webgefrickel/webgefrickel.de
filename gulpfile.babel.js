@@ -67,7 +67,7 @@ gulp.task('default', [ 'shared', 'serve' ], () => {
 gulp.task('build', () => run(
   [ 'lint' ],
   [ 'clean' ],
-  [ 'shared', 'sprite', 'serviceworker' ],
+  [ 'shared', 'sprite' ],
   [ 'stylesheets:development', 'javascripts:development',
     'stylesheets:production', 'javascripts:production', 'javascripts:legacy' ],
   [ 'copy:images', 'copy:fonts', 'copy:icons' ],

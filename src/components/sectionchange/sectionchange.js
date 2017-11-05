@@ -1,13 +1,20 @@
-import mq from './mediaquery';
-import clicksection from './clicksection';
+import mediaquery from '@helpers/mediaquery';
 
 const sectionLinks = document.querySelectorAll('.js-sectionchange');
 const links = document.querySelectorAll('.js-nav__link');
 const page = document.querySelector('.js-page');
 
+const clicksection = link => {
+  link.classList.add('link-section--change');
+
+  window.setTimeout(() => {
+    window.location.href = link.getAttribute('href');
+  }, 100); // animation is 150ms, so wait 100ms
+};
+
 // simulate sectionchange for navigation clicks on large displays
 // but only if we are on contact/work/blog/legal-notice pages
-const changeSections = (mq('xl') && (
+const changeSections = (mediaquery('xl') && (
   page.classList.contains('page--work') ||
   page.classList.contains('page--contact') ||
   page.classList.contains('page--blog') ||

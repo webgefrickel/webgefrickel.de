@@ -34,7 +34,10 @@ hr {
   @include block;
   @include margin(a 0, b 1);
   @include color(default);
+  clear: both;
   height: $base-half / 3;
+  background: currentColor;
+  border: 0;
 }
 
 strong,

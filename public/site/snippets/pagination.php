@@ -1,5 +1,9 @@
 <?php if ($articles->pagination()->hasPages()): ?>
-  <?php $paginationUrl = ($currentTag !== false) ? '/blog/tagged-with/' . $currentTag : '/blog'; ?>
+  <?php if ($page->is('notes')): ?>
+    <?php $paginationUrl = ($currentTag !== false) ? '/notes/tagged-with/' . $currentTag : '/notes'; ?>
+  <?php else: ?>
+    <?php $paginationUrl = ($currentTag !== false) ? '/blog/tagged-with/' . $currentTag : '/blog'; ?>
+  <?php endif ?>
 
   <nav class="pagination">
 

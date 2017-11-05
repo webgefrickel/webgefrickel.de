@@ -5,9 +5,7 @@ $finalImages = [];
 // generate an imagethumb for every specified size, but don't
 // upscale - that would be a waste of traffic
 // get the images for all sizes defined in the breakpoints
-foreach (c::get('sharedconfig')->breakpoints as $width) {
-  $width = intval(str_replace('px', '', $width));
-
+foreach ([480, 640, 720, 960, 1100, 1250, 1600] as $width) {
   if ($width > 0) {
     if ($image->width() >= $width) {
       $finalImages[$width] = thumb($image, [ 'width' => $width, 'quality' => 70 ]);

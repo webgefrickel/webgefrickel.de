@@ -40,7 +40,7 @@
 
   } @else {
     $fallback: unquote(map-get(map-get($fonts, $family-value), fallback));
-    $font: map-get(map-get($fonts, $family-value), family), $fallback;
+    $font: map-get(map-get($fonts, $family-value), family);
   }
 
   // now that we have the font and fallback, if we use
@@ -54,7 +54,7 @@
     }
 
   } @else {
-    font-family: $font;
+    font-family: map-get(map-get($fonts, $family-value), family), $fallback;
   }
 }
 
