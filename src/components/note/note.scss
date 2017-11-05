@@ -18,7 +18,3 @@
 .note__image {
   @include spacing(b 1/2);
 }
-
-.note__syndicate {
-  @include visuallyhidden;
-}
