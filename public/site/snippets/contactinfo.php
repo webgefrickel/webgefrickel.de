@@ -1,7 +1,7 @@
 <div class="h-card  p-author">
   <h2 class="page--contact__author  p-name"><?= $site->author() ?></h2>
   <p>
-    <img class="hidden u-photo" aria-hidden="true" src="https://webgefrickel.de/me.jpg" alt="<?= $site->author() ?>" />
+    <a class="u-photo" href="https://webgefrickel.de/me.jpg" title="<?= $site->author() ?>" />
     <span class="p-street-address"><?= $site->street() ?></span>
     <br />
     <span class="p-postal-code"><?= $site->postalcode() ?></span>

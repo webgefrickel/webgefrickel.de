@@ -36,6 +36,10 @@
       </a>
     <?php endif ?>
 
-    <div class="note__syndicate" aria-hidden="true"><?= $note->syndicate() ?></div>
+    <div class="hidden" aria-hidden="true">
+      <?php snippet('articlehcard') ?>
+    </div>
+
+    <div class="hidden" aria-hidden="true"><?= $note->syndicate() ?></div>
   </footer>
 </article>
