@@ -36,6 +36,6 @@
       </a>
     <?php endif ?>
 
-    <div class="hidden visuallyhidden"><?= $note->syndicate() ?></div>
+    <div class="note__syndicate" aria-hidden="true"><?= $note->syndicate() ?></div>
   </footer>
 </article>

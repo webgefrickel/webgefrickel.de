@@ -2,7 +2,7 @@
 
 This repository is a mirror of everything and the kitchen sink that runs the website [https://webgefrickel.de](https://webgefrickel.de)
 
-![webgefrickel.de screenshot](https://webgefrickel.de/preview.png?raw=1)
+![webgefrickel.de screenshot](https://webgefrickel.de/assets/img/preview.png?raw=1)
 
 ---
 

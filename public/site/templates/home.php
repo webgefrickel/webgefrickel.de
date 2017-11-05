@@ -3,8 +3,7 @@
 <section class="page  page--home  js-page">
 
   <input type="checkbox" class="close-state  close-state--welcome" name="close-welcome" value="" id="close-welcome" />
-  <label for="close-welcome" class="button  button--close  button--close--welcome">
-    <span class="visuallyhidden">Hide Introtext</span>
+  <label for="close-welcome" class="button  button--close  button--close--welcome" title="Hide Introtext">
     <?php snippet('icon', [ 'icon' => 'close' ]) ?>
   </label>
 
