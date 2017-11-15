@@ -10,9 +10,6 @@ fields:
   subtitle:
     label: Subtitle
     type: text
-  pageurl:
-    label: Page URL
-    type: url
   author:
     label: Author
     type: text

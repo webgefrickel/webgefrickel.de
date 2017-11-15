@@ -2,11 +2,7 @@ Title: webgefrickel
 
 ----
 
-Subtitle: web development, fuck yeah!
-
-----
-
-Pageurl: https://webgefrickel.de
+Subtitle: Web development, fuck yeah!
 
 ----
 
@@ -14,7 +10,7 @@ Author: Steffen Rademacker
 
 ----
 
-Description: Frontend web development, CMS-Integration and workshops — handmade in Leipzig with lots of love.
+Description: Accessible, responsive, scalable and fast websites and styleguides — handmade in Leipzig with lots of love.
 
 ----
 
