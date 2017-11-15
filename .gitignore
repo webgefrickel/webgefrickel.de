@@ -1,12 +1,10 @@
 .DS_Store
 npm-debug.log
-dploy.yaml
-.sass-cache
 node_modules
 public/site/accounts/
 public/site/cache/
 public/thumbs/
 public/assets/images/
 tmp--*.html
-public/site/config/config.php
+public/site/config/license.php
 .webmentions/
