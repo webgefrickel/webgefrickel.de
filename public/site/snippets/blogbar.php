@@ -5,9 +5,5 @@
     <a class="link-default" href="/notes">Here are some short notes</a>.
   </p>
 
-  <h2 class="sidebar__header">Tags</h2>
-  <ul class="taglist">
-    <?= $alltags ?>
-  </ul>
-
+  <?php snippet('tagcloud', compact('tagcloud', 'tagbase')) ?>
 </aside>

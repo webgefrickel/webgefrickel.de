@@ -1,24 +1,9 @@
 <?php
 
 return function($site, $pages, $page) {
-  $tagsArray = explode(',', $page->tags());
-  $taglist = [];
+  $tagbase = '/blog/tagged-with/';
   $gallery = false;
-
-  foreach ($tagsArray as $tag) {
-   $taglist[] = '<a href="/blog/tagged-with/' . $tag . '" class="link-default  p-category">' . ucfirst($tag) . '</a>';
-  }
-  $taglist = implode(', ', $taglist);
-
   $tagcloud = tagcloud(page('blog'), [ 'limit' => 30 ]);
-  $alltags = '';
-  foreach($tagcloud as $tag) {
-    $alltags .= '<li class="taglist__item">
-      <a class="taglist__link  link-inverted" href="/blog/tagged-with/' . $tag->name() .'">' .
-        ucfirst($tag->name()) . ' (' . $tag->results() . ')' .
-      '</a>' .
-    '</li>';
-  }
 
   if (!$page->gallery()->empty() && !$page->images()->empty()) {
     $gallery = [];
@@ -31,6 +16,6 @@ return function($site, $pages, $page) {
     }
   }
 
-  return compact('taglist', 'gallery', 'alltags');
+  return compact('taglist', 'tagcloud', 'tagbase', 'gallery');
 };
 

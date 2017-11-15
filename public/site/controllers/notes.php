@@ -1,6 +1,7 @@
 <?php
 
 return function($site, $pages, $page, $args) {
+  $tagbase = '/notes/tagged-with/';
   $currentTag = false;
   $notesPerPage = 15;
   $notes = $page->children()
@@ -17,19 +18,8 @@ return function($site, $pages, $page, $args) {
   }
 
   $tagcloud = tagcloud(page('notes'), [ 'limit' => 30 ]);
-  $alltags = '';
 
-  foreach($tagcloud as $tag) {
-    $alltags .= '<li class="taglist__item">';
-    $alltags .= '<a class="link-inverted  taglist__link';
-    $alltags .= ($currentTag === $tag->name()) ? '  taglist__link--active': '';
-    $alltags .= '" href="/notes/tagged-with/' . $tag->name() .'">' .
-        ucfirst($tag->name()) . ' (' . $tag->results() . ')' .
-      '</a>' .
-    '</li>';
-  }
-
-  return compact('notes', 'alltags', 'currentTag');
+  return compact('notes', 'tagcloud', 'tagbase', 'currentTag');
 };
 
 

@@ -51,8 +51,12 @@
               <time class="dt-publisehd" datetime="<?= $page->date('Y-m-d') ?>">
                 <?= $page->date('l, d. F Y') ?>
               </time>
-              and tagged with <span class="article__tags  p-category"><?= $taglist ?></span>.
-              Subscribe to the <a class="link-default" href="<?= url('blog/feed') ?>">RSS-feed</a>.
+              and tagged with
+
+              <?php snippet('taglist', [ 'tags' => $page->tags(), 'tagbase' => $tagbase ]) ?>
+              —
+
+              subscribe to the <a class="link-default" href="<?= url('blog/feed') ?>">RSS-feed</a>.
             </p>
           </footer>
 

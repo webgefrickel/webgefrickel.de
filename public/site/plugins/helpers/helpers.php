@@ -1,4 +1,4 @@
-<?php // some useful helpers used throughout the project
+<?php
 
 function icon($icon, $class = '') {
   return snippet('icon', compact('icon', 'class'), true);

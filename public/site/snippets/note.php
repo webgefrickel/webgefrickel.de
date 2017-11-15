@@ -16,16 +16,9 @@
     </a>
     <br />
 
-    <?php
-      $taglist = [];
-      $tagsArray = explode(',', $note->tags());
-      foreach ($tagsArray as $tag) {
-        $taglist[] = '<a href="/notes/tagged-with/' . $tag . '" class="link-default  p-category">' . ucfirst($tag) . '</a>';
-      }
-      $taglist = implode(', ', $taglist);
-    ?>
-    Tagged with <span class="note__tags  p-category"><?= $taglist ?></span><br />
-
+    Tagged with
+    <?php snippet('taglist', [ 'tags' => $note->tags(), 'tagbase' => $tagbase ]) ?>
+    <br />
 
     <?php $latLon = explode(',', $note->location()) ?>
     <?php if (!empty($latLon) && is_array($latLon) && count($latLon) === 2): ?>

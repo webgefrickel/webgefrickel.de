@@ -10,7 +10,7 @@
 
     <div class="content-wrapper">
 
-      <?php snippet('notesbar', compact('alltags') ) ?>
+      <?php snippet('notesbar') ?>
 
       <div class="content  content--blog  content--notes">
 
