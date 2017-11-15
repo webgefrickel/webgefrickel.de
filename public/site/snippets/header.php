@@ -16,9 +16,9 @@
     <?php snippet('og-data') ?>
 
     <?php if (c::get('debugmode')): ?>
-      <link rel="stylesheet" href="/assets/css/main.css" />
+      <?= css(asset('css/main.css')) ?>
     <?php else: // just load the minified css, should be in cache now anyway ?>
-      <link rel="stylesheet" href="/assets/css/main.min.css" />
+      <?= css(asset('css/main.min.css')) ?>
     <?php endif ?>
   </head>
   <body class="site  <?php e($page->isHomePage(), 'site--homepage') ?>">

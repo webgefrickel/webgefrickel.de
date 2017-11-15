@@ -27,16 +27,15 @@
   <meta name="twitter:description" content="<?= html($page->text()) ?>" />
 <?php endif ?>
 
+<?php // image for notes without images... ?>
 <?php if ($page->template() === 'article' || $page->template() === 'note'): ?>
   <?php if ($firstImage = $page->images()->first()): ?>
     <meta property="og:image" content="<?= $firstImage->url() ?>" />
     <meta name="twitter:image" content="<?= $firstImage->url() ?>" />
-  <?php else: ?>
-    <meta property="og:image" content="https://webgefrickel.de/assets/img/preview.png" />
-    <meta name="twitter:image" content="https://webgefrickel.de/assets/img/preview.png" />
   <?php endif ?>
+<?php elseif ($page->isHomePage()): ?>
+  <meta property="og:image" content="<?= kirby()->urls()->assets() ?>/img/preview.png" />
+  <meta name="twitter:image" content="<?= kirby()->urls()->assets() ?>/img/preview.png" />
 <?php else: ?>
-  <meta property="og:image" content="https://webgefrickel.de/assets/img/preview.png" />
-  <meta name="twitter:image" content="https://webgefrickel.de/assets/img/preview.png" />
+  <?php // no image whatsoever for other pages... ?>
 <?php endif ?>
-

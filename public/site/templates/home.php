@@ -4,7 +4,7 @@
 
   <input type="checkbox" class="close-state  close-state--welcome" name="close-welcome" value="" id="close-welcome" />
   <label for="close-welcome" class="button  button--close  button--close--welcome" title="Hide Introtext">
-    <?php snippet('icon', [ 'icon' => 'close' ]) ?>
+    <?= icon('close') ?>
   </label>
 
   <header class="welcome  js-welcome">
@@ -25,7 +25,7 @@
       <a class="tile  tile--<?= $tile ?>" href="/<?= $tile ?>">
         <div class="tile__inner">
           <h2 class="tile__title"><?= ucfirst($tile) ?></h2>
-          <div class="tile__teaser"><?= $page->$tile()->kirbytext() ?></div>
+          <div class="tile__teaser"><?= $page->$tile()->kt() ?></div>
         </div>
       </a>
     <?php endforeach ?>

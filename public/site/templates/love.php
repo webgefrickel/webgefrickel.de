@@ -5,11 +5,11 @@
     <div class="content-wrapper">
 
       <div class="love">
-        <?php snippet('icon', [ 'icon' => 'heart' ]) ?>
+        <?= icon('heart') ?>
       </div>
 
       <article class="content  content--contact">
-        <?= $page->text()->kirbytext() ?>
+        <?= $page->text()->kt() ?>
       </article>
 
     </div>

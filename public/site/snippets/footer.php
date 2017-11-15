@@ -8,12 +8,12 @@
     <?php endif ?>
 
     <?php if (c::get('debugmode')): ?>
-      <script type="module" src="/assets/js/main.js"></script>
+      <script type="module" src="<?= asset('js/main.js') ?>"></script>
 
     <?php else: ?>
       <?php /* load legacy js code for browser, that do not support es2017+ */ ?>
-      <script type="module" src="/assets/js/main.min.js"></script>
-      <script nomodule src="/assets/js/main.legacy.min.js"></script>
+      <script type="module" src="<?= asset('js/main.min.js') ?>"></script>
+      <script nomodule src="<?= asset('js/main.legacy.min.js') ?>"></script>
       <script>
         if ('serviceWorker' in navigator) {
           navigator.serviceWorker.register('/serviceworker.js');

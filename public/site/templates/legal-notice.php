@@ -8,11 +8,11 @@
 
       <article class="sidebar  sidebar--legal-notice">
         <?php snippet('contactinfo') ?>
-        <?= $page->sidebar()->kirbytext() ?>
+        <?= $page->sidebar()->kt() ?>
       </article>
 
       <article class="content  content--legal-notice">
-        <?= $page->text()->kirbytext() ?>
+        <?= $page->text()->kt() ?>
       </article>
     </div>
   </div>

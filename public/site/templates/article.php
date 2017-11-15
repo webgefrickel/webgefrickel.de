@@ -29,7 +29,7 @@
           </p>
 
           <div class="e-content">
-            <?= $page->text()->kirbytext() ?>
+            <?= $page->text()->kt() ?>
           </div>
 
           <?php if (!empty($gallery)): ?>

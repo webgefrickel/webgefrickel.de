@@ -16,7 +16,7 @@
   <?php endif ?>
 
   <button type="button" class="button  button--nav  js-toggle-nav" title="Show/Hide Navigation">
-    <?php snippet('icon', [ 'icon' => 'menu' ]) ?>
+    <?= icon('menu') ?>
   </button>
 
 <?php endif ?>

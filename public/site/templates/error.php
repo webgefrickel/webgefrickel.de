@@ -7,7 +7,7 @@
     <div class="content-wrapper">
 
       <article class="content  content--contact">
-        <?= $page->text()->kirbytext() ?>
+        <?= $page->text()->kt() ?>
       </article>
 
     </div>

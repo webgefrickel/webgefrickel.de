@@ -8,15 +8,15 @@
 
       <article class="sidebar  sidebar--contact">
         <?php snippet('contactinfo') ?>
-        <?= $page->availability()->kirbytext() ?>
+        <?= $page->availability()->kt() ?>
       </article>
 
       <article class="content  content--contact">
-        <?= $page->info()->kirbytext() ?>
-        <?= $page->principles()->kirbytext() ?>
+        <?= $page->info()->kt() ?>
+        <?= $page->principles()->kt() ?>
 
         <div class="content__buzzwords">
-          <?= $page->buzzwords()->kirbytext() ?>
+          <?= $page->buzzwords()->kt() ?>
         </div>
       </article>
 

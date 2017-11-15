@@ -1,11 +1,11 @@
 <article class="note  note--preview  decorated--thin  h-entry">
 
   <div class="e-content p-name">
-    <?= $note->text()->kirbytext() ?>
+    <?= $note->text()->kt() ?>
   </div>
 
   <?php if ($note->hasImages()): ?>
-    <?php snippet('image', [ 'classes' => 'note__image', 'image' => $note->image() ]) ?>
+    <?= img($note->image(), 'note__image') ?>
   <?php endif ?>
 
   <footer class="note__footer">

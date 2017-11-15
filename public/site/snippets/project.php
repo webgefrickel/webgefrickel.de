@@ -42,13 +42,13 @@ if ($randomDevice === 'tablet') {
   <div class="sidebar  sidebar--project">
     <h2 class="project__header"><?= $project->title() ?></h2>
     <div class="project_description">
-      <?= $project->text()->kirbytext() ?>
+      <?= $project->text()->kt() ?>
     </div>
 
     <?php // for mobile view, always show notebook to simplify things ?>
     <figure class="project__figure  project__figure--first  project__figure--desktop  device  device--desktop">
       <div class="device__inner">
-        <?php snippet('image', [ 'classes' => 'project__image', 'image' => $desktopFirstImage ]) ?>
+        <?= img($desktopFirstImage, 'project__image') ?>
       </div>
     </figure>
 
@@ -59,14 +59,14 @@ if ($randomDevice === 'tablet') {
 
     <figure class="project__figure  project__figure--<?= $randomDevice ?>  device  device--<?= $randomDevice ?>">
       <div class="device__inner">
-        <?php snippet('image', [ 'classes' => 'project__image', 'image' => $image ]) ?>
+        <?= img($image, 'project__image') ?>
       </div>
     </figure>
 
     <?php // for desktop view, always show mobile as well ?>
     <figure class="project__figure  project__figure--mobile  device  device--mobile">
       <div class="device__inner">
-        <?php snippet('image', [ 'classes' => 'project__image', 'image' => $mobileImage ]) ?>
+        <?= img($mobileImage, 'project__image') ?>
       </div>
     </figure>
   </div>
