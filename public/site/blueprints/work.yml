@@ -1,8 +1,7 @@
-<?php if(!defined('KIRBY')) exit ?>
-
-title: Default
+title: Work
 pages: true
-files: true
+files: false
+icon: folder-o
 fields:
   title:
     label: Pagetitle

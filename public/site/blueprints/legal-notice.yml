@@ -1,13 +1,16 @@
-<?php if(!defined('KIRBY')) exit ?>
-
-title: Default
+title: Legal Notice
 pages: false
 files: false
+icon: gavel
 fields:
   title:
     label: Pagetitle
     type: text
-  text:
+  sidebar:
+    label: Sidebar Content
+    type: textarea
+    buttons: false
+  Text:
     label: Text
     type: textarea
     buttons: false

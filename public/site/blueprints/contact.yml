@@ -1,8 +1,7 @@
-<?php if(!defined('KIRBY')) exit ?>
-
 title: Contact
 pages: false
 files: false
+icon: envelope-o
 fields:
   title:
     label: Title

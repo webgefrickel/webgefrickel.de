@@ -1,7 +1,4 @@
-<?php if(!defined('KIRBY')) exit ?>
-
 title: Global settings
-pages: false
 files: false
 fields:
   title:

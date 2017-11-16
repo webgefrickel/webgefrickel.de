@@ -1,6 +1,5 @@
-<?php if(!defined('KIRBY')) exit ?>
-
-title: Blog Article
+title: Article
+icon: file-text-o
 pages: false
 files:
   sortable: true
@@ -15,6 +14,11 @@ fields:
   date:
     label: Date
     type: date
+    width: 1/2
+  tags:
+    label: Tags
+    type: tags
+    width: 1/2
   intro:
     label: Intro
     type: textarea
@@ -23,9 +27,6 @@ fields:
     label: Text
     type: textarea
     buttons: false
-  tags:
-    label: Tags
-    type: tags
   gallery:
     label: Gallery
     type: checkbox

@@ -1,8 +1,7 @@
-<?php if(!defined('KIRBY')) exit ?>
-
 title: Home
 pages: false
-files: true
+files: false
+icon: home
 fields:
   title:
     label: Title

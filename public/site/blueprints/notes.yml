@@ -1,6 +1,5 @@
-<?php if(!defined('KIRBY')) exit ?>
-
-title: Default
+title: Notes
+icon: file-text-o
 pages:
   template:
     - note
