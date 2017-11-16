@@ -12,7 +12,7 @@ Clone this repo. Go into the root-folder and run `npm install` to install all de
 
 The folder */public* is where your webserver's webroot should point to, aka Apache's DocumentRoot or nginx's root directive.
 
-Rename the file */public/site/config-sample.php* to */public/site/config.php* and add you kirby license to it (right at the top of the file).
+Add a file */public/site/config/license.php* with your kirby-license using `c::set('license', 'yourlicensekey')`
 
 ## License
 
