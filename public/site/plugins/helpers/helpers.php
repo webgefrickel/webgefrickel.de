@@ -1,6 +1,6 @@
 <?php
 
-function icon($icon, $class = '') {
+function svgicon($icon, $class = '') {
   return snippet('icon', compact('icon', 'class'), true);
 }
 

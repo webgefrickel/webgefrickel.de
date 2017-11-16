@@ -4,7 +4,7 @@
 
   <input type="checkbox" class="close-state  close-state--welcome" name="close-welcome" value="" id="close-welcome" />
   <label for="close-welcome" class="button  button--close  button--close--welcome" title="Hide Introtext">
-    <?= icon('close') ?>
+    <?= svgicon('close') ?>
   </label>
 
   <header class="welcome  js-welcome">

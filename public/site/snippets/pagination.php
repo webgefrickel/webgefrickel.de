@@ -9,7 +9,7 @@
 
     <?php if ($articles->pagination()->hasNextPage()): ?>
       <a class="pagination__older" href="<?= $paginationUrl ?>/page:<?= $articles->pagination()->nextPage() ?>">
-        <?= icon('arrow-left') ?>
+        <?= svgicon('arrow-left') ?>
         Older posts
       </a>
     <?php endif ?>
@@ -17,7 +17,7 @@
     <?php if ($articles->pagination()->hasPrevPage()): ?>
       <a class="pagination__newer" href="<?= $paginationUrl ?>/page:<?= $articles->pagination()->prevPage() ?>">
         Newer posts
-        <?= icon('arrow-right') ?>
+        <?= svgicon('arrow-right') ?>
       </a>
     <?php endif ?>
 

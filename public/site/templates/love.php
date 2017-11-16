@@ -5,7 +5,7 @@
     <div class="content-wrapper">
 
       <div class="love">
-        <?= icon('heart') ?>
+        <?= svgicon('heart') ?>
       </div>
 
       <article class="content  content--contact">

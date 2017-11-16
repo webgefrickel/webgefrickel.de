@@ -1,3 +1,3 @@
 <a href="<?= $site->url() ?>" class="logo" title="Back to the homepage | <?= $site->title() ?>">
-  <?= icon('logo', 'fuck') ?>
+  <?= svgicon('logo', 'fuck') ?>
 </a>
