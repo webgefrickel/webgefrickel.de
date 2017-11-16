@@ -5,7 +5,6 @@ $tokenEndpoint = 'https://tokens.indieauth.com/token';
 // create a new article using the kirby helpers / api
 // ======================================================================
 require_once(__DIR__ . '/kirby/bootstrap.php');
-require_once(__DIR__ . '/toolkit/lib/str.php');
 require_once(__DIR__ . '/site/plugins/micropub/endpoint.php');
 
 // initialize kirby instance
