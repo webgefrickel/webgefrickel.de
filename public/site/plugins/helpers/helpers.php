@@ -1,7 +1,7 @@
 <?php
 
 function svgicon($icon, $class = '') {
-  return snippet('icon', compact('icon', 'class'), true);
+  return snippet('svgicon', compact('icon', 'class'), true);
 }
 
 function asset($path) {
