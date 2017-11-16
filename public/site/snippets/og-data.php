@@ -3,14 +3,14 @@
 <meta property="og:site_name" content="<?= html($site->title()) ?>" />
 <meta name="twitter:site" content="@webgefrickel" />
 <meta name="twitter:creator" content="@webgefrickel" />
-<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="summary" />
 
 <?php if ($page->isHomePage()): ?>
   <meta property="og:title" content="<?= html($site->title() . ' — ' . $site->subtitle()) ?>" />
   <meta name="twitter:title" content="<?= html($site->title() . ' — ' . $site->subtitle()) ?>" />
 <?php elseif ($page->template() === 'note'): ?>
-  <meta property="og:title" content="<?= html('A note from ' . $site->title() . ' — ' . $site->title()) ?>" />
-  <meta name="twitter:title" content="<?= html('A note from ' . $site->title() . ' — ' . $site->title()) ?>" />
+  <meta property="og:title" content="<?= html('A note from ' . strftime('%d. %B %Y, %H:%I', $page->date()) . ' — ' . $site->title()) ?>" />
+  <meta name="twitter:title" content="<?= html('A note from ' . strftime('%d. %B %Y, %H:%I', $page->date()) . ' — ' . $site->title()) ?>" />
 <?php else: ?>
   <meta property="og:title" content="<?= html($page->title() . ' | ' . $site->title()) ?>" />
   <meta name="twitter:title" content="<?= html($page->title() . ' | ' . $site->title()) ?>" />

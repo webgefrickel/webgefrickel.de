@@ -5,7 +5,7 @@
     <?php if ($page->isHomePage()): ?>
       <title><?= html($site->title() . ' — ' . $site->subtitle()) ?></title>
     <?php elseif ($page->template() === 'note'): ?>
-      <title><?= html('A note from ' . $page->date() . ' | ' . $site->title()) ?></title>
+      <title><?= html('A note from ' . strftime('%d. %B %Y, %H:%I', $page->date()) . ' | ' . $site->title()) ?></title>
     <?php else: ?>
       <title><?= html($page->title() . ' | ' . $site->title()) ?></title>
     <?php endif ?>
