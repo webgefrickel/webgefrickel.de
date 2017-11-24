@@ -10,7 +10,7 @@
     <br />
     <a class="link-default  u-email" href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a>
     <br />
-    <a class="link-default  u-url" href="<?= u() ?>"><?= u() ?></a>
+    <a class="link-default  u-url" href="https://webgefrickel.de">https://webgefrickel.de</a>
     <br />
     <span class="p-tel"><?= $site->phone() ?></span>
     <data class="p-latitude" value="<?= $site->lat() ?>"></data>

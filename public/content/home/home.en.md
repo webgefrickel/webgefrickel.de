@@ -4,7 +4,7 @@ Title: Home
 
 Welcome: Hi there!  
 My name is Steffen Rademacker.  
-I am a front-end developer from Leipzig and I love to build websites. Web development, fuck yeah!
+I build accessible and responsive websites. Web development, fuck yeah!
 
 ----
 
