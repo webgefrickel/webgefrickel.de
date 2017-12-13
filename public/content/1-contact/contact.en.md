@@ -6,9 +6,9 @@ Info:
 
 ## What I do
 
-I focus on front-end development and architecture, and I love to build styleguides and component libraries for the web, and of course: accessible, inclusive and responsive.  But I have absolutely no problem building full stack websites with my favorite content management system Kirby.  I like DevOps and the terminal and care a lot about performance and efficiency. And I like to teach about all that stuff and share my knowledge one-to-one or in workshops.
+I focus on front-end development and architecture, and I love to build styleguides and component libraries for the web, and of course: accessible, inclusive and responsive.  But I have absolutely no problem building full stack websites with my favorite content management system Kirby.  I like DevOps and the terminal and care a lot about performance and efficiency.  And I like to teach about all that stuff and share my knowledge one-to-one or in workshops.
 
-I mostly work with/for full-service agencies, other developers and graphic designers. I am a team player and don't give a fuck about tabs vs. spaces (as long as it's consistent). I'm not a designer, but I have an eye for what works and what doesn't.  I have a degree in computer science and tons of experience building websites.
+I mostly work with/for full-service agencies, other developers and graphic designers.  I am a team player and don't give a fuck about tabs vs. spaces (as long as it's consistent).  I'm not a designer, but I have an eye for what works and what doesn't.  I have a degree in computer science and tons of experience building websites.
 
 If you want to work with me contact me via email: [kontakt@webgefrickel.de](mailto:kontakt@webgefrickel.de), so we can meet up over a coffee or tea and talk about your project.
 
@@ -22,7 +22,7 @@ Principles:
 2. I am an honest and upfront person and I like to question and to be critical.  And that's what I expect from you, too.
 3. I don't do non-responsive, non-accessible websites, and I test with real devices.
 4. A slow website is a bad website.  Performance matters, and I care a lot about it.
-5. If you are racist, sexist, antifeminist or just some other kind of asshole, I won't work with or for you.
+5. If you are racist, sexist, antifeminist, homophobic, a weapons dealer or just some other kind of asshole, I won't work with or for you.
 6. I have high expectations regarding my own work.  In return I expect fair and punctual payment.
 7. I'm not a magician: if your content is crap, your website will be crap—there is nothing I can do about that by coding.
 8. Search engine optimization is voodoo.  I prefer to build websites for the actual users than for ever-changing corporate algorithms.
@@ -86,4 +86,4 @@ Availability:
 
 ## Availability
 
-I am available for all kinds of projects, small and huge, starting again from 2018.
+I am available for all kinds of projects, small to huge, starting again from January 2018.
