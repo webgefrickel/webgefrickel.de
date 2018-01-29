@@ -6,7 +6,7 @@ Info:
 
 ## Warum?
 
-Je älter man wird, desto mehr Dinge sammeln sich an. Wir sind zwar immer fleißig am aussortieren, aber manche Sachen sind einfach zu schade zum weggeben—meist weil man diese nur ein- oder zweimal im Jahr braucht. 
+Je älter man wird, desto mehr Dinge sammeln sich an. Wir sind zwar immer fleißig am aussortieren, aber manche Sachen baucht man nur ein- oder zweimal im Jahr, und den Rest der Zeit liegen diese dann rum und stauben ein.
 
 Und damit das nicht jedem so geht und alle alles doppelt zuhause rumliegen haben: hier eine Liste der Dinge, die sich in unserem Besitz befinden, die wir aber sehr gerne an Freunde und Familie verleihen:
 
