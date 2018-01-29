@@ -25,6 +25,8 @@ Text:
 - Wasserwaage, Winkelmaß etc.
 - Maurerkellen, Mörtelrühraufsatz etc.
 - Handsägen, Zangen, etc. pp.
+- Lötkolben + Zubehör
+- Nähmaschine
 
 ## Garten
 
@@ -37,36 +39,15 @@ Text:
 - Feuerschale
 - Planschbecken
 
-## Draussen
-
-- 2- und 3+-Personen-Zelt
-- Isomatten, aufblasbar
-- Hängematten
-- Gaskocher
-- Wanderstöcke
-- Wanderrucksäcke, diverse
-- Wasserfilter
-- Taschen-/Stirnlampen, diverse
-
-## Elektronik
-
-- Lötkolben + Zubehör
-- Akkupack, mit/ohne Solarpanel
-- Pocketkamera Sony RX100 MK3
-- Spiegelreflexkamer Canon EOS 500D
-
 ## Küchenzeug
 
 - Gärballon + Zubehör, 10L + 5L
 - Topf 15L
 - Dörrautomat
-- Waffeleisen
-- Weck-Gläser und leere Bügelflaschen
 
 ## Fahrrad
 
-- Gästefahrräder, fahrbereit, 2x
+- Gästefahrräder, 2x
 - Spezialwerkzeug, Flickzeug
-- Fahrradtaschen, diverse
 - Fahrradanhänger + Einkaufskisten
 
