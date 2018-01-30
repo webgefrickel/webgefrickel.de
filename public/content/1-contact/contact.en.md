@@ -86,4 +86,4 @@ Availability:
 
 ## Availability
 
-I am available for all kinds of projects, small to huge, starting again from January 2018.
+I am available for all kinds of projects, small to huge, starting again from April 2018.
