@@ -1,11 +1,11 @@
 import path from 'path';
 import gulp from 'gulp';
 import { rollup } from 'rollup';
+import { uglify } from 'rollup-plugin-uglify';
+import { minify } from 'uglify-es';
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
-import uglify from 'rollup-plugin-uglify';
-import { minify } from 'uglify-es';
 import browsersync from 'browser-sync';
 import { frckl as config, browserslist } from '../package';
 

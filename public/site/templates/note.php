@@ -13,10 +13,7 @@
       <?php snippet('notesbar') ?>
 
       <div class="content content--blog  content--article  content--notes">
-
         <?php snippet('note', ['note' => $page]) ?>
-
-        <?= webmentions() ?>
       </div>
     </div>
 

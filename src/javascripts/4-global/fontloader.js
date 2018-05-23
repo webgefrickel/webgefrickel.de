@@ -4,10 +4,11 @@ import fonts from '@shared/fonts';
 export default () => {
   const fontObservers = [];
 
-  if (sessionStorage.fontsLoaded) {
-    document.documentElement.classList.add('fonts-loaded');
-    return;
-  }
+  // NO COOKIE policy
+  // if (sessionStorage.fontsLoaded) {
+  //   document.documentElement.classList.add('fonts-loaded');
+  //   return;
+  // }
 
   Object.keys(fonts).forEach(fontObject => {
     Object.keys(fonts[fontObject]).forEach(font => {
@@ -27,8 +28,8 @@ export default () => {
     Promise.all(fontObservers)
       .then(() => {
         document.documentElement.classList.add('fonts-loaded');
-        // Optimization for Repeat Views
-        sessionStorage.fontsLoaded = true;
+        // NO COOKIE policy: Optimization for Repeat Views
+        // sessionStorage.fontsLoaded = true;
       });
   }
 };

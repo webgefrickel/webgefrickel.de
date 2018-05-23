@@ -104,12 +104,11 @@ self.addEventListener('fetch', e => {
                 </text>
               </g>
             </svg>`,
-            {
-              headers: {
-                'Content-Type': 'image/svg+xml'
-              }
+          {
+            headers: {
+              'Content-Type': 'image/svg+xml'
             }
-          );
+          });
         }
 
         return false;

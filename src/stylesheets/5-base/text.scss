@@ -13,7 +13,7 @@ pre {
   @include padding(a 1/2);
   @include color(inverted);
   @include font-size(small);
-  overflow: scroll;
+  overflow: auto;
 
   > code {
     @include background-color(transparent);

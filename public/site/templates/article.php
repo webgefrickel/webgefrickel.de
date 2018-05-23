@@ -61,14 +61,8 @@
           </footer>
 
         </article>
-
-        <hr />
-        <?= webmentions() ?>
-
       </div>
-
     </div>
-
   </div>
 
   <?php snippet('sectionlink', [ 'section' => 'work' ]) ?>
