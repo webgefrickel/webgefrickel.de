@@ -14,13 +14,7 @@ This site contains links to third-party websites, over whose content I have no i
 
 Should you have reason to believe that a copyright violation has occurred on this website, I kindly request that you inform me of this. Should I become aware of any legal violation, I will remove the offending content.
 
-I would like to point out that online data transmission (such as when communicating via email) may be subject to security breaches. It is not possible to ensure full protection of data against access by third parties.
-
-I hereby expressly object to the third-party use of contact data, which has been published in accordance with the requirement in Germany to provide such information, for the transmission of not expressly solicited advertising and information material. I expressly reserve the right to take legal steps in the case of the unsolicited sending of advertising material, such as via spam emails. Not that this would help, but hey!
-
-## Cookies
-
-This website uses cookies. These are small text files stored in your computer's main memory. These cookies are deleted after you close the browser. Other cookies remain on your computer (long-term cookies) and permit its recognition on your next visit. You can prevent storage of cookies in your browser settings if you want to.
+I hereby expressly object to the third-party use of contact data, which has been published in accordance with the requirement in Germany to provide such information, for the transmission of not expressly solicited advertising and information material. I expressly reserve the right to take legal steps in the case of the unsolicited sending of advertising material, such as via spam emails.
 
 ----
 
