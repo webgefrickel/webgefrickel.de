@@ -2,7 +2,7 @@ Title: A modern mutt setup — part two
 
 ----
 
-Date: 2018-01-21
+Date: 2018-05-06
 
 ----
 
@@ -158,6 +158,16 @@ source ~/.mutt/accounts/mailbox
 folder-hook mailbox/* source ~/.mutt/accounts/mailbox
 folder-hook hsv/* source ~/.mutt/accounts/hsv
 ```
+
+TODO
+
+
+
+
+
+
+
+
 
 
 [in Steve Losh's excellent article on using mutt](http://stevelosh.com/blog/2012/10/the-homely-mutt/#retrieving-passwords)
