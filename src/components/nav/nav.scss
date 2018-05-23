@@ -12,7 +12,6 @@
     @include center(horizontal);
     @include z-index(head);
     @include background-color(transparent);
-    @include spacing-inner(l 4);
     width: auto;
     height: auto;
     transition: unset;
@@ -90,6 +89,23 @@
 
 .nav__item--legal-notice {
   &.nav__item--legal-notice {
+    @include background-color(default);
+    @include font-size(h3);
+    border-bottom: 1px solid color(main);
+    flex: 1;
+
+    @include mediaquery(l) {
+      display: none;
+    }
+
+    .nav__link {
+      @include color(main);
+    }
+  }
+}
+
+.nav__item--privacy-policy {
+  &.nav__item--privacy-policy {
     @include background-color(default);
     @include font-size(h3);
     border-bottom: 1px solid color(main);
