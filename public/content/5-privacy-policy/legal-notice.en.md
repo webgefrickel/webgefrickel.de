@@ -6,7 +6,7 @@ Text:
 
 ## Your privacy matters
 
-By default, no personal data or information ist collected by visiting this website. I do not need data about you, nor does my server, so nothing is or will ever be collected. Please contact me if you find anything suspicious, offending, illegal or otherwise concerning on this website.
+By default, no personal data or information is collected by visiting this website. I do not need data about you, nor does my server, so nothing is or will ever be collected. Please contact me if you find anything suspicious, offending, illegal or otherwise concerning on this website.
 
 No Analytics, no ads, no other trackers, no cookies/sessionStorage/localStorage, no third party content, no creepy social-media-like-buttons. No data or information is collected, nor is it or will ever be made available to third parties.
 
