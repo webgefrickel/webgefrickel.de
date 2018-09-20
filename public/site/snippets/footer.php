@@ -12,10 +12,10 @@
 
     <?php else: ?>
       <?php /* load legacy js code for browser, that do not support es2017+ */ ?>
-      <script src="<?= asset('js/main.legacy.min.js?v=201809201411') ?>"></script>
+      <script src="<?= asset('js/main.legacy.min.js?v=201809201529') ?>"></script>
       <script>
         if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/serviceworker.js?v=201809201411');
+          navigator.serviceWorker.register('/serviceworker.js?v=201809201529');
         }
       </script>
     <?php endif ?>
