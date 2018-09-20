@@ -35,13 +35,13 @@ use Kirby\Panel\Models\Page\Blueprint as PageBlueprint;
 
 class Panel {
 
-  static public $version = '2.5.7';
+  static public $version = '2.5.12';
 
   // minimal requirements
   static public $requires = array(
-    'php'     => '5.4.0',
-    'toolkit' => '2.5.7',
-    'kirby'   => '2.5.7'
+    'php'     => '5.6.0',
+    'toolkit' => '2.5.12',
+    'kirby'   => '2.5.12'
   );
 
   static public $instance;
@@ -269,7 +269,7 @@ class Panel {
 
     if(!$this->site->multilang()) {
       $language = null;
-    } else if($language = get('language') or $language = s::get('kirby_panel_lang')) {
+    } else if($language = get('_language') or $language = s::get('kirby_panel_lang')) {
       // $language is already set
     } else {
       $language = null;
