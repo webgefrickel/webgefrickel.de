@@ -183,7 +183,7 @@ class TemplateHelper
             return $output;
         }
 
-        return htmlspecialchars(print_r($value, true));
+        return print_r($value, true);
     }
 
     /**

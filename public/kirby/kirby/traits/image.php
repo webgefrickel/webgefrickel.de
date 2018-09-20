@@ -76,12 +76,9 @@ trait Image {
    */
   public function crop($width, $height = null, $quality = null) {
 
-    $params = [
-      'width'  => $width,
-      'height' => ($height)? $height : $width,
-      'crop'   => true
-    ];
+    $params = ['width' => $width, 'crop' => true];
 
+    if($height)  $params['height']  = $height;
     if($quality) $params['quality'] = $quality;
 
     return $this->thumb($params);

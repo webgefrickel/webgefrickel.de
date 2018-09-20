@@ -90,7 +90,6 @@ load(array(
   'spyc'                        => __DIR__ . DS . 'vendors' . DS . 'yaml' . DS . 'yaml.php',
   'abeautifulsite\\simpleimage' => __DIR__ . DS . 'vendors' . DS . 'abeautifulsite' . DS . 'SimpleImage.php',
   'mimereader'                  => __DIR__ . DS . 'vendors' . DS . 'mimereader' . DS . 'mimereader.php',
-  'truebv\\punycode'            => __DIR__ . DS . 'vendors' . DS . 'truebv' . DS . 'punycode.php',
 
 ));
 

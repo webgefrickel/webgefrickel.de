@@ -4,7 +4,6 @@ namespace Kirby\Component;
 
 use Parsedown;
 use ParsedownExtra;
-use Field;
 
 /**
  * Kirby Markdown Parser Component
@@ -19,7 +18,7 @@ class Markdown extends \Kirby\Component {
 
   /**
    * Returns the default options for the component
-   *
+   * 
    * @return array
    */
   public function defaults() {
@@ -31,14 +30,13 @@ class Markdown extends \Kirby\Component {
   }
 
   /**
-   * Initializes the Parsedown parser and
+   * Initializes the Parsedown parser and 
    * transforms the given markdown to HTML
-   *
+   * 
    * @param string $markdown
-   * @param Field $text
    * @return string
    */
-  public function parse($markdown, Field $field = null) {
+  public function parse($markdown) {
 
     if(!$this->kirby->options['markdown']) {
       return $markdown;

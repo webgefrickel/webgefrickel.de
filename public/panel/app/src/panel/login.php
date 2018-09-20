@@ -7,7 +7,6 @@ use Exception;
 use Data;
 use Dir;
 use Kirby;
-use Password;
 use Str;
 use Visitor;
 
@@ -22,7 +21,7 @@ class Login {
   protected $maxUntrustedAttempts = 10;
 
   /**
-   * Setup the login class with some
+   * Setup the login class with some 
    * basic ingredients
    */
   public function __construct() {
@@ -35,7 +34,7 @@ class Login {
   }
 
   /**
-   * Setup and check the logfile
+   * Setup and check the logfile  
    */
   protected function setup() {
 
@@ -56,7 +55,7 @@ class Login {
 
   /**
    * Run an attempt to login
-   *
+   * 
    * @param string $username
    * @param string $password
    */
@@ -70,16 +69,13 @@ class Login {
       if($this->isInvalidUsername() || $this->isInvalidPassword()) {
         throw new Exception(l('login.error'));
       }
-
-      $user = $this->user();
-
+      
+      $user = $this->user();      
+      
       if(!$user->login($this->password)) {
         throw new Exception(l('login.error'));
       }
-
-      // update the password hashing if necessary
-      $user->updatePassword($this->password);
-
+  
       $this->clearLog($this->visitorId());
       return true;
 
@@ -95,10 +91,10 @@ class Login {
   }
 
   /**
-   * Checks if the login form can be
+   * Checks if the login form can be 
    * bypassed, because the user is already
    * authenticated
-   *
+   * 
    * @return boolean
    */
   public function isAuthenticated() {
@@ -111,9 +107,9 @@ class Login {
   }
 
   /**
-   * Checks if a brute force attack has
+   * Checks if a brute force attack has 
    * probably been executed
-   *
+   * 
    * @return boolean
    */
   public function isBlocked() {
@@ -122,7 +118,7 @@ class Login {
 
   /**
    * Fetch the user for the entered username
-   *
+   * 
    * @return User
    */
   protected function user() {
@@ -131,7 +127,7 @@ class Login {
 
   /**
    * Returns all logdata in an array
-   *
+   * 
    * @return array
    */
   protected function logdata() {
@@ -143,20 +139,20 @@ class Login {
       $login = $this;
 
       // remove old entries
-      $data = array_filter($data, function($entry) use($login) {
+      $data = array_filter($data, function($entry) use($login) { 
         return ($entry['time'] > (time() - $login->logexpiry));
-      });
+      }); 
 
       return $this->logdata = $data;
     }
   }
 
   /**
-   * Stores a new login attempt to
+   * Stores a new login attempt to 
    * make it trackable later
    *
    * The store contains a sha1 hash of the ip
-   *
+   * 
    * @return boolean
    */
   protected function log() {
@@ -177,7 +173,7 @@ class Login {
 
   /**
    * Return a hashed version of the visitor ip
-   *
+   * 
    * @return string
    */
   protected function visitorId() {
@@ -187,7 +183,7 @@ class Login {
   /**
    * Returns the number of attempts for
    * the current visitor
-   *
+   * 
    * @return int
    */
   protected function attempts() {
@@ -204,7 +200,7 @@ class Login {
 
   /**
    * Checks if an invalid username has been entered
-   *
+   * 
    * @return boolean
    */
   protected function isInvalidUsername() {
@@ -213,7 +209,7 @@ class Login {
 
   /**
    * Checks if an invalid password has been entered
-   *
+   * 
    * @return boolean
    */
   protected function isInvalidPassword() {
@@ -221,24 +217,19 @@ class Login {
   }
 
   /**
-   * Create a random pause between 1 and 3
+   * Create a random pause between 0 and 3
    * seconds to make it harder for attackers
    * to execute many sequent attacks
    */
   protected function pause() {
-    if (password::isCryptHash($this->user()->password()) === true) {
-      // sleep longer for users with old passwords
-      sleep(rand(2, 4));
-    } else {
-      sleep(rand(1, 3));
-    }
+    sleep(rand(1, 3));
   }
 
   /**
    * Delete log entries by visitor id
    */
-  protected function clearLog($id) {
-
+  protected function clearLog($id) {   
+    
     $data = array_filter($this->logdata(), function($entry) use($id) {
       return $entry['id'] !== $id;
     });

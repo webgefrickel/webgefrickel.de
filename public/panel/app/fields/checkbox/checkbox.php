@@ -13,7 +13,6 @@ class CheckboxField extends InputField {
       'autofocus'    => $this->autofocus(),
       'autocomplete' => $this->autocomplete(),
       'readonly'     => $this->readonly(),
-      'disabled'     => $this->readonly() || $this->disabled(),
       'type'         => 'checkbox',
       'checked'      => v::accepted($this->value()),
     ));

@@ -97,6 +97,10 @@ class DbTest extends PHPUnit_Framework_TestCase {
 
   }
 
+  public function testEscape() {
+
+  }
+
   public function testLastId() {
 
     $id = db::insert('users', array(
@@ -130,6 +134,10 @@ class DbTest extends PHPUnit_Framework_TestCase {
 
   }
 
+  public function testExecute() {
+    
+  }
+
   public function testTable() {
     $this->assertInstanceOf('Database\\Query', db::table('users'));
   }
@@ -154,6 +162,10 @@ class DbTest extends PHPUnit_Framework_TestCase {
   public function testColumn() {
     $result = db::column('users', 'username');
     $this->assertEquals(array('john', 'paul', 'george'), $result->toArray());
+  }
+
+  public function testInsert() {
+    // already tested a couple times in the methods before
   }
 
   public function testUpdate() {

@@ -168,18 +168,8 @@ class Url {
     $parts  = array_merge($defaults, $parts);
     $result = array(r(!empty($parts['scheme']), $parts['scheme'] . '://') . $parts['host'] . r(!empty($parts['port']), ':' . $parts['port']));
 
-    if(!empty($parts['fragments'])) {
-      $fragments = implode('/', $parts['fragments']);
-      
-      // prevent double slashes if params follow after the fragments
-      if(!empty($parts['params'])) $fragments = rtrim($fragments, '/');
-      
-      $result[] = $fragments;
-    }
-    
-    if(!empty($parts['params'])) {
-      $result[] = static::paramsToString($parts['params']);
-    }
+    if(!empty($parts['fragments'])) $result[] = implode('/', $parts['fragments']);
+    if(!empty($parts['params']))    $result[] = static::paramsToString($parts['params']);
 
     // make sure that URLs without any URI end with a slash after the host
     if(count($result) === 1) {
@@ -264,11 +254,8 @@ class Url {
    * @return boolean
    */
   public static function isAbsolute($url) {
-    // matches the following groups of URLs:
-    //  //example.com/uri
-    //  http://example.com/uri, https://example.com/uri, ftp://example.com/uri
-    //  mailto:example@example.com
-    return preg_match('!^(//|[a-z0-9+-.]+://|mailto:)!i', $url) === 1;
+    // don't convert absolute urls
+    return (str::startsWith($url, 'http://') || str::startsWith($url, 'https://') || str::startsWith($url, '//'));
   }
 
   /**
@@ -383,21 +370,22 @@ class Url {
   /**
    * Tries to convert a URL with an internationalized domain
    * name to the human-readable UTF8 representation
+   * Requires the intl PHP extension
    *
    * @param string $url
    * @return string
    */
   public static function idn($url) {
 
+    if(!function_exists('idn_to_utf8')) return $url;
+
     // disassemble the URL, convert the domain name and reassemble
-    $punycode = new TrueBV\Punycode();
-    try {
-      $host = $punycode->decode(static::host($url));
-      return static::build(['host' => $host], $url);
-    } catch(Exception $e) {
-      // on error don't do anything
-      return $url;
-    }
+    $variant = defined('INTL_IDNA_VARIANT_UTS46') ? INTL_IDNA_VARIANT_UTS46 : INTL_IDNA_VARIANT_2003;
+    $host = idn_to_utf8(static::host($url), 0, $variant);
+    if($host === false) return $url;
+    $url  = static::build(['host' => $host], $url);
+
+    return $url;
 
   }
 
@@ -410,16 +398,15 @@ class Url {
    */
   public static function unIdn($url) {
 
-    // disassemble the URL, convert the domain name and reassemble
-    $punycode = new TrueBV\Punycode();
-    try {
-      $host = $punycode->encode(static::host($url));
-      return static::build(['host' => $host], $url);
-    } catch(Exception $e) {
-      // on error don't do anything
-      return $url;
-    }
+    if(!function_exists('idn_to_ascii')) return $url;
 
+    // disassemble the URL, convert the domain name and reassemble
+    $variant = defined('INTL_IDNA_VARIANT_UTS46') ? INTL_IDNA_VARIANT_UTS46 : INTL_IDNA_VARIANT_2003;
+    $host = idn_to_ascii(static::host($url), 0, $variant);
+    if($host === false) return $url;
+    $url  = static::build(['host' => $host], $url);
+
+    return $url;
   }
 
   /**

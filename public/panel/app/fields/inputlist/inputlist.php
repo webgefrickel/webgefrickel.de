@@ -83,7 +83,7 @@ class InputListField extends InputField {
 
   public function validate() {
     // if there are no options, there can't be a value
-    if(count($this->options()) === 0) return true;
+    if(empty($this->options())) return true;
     
     if(is_array($this->value())) {
       foreach($this->value() as $v) {

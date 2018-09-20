@@ -8,16 +8,16 @@ class FieldTest extends KirbyTestCase {
 
     $field = new Field('mypage', 'mykey', 'myvalue');
 
-    $this->assertEquals('mypage', $field->page);
-    $this->assertEquals('mypage', $field->page());
+    $field->assertEquals('mypage', $field->page);
+    $field->assertEquals('mypage', $field->page());
 
-    $this->assertEquals('mykey', $field->key);
-    $this->assertEquals('mykey', $field->key());
+    $field->assertEquals('mykey', $field->key);
+    $field->assertEquals('mykey', $field->key());
 
-    $this->assertEquals('myvalue', $field->value);
-    $this->assertEquals('myvalue', $field->value());
-    $this->assertEquals('myvalue', $field->toString());
-    $this->assertEquals('myvalue', (string)$field);
+    $field->assertEquals('myvalue', $field->value);
+    $field->assertEquals('myvalue', $field->value());
+    $field->assertEquals('myvalue', $field->toString());
+    $field->assertEquals('myvalue', (string)$field);
 
   }
 
@@ -29,16 +29,16 @@ class FieldTest extends KirbyTestCase {
     $field->key   = 'key-b';
     $field->value = 'value-b';
 
-    $this->assertEquals('page-b', $field->page);
-    $this->assertEquals('page-b', $field->page());
+    $field->assertEquals('page-b', $field->page);
+    $field->assertEquals('page-b', $field->page());
 
-    $this->assertEquals('key-b', $field->key);
-    $this->assertEquals('key-b', $field->key());
+    $field->assertEquals('key-b', $field->key);
+    $field->assertEquals('key-b', $field->key());
 
-    $this->assertEquals('value-b', $field->value);
-    $this->assertEquals('value-b', $field->value());
-    $this->assertEquals('value-b', $field->toString());
-    $this->assertEquals('value-b', (string)$field);
+    $field->assertEquals('value-b', $field->value);
+    $field->assertEquals('value-b', $field->value());
+    $field->assertEquals('value-b', $field->toString());
+    $field->assertEquals('value-b', (string)$field);
 
   }
 
