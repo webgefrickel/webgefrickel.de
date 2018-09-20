@@ -1,3 +1,7 @@
+<a class="link-default  u-url" rel="me" href="https://mastodon.social/@<?= $site->social() ?>">
+  <?= svgicon('mastodon') ?> @<?= $site->social() ?>
+</a>
+<br />
 <a class="link-default  u-url" rel="me" href="https://twitter.com/<?= $site->social() ?>">
   <?= svgicon('twitter') ?> @<?= $site->social() ?>
 </a>

@@ -29,3 +29,7 @@ icon--menu:
 icon--twitter:
   title: Twitter
   description: The official Twitter icon
+
+icon--mastodon:
+  title: Mastodon
+  description: The official Mastodon icon
