@@ -18,15 +18,15 @@ Principles:
 
 ## Principles
 
-1. If you are racist, sexist, antifeminist, homophobic, a weapons dealer or just some other kind of asshole, I won't work with or for you.
+1. If you are racist, sexist, antifeminist, homophobic, a weapons dealer or just some other kind of asshole, I won't work with you.
 2. I am an honest and upfront person and I like to question and to be critical.  And that's what I expect from you, too.
-3. I don't do non-responsive, non-accessible websites, and I test with real devices.
-4. A slow website is a bad website.  Performance matters, and I care a lot about it.
-5. Everything I do, every single line of code I write is open source.  If it's mine, it's yours.
-6. I have high expectations regarding my own work.  In return I expect fair and punctual payment.
+3. I don't do slow, non-responsive, non-accessible websites, and I won't debate doing so.
+4. I have high expectations regarding my own work.  In return I expect fair and punctual payment.
+5. When working with me, you are paying for a service. I am not a servant. There is a difference. 
+6. I prefer to build websites for actual users, rather than for your liking or SEO-algorithms.
 7. I'm not a magician: if your content is crap, your website will be crap—there is nothing I can do about that by coding.
-8. Search engine optimization is voodoo.  I prefer to build websites for the actual users than for ever-changing corporate algorithms.
-9. I regard myself as a craftsman, and that's why I prefer to choose my tools by myself.  You can pry Vim from my cold dead hands.
+8. I have to concentrate while programming, so I often don't immediately reply to calls or emails.
+9. I regard myself as a craftsman, so I prefer to choose the tools I work with by myself.
 10. I am only one person, if I feel that a project is too big for me, I will tell you and/or look for help.
 
 ----
@@ -45,8 +45,9 @@ Buzzwords:
 
 <!-- -->
 
-* ES2018
+* ES2019
 * vue.js
+* React
 
 <!-- -->
 
