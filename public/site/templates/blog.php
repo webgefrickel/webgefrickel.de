@@ -10,7 +10,7 @@
 
     <div class="content-wrapper">
 
-      <?php snippet('blogbar', compact('taglist')) ?>
+      <?php snippet('blogbar', compact('tagcloud')) ?>
 
       <div class="content  content--blog">
 

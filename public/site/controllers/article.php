@@ -16,6 +16,6 @@ return function($site, $pages, $page) {
     }
   }
 
-  return compact('taglist', 'tagcloud', 'tagbase', 'gallery');
+  return compact('tagcloud', 'tagbase', 'gallery');
 };
 
