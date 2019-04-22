@@ -4,7 +4,7 @@ export default {
   // set the port (if you want something different) and your
   // scheme, if you run your stuff locally via https or sth.
   scheme: 'https',
-  proxy: 'wgf.local.dev',
+  proxy: 'wgf.dev.localhost',
   port: 3000,
 
   // the main folders, src for where your sources are
@@ -62,7 +62,7 @@ export default {
   lint: {
     js: true, // using eslint - see /.eslintrc.yml
     scss: true, // using scss_lint ruby gem - see /.scss-lint.yml
-    html: true // using htmlhint, define the pages you want to lint below, see /.htmlhintrc
+    html: false // using htmlhint, define the pages you want to lint below, see /.htmlhintrc
   },
 
   // define any sites to be checked realtive to the proxy
