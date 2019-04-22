@@ -34,7 +34,7 @@ c::set('thumbs.driver', 'im');
 // in any production environments in additional config-files
 c::set('debug', true); // this is for kirbys own debug mode
 c::set('debugmode', true); // this is used for including different css/js
-c::set('ssl', false);
+c::set('ssl', true);
 
 // routes for tags for blog posts and notes
 require_once(__DIR__ . DS  . 'routes.php');
