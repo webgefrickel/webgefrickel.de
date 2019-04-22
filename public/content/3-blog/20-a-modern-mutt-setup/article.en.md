@@ -21,12 +21,12 @@ If you really are interested in using mutt, grab yourself some coffee, this is g
 Before we get started, let me just tell you a bit about how I use email, since this will be reflected in the configuration and some keyboard-shortcuts:
 
 - I practice zero-inbox: stuff that still is in my inbox is a todo-item, everything else will either be archived, deleted or marked as spam and thus moved into another folder away from the inbox.
-- I currently have 5 IMAP-email accounts with different email-service-providers, none of them being a Google Mail Account (I still have one, but emails from there will just be forwarded to my main address)
+- I currently have 4 IMAP-email accounts with different email-service-providers, none of them being a Google Mail Account (I still have one, but emails from there will just be forwarded to my main address)
 - I have only one archive-folder per email account, I don't sort emails into project/customer-folders, I prefer to search through my emails instead.
 - I want to fetch my emails manually. No push, no notifications, no distractions.
 - I don't care about writing HTML-emails (and neither should you).
 - I write emails in English and German in Vim.
-- I run a current versino of macOS.
+- I run a current version of macOS.
 - I have an address book with important email addresses that I like to use via CardDAV-Sync, autocompletion for when writing emails is a must.
 - All emails will be synced to a local folder on my computer, as an eternal backup.
 
@@ -67,7 +67,7 @@ brew install isync
 brew install khard
 brew install msmtp
 brew install mu
-brew install neomutt/homebrew-neomutt/neomutt --with-gpgme
+brew install neomutt
 brew install ripmime
 brew install w3m
 brew install vdirsyncer
@@ -84,7 +84,7 @@ I like my contacts to be in the folder ~/Contacts and all my emails to be in ~/M
 mkdir ~/Contacts
 mkdir ~/Mail
 mkdir ~/Mail/mailbox
-mkdir ~/Mail/hsv
+mkdir ~/Mail/viu
 ```
 
 ## Step 1: setting up mbsync / isync
@@ -158,13 +158,12 @@ Channel mailbox-trash
 Channel mailbox-junk
 
 #################################
-######## Account hsv ############
+######## Account viu ############
 #################################
 
-IMAPAccount hsv
-Host sslin.df.eu
-User s.rademacker@hoerspielsommer.de
-
+IMAPAccount viu
+Host outlook.office365.com
+User steffen.rademacker@viu.ch
 ...
 ```
 There are multiple things going on here, so let's look at it in detail:
@@ -208,7 +207,8 @@ port 465
 ...
 ```
 
-Nothing much going on here, you just have to take care that you use the correct SSL-method and port. msmtp can communicate with the macOS keychain, so no weird security-command here, you just need to add a new, separate entry to your keychain named exactly as your smtp-server, exactly as for mbsync. The certificates-file is the same file we just created as well.
+Nothing much going on here, you just have to take care that you use the correct SSL-method and port. msmtp can communicate with the macOS keychain, so no weird security-command here, you just need to add a new, separate entry to your keychain named exactly as your smtp-server (and prefix it with smtp
+:// — so it would be smtp://smtp.mailbox.org for the example above), exactly as for mbsync. The certificates-file is the same file we just created as well.
 
 You can test if this really is working by sending a simple email via the terminal, using this command:
 
@@ -216,7 +216,14 @@ You can test if this really is working by sending a simple email via the termina
 echo "Test" | msmtp -a mailbox youremail@domain.com
 ```
 
-If you receive an email at youremail@domain.com, you have configured msmtp correclty!
+If you receive an email at youremail@domain.com, you have configured msmtp correctly!
 
 And that's it for the first part, you have working IMAP-sync and are ready to send emails! Now open up a terminal and enter `mbsync -a` to sync all emails from all accounts. Depending on how much mail you have, this may take a while, so grab yourself a beer and stay tuned for part two!
 
+----
+
+Tags: mutt, privacy
+
+----
+
+Gallery: 0

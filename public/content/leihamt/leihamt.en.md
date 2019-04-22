@@ -12,7 +12,7 @@ Und damit das nicht jedem so geht und alle alles doppelt zuhause rumliegen haben
 
 ----
 
-Text:
+Text: 
 
 ## Basteln
 
@@ -34,6 +34,7 @@ Text:
 - Akku-Rasentrimmer
 - Astschere / Heckenschere
 - Baumsägen / Fuchsschwanz
+- Elektrohächsler
 - Schubkarre
 - Biertischgarnitur, 4 Bänke und 2 Tische
 - Feuerschale
@@ -50,4 +51,3 @@ Text:
 - Gästefahrräder, 2x
 - Spezialwerkzeug, Flickzeug
 - Fahrradanhänger + Einkaufskisten
-
