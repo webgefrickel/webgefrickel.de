@@ -1,40 +1,38 @@
 <?php
-// NOTE: this is my actual config.php, but I have a file license.php in
-// the same folder as the file you are looking at, with the following contents:
-// <?php c::set('license', 'yourkirbylicensekey');
-$license = __DIR__ . DS . 'license.php';
-if (file_exists($license)) {
-  require_once($license);
-}
 
-// setup languages -- english by default
-c::set('languages', [[
-  'default' => true,
-  'code' => 'en',
-  'name' => 'English',
-  'locale' => 'en_US',
-  'url' => '/'
-]]);
+return [
+  'debug' => true,
 
-// breakpoints for all images / widths
-c::set('breakpoints', [480, 640, 720, 960, 1100, 1250, 1600]);
+  // we use languages by default
+  'languages' => true,
+  'date.handler' => 'strftime',
 
-// markdown as a default over kirbytext
-// I recommend not doing this for customer-projects...
-c::set('content.file.extension', 'md');
-c::set('panel.kirbytext', false);
+  // thumbnail configuration
+  'thumbs' => [
+    'driver' => 'im',
+    'quality' => '75',
+    'srcsets' => [
+      'default' => [480, 960, 1440, 2400],
+    ]
+  ],
 
-// activate the classymarkdown plugin
-c::set('classymarkdown', true);
+  // use markdown by default for my own site
+  'content' => [
+    'extension' => 'md',
+  ],
 
-// use imagemagick for thumb-generation, faster and better
-c::set('thumbs.driver', 'im');
+  // use markdown by default for my own site
+  'panel' => [
+    'kirbytext' => false,
+  ],
 
-// debugging mode for development by default, override these
-// in any production environments in additional config-files
-c::set('debug', true); // this is for kirbys own debug mode
-c::set('debugmode', true); // this is used for including different css/js
-c::set('ssl', true);
+  // hooks and routes in their own files
+  'hooks' => require_once('hooks.php'),
+  'routes' => require_once('routes.php'),
 
-// routes for tags for blog posts and notes
-require_once(__DIR__ . DS  . 'routes.php');
+  // with trailing slash for easier usage
+  'kalong' => realpath(__DIR__ . '/../patterns') . '/',
+
+  // TODO remove this, use defaults from thumbnail generation
+  'breakpoints' => [480, 640, 720, 960, 1100, 1250, 1600],
+];
