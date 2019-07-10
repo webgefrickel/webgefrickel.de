@@ -1,0 +1,15 @@
+status: wip
+
+context:
+  showTitle: false
+  title: 'You can also find me on:'
+  items:
+    - icon: mastodon
+      title: 'Profile on mastodon.social'
+      baseUrl: 'https://mastodon.social/@'
+    - icon: twitter
+      title: 'Profile on Twitter'
+      baseUrl: 'https://twitter.com/'
+    - icon: github
+      title: 'Profile on GitHub'
+      baseUrl: 'https://github.com/'

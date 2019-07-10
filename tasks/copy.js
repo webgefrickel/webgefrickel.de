@@ -1,21 +1,31 @@
-import path from 'path';
-import gulp from 'gulp';
-import { frckl as config } from '../package';
+import { join } from 'path';
+import { sync } from 'glob';
+import { makeDir, copyFile } from './lib/fs';
+import config from '../kalong.config';
 
-gulp.task('copy:fonts', () =>
-  gulp
-    .src(path.join(config.src, 'fonts/*.{woff,woff2}'))
-    .pipe(gulp.dest(path.join(config.dest, 'fonts')))
-);
+export default async (opts = {}) => {
+  const options = {
+    input: opts.input || join(config.src, config.images, '**/*'),
+    output: opts.output || join(config.dest, config.images),
+    rename: opts.rename || [],
+  };
 
-gulp.task('copy:images', () =>
-  gulp
-    .src(path.join(config.src, 'images/*.{png,gif,jpg,svg,webp}'))
-    .pipe(gulp.dest(path.join(config.dest, 'img')))
-);
+  const files = sync(options.input);
+  const copies = [makeDir(options.output)];
+  const renamers = [file => file.replace(/^.*[\\/]/, '')];
+  options.rename.forEach(func => {
+    renamers.push(func);
+  });
 
-gulp.task('copy:icons', () =>
-  gulp
-    .src(path.join(config.src, 'icons/*.svg'))
-    .pipe(gulp.dest(path.join(config.dest, 'img/icons')))
-);
+  // create the target first
+  files.forEach(file => {
+    let filename = file;
+    renamers.forEach(func => {
+      filename = func(filename);
+    });
+
+    copies.push(copyFile(file, join(options.output, filename)));
+  });
+
+  return Promise.all(copies);
+};

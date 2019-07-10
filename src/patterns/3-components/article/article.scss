@@ -1,0 +1,66 @@
+.article {
+  position: relative;
+
+  &--preview {
+    @include margin;
+
+    @include mediaquery(xl) {
+      @include margin(b 1.5);
+      @include padding(b 1/2);
+    }
+  }
+}
+
+.article__date {
+  @include margin(b 1/4);
+  display: block;
+
+  .article--single & {
+    @include mediaquery(xl) {
+      display: none;
+    }
+  }
+}
+
+.article__header {
+  @include margin(b 1/2);
+
+  &--single {
+    @include margin(b 1/2);
+
+    @include mediaquery(l) {
+      @include font-size(h1);
+      @include margin(b 1/2);
+      line-height: 1.05;
+    }
+  }
+}
+
+.article__intro {
+  @include font-size(h3);
+  line-height: 1.2;
+
+  @include mediaquery(l) {
+    @include font-size(h1-mobile);
+  }
+}
+
+.article__footer {
+  @include margin(b 1);
+  @include font-size(small);
+
+  @include mediaquery(l) {
+    @include font-size(h4);
+  }
+}
+
+.article__author {
+  @include margin(b 1/2);
+}
+
+.article__author-image {
+  @include margin(r 1/2);
+  float: left;
+  width: 12%;
+  border-radius: 100%;
+}

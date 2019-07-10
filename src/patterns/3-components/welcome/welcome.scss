@@ -1,0 +1,35 @@
+.welcome {
+  @include absolute(t 0, l 1/2, r 0, b 0);
+  @include padding(a 1/2);
+  @include background-color(default);
+  @include color(inverted);
+  @include z-index(knees);
+  transition: transform #{$animation-duration-default} ease;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+
+  @include mediaquery(xl) {
+    @include absolute(t 0, l 0, r 0, b 1);
+    @include padding(a 1);
+  }
+
+  .close-state--welcome:checked ~ & {
+    transform: translateX(100%);
+
+    @include mediaquery(xl) {
+      top: $height-header;
+      transform: translateY(-100%);
+    }
+  }
+
+  &--done {
+    transition: unset;
+  }
+}
+
+.welcome__inner {
+  @include margin(b 0);
+  flex: 1;
+  font-size: inherit;
+}

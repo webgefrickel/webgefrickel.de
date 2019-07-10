@@ -1,0 +1,14 @@
+status: done
+
+context:
+  modifiers: ''
+  sizes: 100vw
+  caption: false
+  alt: Alternativtext für das Bild
+  sources:
+    - width: 480
+      src: //picsum.photos/480/360
+    - width: 960
+      src: //picsum.photos/960/720
+    - width: 1440
+      src: //picsum.photos/1440/1080

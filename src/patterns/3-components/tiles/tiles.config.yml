@@ -1,0 +1,17 @@
+status: wip
+
+context:
+  tiles:
+    - href: '/contact'
+      slug: contact
+      title: Contact
+      text: Contact subtext
+    - href: '/work'
+      slug: work
+      title: Work
+      text: Work subtext
+    - href: '/blog'
+      slug: blog
+      title: Blog
+      text: Blog subtext
+

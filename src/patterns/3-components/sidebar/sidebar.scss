@@ -1,0 +1,15 @@
+.sidebar {
+  @include mediaquery(xl) {
+    float: left;
+    width: 40%;
+  }
+}
+
+.sidebar--blog {
+  display: none;
+
+  @include mediaquery(xl) {
+    display: block;
+    width: 28%;
+  }
+}

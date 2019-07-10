@@ -1,0 +1,15 @@
+# Prettier autoformating / fixing config, matching linters
+
+printWidth: 100
+singleQuote: true
+jsxSingleQuote: true
+trailingComma: es5
+proseWrap: always
+endOfLine: lf
+overrides:
+  - files: 'package*.json'
+    options:
+      printWidth: 1000
+  - files: '*.md'
+    options:
+      printWidth: 72

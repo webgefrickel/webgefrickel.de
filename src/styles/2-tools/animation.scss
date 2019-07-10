@@ -1,0 +1,40 @@
+@mixin transition(
+  $props: $animation-transition-properties,
+  $duration: $animation-duration-default,
+  $ease: $animation-ease-default
+) {
+  $transition: '';
+  $will-change: '';
+
+  @each $p in $props {
+    // we do not need the comma, if we are just starting to combine the string
+    @if $transition == '' {
+      $transition: '#{$p} #{$duration} #{$ease}';
+      $will-change: '#{$p}';
+    } @else {
+      $transition: '#{$transition}, #{$p} #{$duration} #{$ease}';
+      $will-change: '#{$will-change}, #{$p}';
+    }
+  }
+
+  will-change: #{$will-change};
+  transition: #{$transition};
+}
+
+@mixin animation(
+  $name: $animation-name,
+  $duration: $animation-duration-default,
+  $ease: $animation-ease-default,
+  $delay: 0s,
+  $iteration: 1,
+  $direction: normal,
+  $fill: both
+) {
+  animation: #{$name} #{$duration} #{$ease} #{$delay} #{$iteration} #{$direction};
+  animation-fill-mode: $fill;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    animation-fill-mode: none;
+  }
+}

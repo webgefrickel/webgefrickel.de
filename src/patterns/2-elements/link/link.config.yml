@@ -1,0 +1,16 @@
+status: wip
+
+context:
+  modifiers: ''
+  icon: false
+  href: '#'
+  title: ''
+  text: Linktext
+
+variants:
+  - name: with-icon
+    context:
+      icon: default
+      modifiers: 'link--with-icon  u-url'
+      attributes:
+        - 'rel="me"'

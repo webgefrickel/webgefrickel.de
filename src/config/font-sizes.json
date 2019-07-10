@@ -1,0 +1,13 @@
+{
+  "font-sizes": {
+    "default": "24px",
+    "h1": "64px",
+    "h1-mobile": "36px",
+    "h2": "48px",
+    "h3": "24px",
+    "h4": "18px",
+    "h5": "18px",
+    "h6": "18px",
+    "small": "14px"
+  }
+}

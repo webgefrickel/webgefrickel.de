@@ -1,28 +1,33 @@
----
-  extends:
-    - 'eslint:recommended'
-    - 'xo-space'
-    - 'xo-space/esnext'
-    - 'xo-space/browser'
+extends:
+  - 'eslint:recommended'
+  - 'xo-space'
+  - 'xo-space/esnext'
+  - 'xo-space/browser'
+  - 'prettier'
 
-  parserOptions:
-    ecmaVersion: 2017
-    sourceType: module
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
 
-  env:
-    browser: true
-    node: true
-    es6: true
-    serviceworker: true
+env:
+  browser: true
+  commonjs: true
+  es6: true
+  node: true
+  serviceworker: true
+  shared-node-browser: true
 
-  rules:
-    array-bracket-spacing:
-      - error
-      - always
-    object-curly-spacing:
-      - error
-      - always
-    capitalized-comments:
-      - off
-    no-console:
-      - off
+rules:
+  comma-dangle:
+    - error
+    - only-multiline
+  capitalized-comments:
+    - off
+  no-console:
+    - off
+  object-curly-spacing:
+    - error
+    - always
+  operator-linebreak:
+    - error
+    - before

@@ -1,8 +1,8 @@
-icon--arrow-left:
+icon--left:
   title: Previous
   description: A chevron pointing to the left
 
-icon--arrow-right:
+icon--right:
   title: Next
   description: A chevron pointing to the right
 
@@ -14,7 +14,7 @@ icon--github:
   title: GitHub
   description: The official GitHub icon
 
-icon--header:
+icon--heart:
   title: Heart
   description: A heart shape
 

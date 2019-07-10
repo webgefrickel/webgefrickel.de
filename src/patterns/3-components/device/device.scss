@@ -1,0 +1,67 @@
+.device {
+  @include padding(v 1.5, h 1/4);
+  @include z-index(belly);
+  @include background-color(default);
+  position: relative;
+  max-width: $width-max-mobile;
+  border-radius: $base-half;
+
+  @include mediaquery(xl) {
+    @include margin(t -63%, l -1);
+  }
+}
+
+.device__inner {
+  @include background-color(default);
+}
+
+.device--mobile {
+  .device--tablet + & {
+    @include mediaquery(xl) {
+      @include margin(t -55%, l 0, r 1);
+      float: right;
+    }
+  }
+}
+
+.device--tablet {
+  @include margin(a 0);
+  @include padding(a 0.75);
+  max-width: $width-max-tablet;
+
+  @include mediaquery(xxl) {
+    @include padding(a 1.25);
+  }
+}
+
+.device--desktop {
+  @include padding(t 3vw, r 2vw, b 2vw, l 2vw);
+  @include center;
+  border-radius: $base-half / 2 $base-half / 2 0 0;
+  max-width: 70%;
+
+  @include mediaquery(xl) {
+    @include margin(a 0);
+    max-width: $width-max-desktop;
+  }
+
+  @include mediaquery(xl) {
+    @include padding(t 3/4, r 1/2, b 1/2, l 1/2);
+  }
+
+  &::after {
+    @include block(pseudo);
+    @include background-color(default);
+    @include absolute(b -3vw, l 50%, r auto);
+    margin-left: -62%;
+    width: 124%;
+    height: 3.5vw;
+    border-radius: 0 0 1vw 1vw;
+
+    @include mediaquery(xl) {
+      bottom: -$base-unit * 3/4;
+      height: $base-unit * 3/4;
+      border-radius: 0 0 $base-half / 4 $base-half / 4;
+    }
+  }
+}

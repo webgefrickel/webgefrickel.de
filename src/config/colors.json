@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "main": "#999",
+    "default": "#323232",
+    "background": "#fff",
+    "error": "#f00",
+    "work": "#f78474",
+    "blog": "#5dc5dc",
+    "contact": "#70c382",
+    "imprint": "#fff",
+
+    "code": "#323232",
+    "codetext": "rgba(#000, 0.1)",
+
+    "inverted": "#fff",
+    "transparent": "transparent"
+  }
+}

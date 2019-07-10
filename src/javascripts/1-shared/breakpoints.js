@@ -1,1 +1,0 @@
-export default {"s":480,"m":640,"l":720,"xl":960,"xxl":1100,"xxxl":1250,"xxxxl":1600};

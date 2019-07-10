@@ -1,0 +1,11 @@
+.pagination {
+  @include margin(t 1);
+}
+
+.pagination__newer {
+  float: right;
+}
+
+.pagination__older {
+  float: left;
+}

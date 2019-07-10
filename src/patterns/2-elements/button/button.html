@@ -1,0 +1,7 @@
+<button type="{{ type }}" class="button{% if modifiers %}  {{ modifiers }}{% endif %}" title="{{ title }}">
+  {% if icon %}
+    {% render '@icon', { icon: icon, modifiers: 'button__icon' } %}
+  {% else %}
+    <span class="button__text">{{ text }}</span>
+  {% endif %}
+</button>

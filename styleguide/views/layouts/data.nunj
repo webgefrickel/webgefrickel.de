@@ -1,0 +1,2 @@
+{% if not entity %}{{ throw(404, "Component '" + request.params.handle + "' not found.") }}{% endif -%}
+{{ entity.getResolvedContext()  | async | format(frctl.theme.get('format')) }}

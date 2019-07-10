@@ -1,0 +1,6 @@
+# default production assumes modern browsers
+# fallback for css will be handled in the postcss-task
+
+[production]
+> 1% in DE
+not IE 11

@@ -1,3 +1,7 @@
+files:
+  ignore:
+    - 'src/styles/3-vendor/**/*.scss'
+
 # use the default settings to keep this file small
 options:
   merge-default-rules: true
@@ -14,13 +18,16 @@ rules:
   # those mixins do not have to be used before any other declarations
   mixins-before-declarations:
     - 1
-    - exclude: [ 'breakpoint', 'mediaquery', 'attention' ]
+    - exclude: ['mediaquery', 'attention']
 
   # allow leading zero values like 0.2rem or 0.01em
   leading-zero: 0
 
   # do not sort properties by name
   property-sort-order: 0
+
+  # allow importing of *.scss
+  clean-import-paths: 0
 
   # allow nested attribute and pseudo-selectors, this makes stuff
   # more readable for humans and allows some edge-case-nesting issues,

@@ -1,0 +1,63 @@
+// default styles for text-input forms fields
+[type='text'],
+[type='tel'],
+[type='email'],
+[type='search'],
+[type='number'],
+[type='url'],
+[type='password'],
+[type='date'],
+textarea {
+  width: 100%; // wrap grid/div/p around inputs
+  border: 1px solid currentColor;
+  border-radius: 0;
+  appearance: none; // no rounded inputs etc.
+}
+
+button,
+[type='submit'] {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid currentColor;
+  border-radius: 0;
+  appearance: none;
+}
+
+// allow resizing of textareas vertically
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+select {
+  position: relative;
+  display: block;
+}
+
+// no border/padding/margin for the fieldset
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// position labels on top of their related inputs by default,
+// and give them a hint to make them clickable by setting cursor
+label {
+  display: inline-block;
+
+  &[for] { // add pointer-cursor if associated to input
+    cursor: pointer;
+  }
+}
+
+// dont allow unselectable elements to be selected
+[unselectable] {
+  user-select: none;
+}
+
+[disabled] {
+  cursor: not-allowed;
+}
