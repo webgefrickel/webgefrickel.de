@@ -1,0 +1,98 @@
+// typographic stuff and general typographic related helper classes
+// ======================================================================
+
+.link {
+  color: inherit;
+  text-decoration: underline;
+
+  @include attention {
+    text-decoration: none;
+  }
+}
+
+.link--large,
+.link--inverted {
+  text-decoration: none;
+
+  @include attention {
+    text-decoration: underline;
+  }
+}
+
+.link--with-icon {
+  text-decoration: none;
+
+  @include attention {
+    text-decoration: none;
+
+    .link__text {
+      text-decoration: underline;
+    }
+  }
+}
+
+.link--section {
+  transition: background-color #{$animation-duration-fast} ease,
+    width #{$animation-duration-default} ease;
+  display: none;
+
+  @include mediaquery(xl) {
+    @include block(block);
+    @include absolute(t 0, b 0);
+    @include color(transparent);
+    @include z-index(belly);
+    width: $width-link-section;
+  }
+
+  @include mediaquery(xxl) {
+    width: $width-link-section * 1.5;
+  }
+
+  @include attention {
+    width: $width-link-section * 1.5;
+
+    @include mediaquery(xxl) {
+      width: $width-link-section * 2;
+    }
+  }
+
+  &--fake {
+    left: 0;
+    width: 0;
+
+    @include mediaquery(xxl) {
+      width: 0;
+    }
+  }
+
+  &--change {
+    width: 100%;
+
+    @include attention {
+      width: 100%;
+    }
+  }
+}
+
+.link-as-button {
+  @include background-color(default);
+  @include padding(h 1/4);
+  @include color(main);
+  border: $base-half/3 solid color(default);
+
+  @include mediaquery(l) {
+    @include padding(v 1/2, h 1);
+  }
+
+  @include attention {
+    @include color(default);
+    @include background-color(transparent);
+    text-decoration: none;
+  }
+}
+
+@each $tile-color in $areas {
+  .link-section--#{$tile-color} {
+    @include background-color($tile-color);
+  }
+}
