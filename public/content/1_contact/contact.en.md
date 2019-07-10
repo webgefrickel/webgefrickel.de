@@ -2,6 +2,14 @@ Title: Contact
 
 ----
 
+Introtext: Do you  
+want  
+to work  
+with  
+me?
+
+----
+
 Info: 
 
 ## What I do

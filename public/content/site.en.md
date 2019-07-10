@@ -2,15 +2,11 @@ Title: webgefrickel
 
 ----
 
-Subtitle: Web development, fuck yeah!
+Description: Styleguide driven, ethical web development. Handmade in Leipzig with lots of love ❤
 
 ----
 
 Author: Steffen Rademacker
-
-----
-
-Description: Accessible, responsive, scalable and fast websites and styleguides — handmade in Leipzig with lots of love.
 
 ----
 
