@@ -1,0 +1,11 @@
+<p class="social">
+  {% if showTitle %}
+    {{ title }}<br />
+  {% endif %}
+
+  {% for item in items %}
+    {% set url = item.baseUrl + site.social %}
+    {% render '@link--with-icon', { icon: item.icon, href: url, modifiers: 'link--with-icon  social__link', text: item.title } %}
+  {% endfor %}
+</p>
+

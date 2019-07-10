@@ -1,0 +1,24 @@
+  {% if debug %}
+    <script src="{{ '/scripts/main.js' | path }}" defer></script>
+  {% else %}
+    <!-- load legacy js code for browsers that do not support es2017+ -->
+    <script>
+      var modern = function() { var mq = document.getElementById('modern-browsers'); return window.matchMedia && window.matchMedia(mq.media).matches; };
+      var loadJs = function(src) { var ref = document.getElementsByTagName('script')[0]; var script = document.createElement('script'); script.src = src; script.async = true; ref.parentNode.insertBefore(script, ref); };
+      var loadCss = function (src) { var ref = document.getElementsByTagName('head')[0]; var style = document.createElement('link'); style.href = src; style.rel = 'stylesheet'; head.append(style); };
+
+      if (modern()) {
+        loadJs("{{ '/scripts/main.min.js' | path }}?v={{ hash }}");
+        {# if you want to use the serviceworker, uncomment this
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/serviceworker.js?v={{ hash }}');
+        }
+        #}
+      } else {
+        loadCSS("{{ '/styles/main.legacy.css' | path }}?v={{ hash }}");
+        loadJs("{{ '/scripts/main.legacy.min.js' | path }}?v={{ hash }}");
+      }
+    </script>
+  {% endif %}
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{% set fallback = sources | first %}
+
+<figure class="image{% if modifiers %}  {{ modifiers }}{% endif %}">
+  <img alt="{{ alt }}" class="image__src"
+    src="{{ fallback.src }}"
+    srcset="{% for size in sources %}{{ size.src }} {{ size.width }}w{% if not loop.last %}, {% endif %}{% endfor %}"
+    sizes="{{ sizes }}" />
+  {% if caption %}
+    <figcaption class="image__caption">{{ caption | safe }}</figcaption>
+  {% endif %}
+</figure>

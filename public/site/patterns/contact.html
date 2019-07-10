@@ -1,0 +1,22 @@
+<div class="h-card  p-author">
+  <h2 class="page--contact__author  p-name">{{ site.author }}</h2>
+  <p>
+    <a class="u-photo" href="{{ site.avatarImage }}" title="{{ site.author }}" />
+      <span class="p-street-address">{{ site.street}}</span>
+    <br />
+    <span class="p-postal-code">{{ site.postalcode }}</span>
+    <span class="p-locality">{{ site.place }}</span>,
+    <span class="p-country-name">{{ site.country }}</span>
+    <br />
+    <a class="link  u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <br />
+    <a class="link  u-url" href="{{ site.url }}">{{ site.url }}</a>
+    <br />
+    <span class="p-tel">{{ site.phone }}</span>
+    <data class="p-latitude" value="{{ site.latitude }}"></data>
+    <data class="p-longitude" value="{{ site.longitude }}"></data>
+  </p>
+
+  {% render '@social' %}
+</div>
+
