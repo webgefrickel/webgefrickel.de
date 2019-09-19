@@ -1,7 +1,7 @@
 
 
 <!doctype html>
-<html class="no-js  fonts-loaded" lang="en" dir="ltr">
+<html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
     <title></title>
@@ -19,9 +19,9 @@
 
     <link rel="authorization_endpoint" href="//" />
     <link rel="token_endpoint" href="//" />
-    <link rel="me" href="https://twitter.com/yoursocialhandle" />
-    <link rel="me" href="https://github.com/yoursocialhandle" />
-    <link rel="me" href="https://keybase.io/yoursocialhandle" />
+    <link rel="me" href="https://twitter.com/Social Handle" />
+    <link rel="me" href="https://github.com/Social Handle" />
+    <link rel="me" href="https://keybase.io/Social Handle" />
     <link rel="pgpkey" href="url-to-public-key.txt">
 
     <meta property="og:url" content="" />
@@ -30,13 +30,13 @@
     <meta property="og:image" content="" />
     <meta property="og:image:alt" content=""/>
     <meta property="og:description" content=" " />
-    <meta property="og:site_name" content="webgefrickel—Styleguide" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Title of your website" />
+    <meta property="og:locale" content="" />
     <meta property="article:author" content="Site owners name" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@yoursocialhandle" />
-    <meta name="twitter:creator" content="@yoursocialhandle" />
+    <meta name="twitter:site" content="@Social Handle" />
+    <meta name="twitter:creator" content="@Social Handle" />
     <meta name="twitter:url" content="" />
     <meta name="twitter:title" content="" />
     <meta name="twitter:description" content="" />
@@ -53,7 +53,12 @@
 
     <!-- add any og/twitter-card stuff here -->
     
-      <link rel="stylesheet" href="../../styles/main.css" />
+      
+      <link id="modern-browsers" rel="stylesheet" href="../../styles/main.min.css?v=" media="
+        only print,
+        only all and (pointer: fine), only all and (pointer: coarse), only all and (pointer: none),
+        only all and (min--moz-device-pixel-ratio:0) and (display-mode:browser), (min--moz-device-pixel-ratio:0) and (display-mode:fullscreen)
+        " />
   </head>
   <body>
 
@@ -83,7 +88,20 @@
 </nav>
 
   
-    <script src="../../scripts/main.js" defer></script>
+    <!-- load legacy js code for browsers that do not support es2017+ -->
+    <script>
+      var modern = function() { var mq = document.getElementById('modern-browsers'); return window.matchMedia && window.matchMedia(mq.media).matches; };
+      var loadJs = function(src) { var ref = document.getElementsByTagName('script')[0]; var script = document.createElement('script'); script.src = src; script.async = true; ref.parentNode.insertBefore(script, ref); };
+      var loadCss = function (src) { var ref = document.getElementsByTagName('head')[0]; var style = document.createElement('link'); style.href = src; style.rel = 'stylesheet'; head.append(style); };
+
+      if (modern()) {
+        loadJs("../../scripts/main.min.js?v=");
+        
+      } else {
+        loadCSS("../../styles/main.legacy.css?v=");
+        loadJs("../../scripts/main.legacy.min.js?v=");
+      }
+    </script>
   
   </body>
 </html>

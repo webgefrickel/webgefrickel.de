@@ -4,7 +4,7 @@ return function($page) {
   $data = kalong();
   $tilePages = kirby()->site()->find('contact', 'work', 'blog');
 
-  $data['welcome'] = $page->welcome()->kirbytext();
+  $data['welcome'] = $page->welcome()->kirbytextinline();
 
   foreach ($tilePages as $tilePage) {
     $data['tiles'][] = [

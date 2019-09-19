@@ -8,8 +8,8 @@ module.exports = {
 
   // configure your localhost environment here, the host/proxy
   // should point to the root-folder configured below (default: ./public/)
-  scheme: 'https',
   proxy: 'wgf.dev.localhost',
+  https: true,
   port: 3000,
 
   // main file name (for styles and scripts)

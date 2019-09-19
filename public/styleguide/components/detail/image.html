@@ -245,15 +245,15 @@
     <code class="Code Code--lang-yaml">
         
             
-            <pre><span class="hljs-attr">debug:</span> <span class="hljs-literal">true</span>
-<span class="hljs-attr">styleguide:</span> <span class="hljs-literal">true</span>
-<span class="hljs-attr">hash:</span> <span class="hljs-number">1562760812719</span>
-<span class="hljs-attr">config:</span>
+            <pre><span class="hljs-attr">config:</span>
+<span class="hljs-attr">  debug:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">  styleguide:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">  hash:</span> <span class="hljs-number">1562771938527</span>
 <span class="hljs-attr">  config:</span>
 <span class="hljs-attr">    title:</span> <span class="hljs-string">webgefrickel</span>
 <span class="hljs-attr">    version:</span> <span class="hljs-number">6.0</span><span class="hljs-number">.0</span>
-<span class="hljs-attr">    scheme:</span> <span class="hljs-string">https</span>
 <span class="hljs-attr">    proxy:</span> <span class="hljs-string">wgf.dev.localhost</span>
+<span class="hljs-attr">    https:</span> <span class="hljs-literal">true</span>
 <span class="hljs-attr">    port:</span> <span class="hljs-number">3000</span>
 <span class="hljs-attr">    main:</span> <span class="hljs-string">main</span>
 <span class="hljs-attr">    root:</span> <span class="hljs-string">./public/</span>
@@ -271,68 +271,54 @@
 <span class="hljs-attr">    templates:</span> <span class="hljs-string">templates/</span>
 <span class="hljs-attr">    scripts:</span> <span class="hljs-string">scripts/</span>
 <span class="hljs-attr">    styles:</span> <span class="hljs-string">styles/</span>
-<span class="hljs-attr">    browsers:</span>
-<span class="hljs-attr">      modern:</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">last</span> <span class="hljs-number">2</span> <span class="hljs-string">Firefox</span> <span class="hljs-string">versions</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">last</span> <span class="hljs-number">2</span> <span class="hljs-string">Chrome</span> <span class="hljs-string">versions</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">last</span> <span class="hljs-number">2</span> <span class="hljs-string">Safari</span> <span class="hljs-string">versions</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">last</span> <span class="hljs-number">2</span> <span class="hljs-string">Edge</span> <span class="hljs-string">versions</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">last</span> <span class="hljs-number">2</span> <span class="hljs-string">iOS</span> <span class="hljs-string">versions</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">last</span> <span class="hljs-number">2</span> <span class="hljs-string">ChromeAndroid</span> <span class="hljs-string">versions</span>
-<span class="hljs-attr">      legacy:</span>
-<span class="hljs-bullet">        -</span> <span class="hljs-string">'&gt; 1% in DE'</span>
 <span class="hljs-attr">  fonts:</span>
-<span class="hljs-attr">    fonts:</span>
-<span class="hljs-attr">      default:</span>
-<span class="hljs-attr">        family:</span> <span class="hljs-string">Geomanist</span>
-<span class="hljs-attr">        fallback:</span> <span class="hljs-string">sans-serif</span>
-<span class="hljs-attr">        weight:</span> <span class="hljs-number">600</span>
-<span class="hljs-attr">        style:</span> <span class="hljs-string">normal</span>
-<span class="hljs-attr">        fontface:</span> <span class="hljs-literal">true</span>
-<span class="hljs-attr">        file:</span> <span class="hljs-string">geomanist-medium</span>
-<span class="hljs-attr">      regular:</span>
-<span class="hljs-attr">        family:</span> <span class="hljs-string">Geomanist</span>
-<span class="hljs-attr">        fallback:</span> <span class="hljs-string">sans-serif</span>
-<span class="hljs-attr">        weight:</span> <span class="hljs-number">400</span>
-<span class="hljs-attr">        style:</span> <span class="hljs-string">normal</span>
-<span class="hljs-attr">        fontface:</span> <span class="hljs-literal">true</span>
-<span class="hljs-attr">        file:</span> <span class="hljs-string">geomanist-regular</span>
-<span class="hljs-attr">      code:</span>
-<span class="hljs-attr">        family:</span> <span class="hljs-string">Menlo</span>
-<span class="hljs-attr">        fallback:</span> <span class="hljs-string">monospace</span>
-<span class="hljs-attr">        weight:</span> <span class="hljs-number">400</span>
-<span class="hljs-attr">        style:</span> <span class="hljs-string">normal</span>
-<span class="hljs-attr">        fontface:</span> <span class="hljs-literal">null</span>
+<span class="hljs-attr">    default:</span>
+<span class="hljs-attr">      family:</span> <span class="hljs-string">Geomanist</span>
+<span class="hljs-attr">      fallback:</span> <span class="hljs-string">sans-serif</span>
+<span class="hljs-attr">      weight:</span> <span class="hljs-number">600</span>
+<span class="hljs-attr">      style:</span> <span class="hljs-string">normal</span>
+<span class="hljs-attr">      fontface:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">      file:</span> <span class="hljs-string">geomanist-medium</span>
+<span class="hljs-attr">    regular:</span>
+<span class="hljs-attr">      family:</span> <span class="hljs-string">Geomanist</span>
+<span class="hljs-attr">      fallback:</span> <span class="hljs-string">sans-serif</span>
+<span class="hljs-attr">      weight:</span> <span class="hljs-number">400</span>
+<span class="hljs-attr">      style:</span> <span class="hljs-string">normal</span>
+<span class="hljs-attr">      fontface:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">      file:</span> <span class="hljs-string">geomanist-regular</span>
+<span class="hljs-attr">    code:</span>
+<span class="hljs-attr">      family:</span> <span class="hljs-string">Menlo</span>
+<span class="hljs-attr">      fallback:</span> <span class="hljs-string">monospace</span>
+<span class="hljs-attr">      weight:</span> <span class="hljs-number">400</span>
+<span class="hljs-attr">      style:</span> <span class="hljs-string">normal</span>
+<span class="hljs-attr">      fontface:</span> <span class="hljs-literal">null</span>
 <span class="hljs-attr">  mediaqueries:</span>
-<span class="hljs-attr">    mediaqueries:</span>
-<span class="hljs-attr">      s:</span> <span class="hljs-number">480</span>
-<span class="hljs-attr">      m:</span> <span class="hljs-number">640</span>
-<span class="hljs-attr">      l:</span> <span class="hljs-number">720</span>
-<span class="hljs-attr">      xl:</span> <span class="hljs-number">960</span>
-<span class="hljs-attr">      xxl:</span> <span class="hljs-number">1100</span>
-<span class="hljs-attr">      xxxl:</span> <span class="hljs-number">1250</span>
-<span class="hljs-attr">      xxxxl:</span> <span class="hljs-number">1600</span>
-<span class="hljs-attr">      portrait:</span> <span class="hljs-string">'(orientation: portrait)'</span>
-<span class="hljs-attr">      landscape:</span> <span class="hljs-string">'(orientation: landscape)'</span>
-<span class="hljs-attr">      print:</span> <span class="hljs-string">print</span>
-<span class="hljs-attr">      custom:</span> <span class="hljs-string">'(max-width: 30em)'</span>
+<span class="hljs-attr">    s:</span> <span class="hljs-number">48</span>
+<span class="hljs-attr">    m:</span> <span class="hljs-number">64</span>
+<span class="hljs-attr">    l:</span> <span class="hljs-number">72</span>
+<span class="hljs-attr">    xl:</span> <span class="hljs-number">96</span>
+<span class="hljs-attr">    xxl:</span> <span class="hljs-number">110</span>
+<span class="hljs-attr">    xxxl:</span> <span class="hljs-number">125</span>
+<span class="hljs-attr">    xxxxl:</span> <span class="hljs-number">160</span>
+<span class="hljs-attr">    portrait:</span> <span class="hljs-string">'(orientation: portrait)'</span>
+<span class="hljs-attr">    landscape:</span> <span class="hljs-string">'(orientation: landscape)'</span>
+<span class="hljs-attr">    print:</span> <span class="hljs-string">print</span>
+<span class="hljs-attr">language:</span>
+<span class="hljs-attr">  code:</span> <span class="hljs-string">en</span>
+<span class="hljs-attr">  locale:</span> <span class="hljs-string">en_US</span>
+<span class="hljs-attr">  direction:</span> <span class="hljs-string">ltr</span>
 <span class="hljs-attr">site:</span>
 <span class="hljs-attr">  modifiers:</span> <span class="hljs-literal">null</span>
 <span class="hljs-attr">  defaultColor:</span> <span class="hljs-string">'#323232'</span>
 <span class="hljs-attr">  mainColor:</span> <span class="hljs-string">'#999'</span>
-<span class="hljs-attr">  lang:</span>
-<span class="hljs-attr">    code:</span> <span class="hljs-string">en</span>
-<span class="hljs-attr">    locale:</span> <span class="hljs-string">en_US</span>
-<span class="hljs-attr">    direction:</span> <span class="hljs-string">ltr</span>
-<span class="hljs-attr">  url:</span> <span class="hljs-string">https//wgf.dev.localhost</span>
-<span class="hljs-attr">  title:</span> <span class="hljs-string">webgefrickel—Styleguide</span>
-<span class="hljs-attr">  documentTitle:</span> <span class="hljs-string">This</span> <span class="hljs-string">is</span> <span class="hljs-string">the</span> <span class="hljs-string">document</span> <span class="hljs-string">title</span>
-<span class="hljs-attr">  description:</span> <span class="hljs-string">General</span> <span class="hljs-string">page</span> <span class="hljs-string">description</span>
+<span class="hljs-attr">  url:</span> <span class="hljs-string">'https://'</span>
+<span class="hljs-attr">  title:</span> <span class="hljs-string">Title</span> <span class="hljs-string">of</span> <span class="hljs-string">your</span> <span class="hljs-string">website</span>
+<span class="hljs-attr">  description:</span> <span class="hljs-string">General</span> <span class="hljs-string">website</span> <span class="hljs-string">description</span>
 <span class="hljs-attr">  author:</span> <span class="hljs-string">Site</span> <span class="hljs-string">owners</span> <span class="hljs-string">name</span>
-<span class="hljs-attr">  social:</span> <span class="hljs-string">yoursocialhandle</span>
 <span class="hljs-attr">  previewImage:</span> <span class="hljs-string">//picsum.photos/300/300</span>
 <span class="hljs-attr">  previewImageAlt:</span> <span class="hljs-string">Alt</span> <span class="hljs-string">text</span> <span class="hljs-string">for</span> <span class="hljs-string">preview</span> <span class="hljs-string">image</span>
 <span class="hljs-attr">  avatarImage:</span> <span class="hljs-string">//picsum.photos/300/300</span>
+<span class="hljs-attr">  social:</span> <span class="hljs-string">Social</span> <span class="hljs-string">Handle</span>
 <span class="hljs-attr">  street:</span> <span class="hljs-string">Street</span> <span class="hljs-number">12</span>
 <span class="hljs-attr">  postalcode:</span> <span class="hljs-string">'39582'</span>
 <span class="hljs-attr">  region:</span> <span class="hljs-string">Some</span> <span class="hljs-string">Region</span>
@@ -345,29 +331,28 @@
 <span class="hljs-attr">  publicKey:</span> <span class="hljs-string">url-to-public-key.txt</span>
 <span class="hljs-attr">  authEndpoint:</span> <span class="hljs-string">//</span>
 <span class="hljs-attr">  tokenEndpoint:</span> <span class="hljs-string">//</span>
-<span class="hljs-attr">global:</span>
-<span class="hljs-attr">  nav:</span>
-<span class="hljs-attr">    meta:</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/imprint</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Imprint</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/privacy</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Privacy</span>
-<span class="hljs-attr">    main:</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/contact</span>
-<span class="hljs-attr">        slug:</span> <span class="hljs-string">contact</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Contact</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/work</span>
-<span class="hljs-attr">        slug:</span> <span class="hljs-string">work</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Work</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/blog</span>
-<span class="hljs-attr">        slug:</span> <span class="hljs-string">blog</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Blog</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/imprint</span>
-<span class="hljs-attr">        slug:</span> <span class="hljs-string">imprint</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Imprint</span>
-<span class="hljs-attr">      - href:</span> <span class="hljs-string">/privacy</span>
-<span class="hljs-attr">        slug:</span> <span class="hljs-string">privacy</span>
-<span class="hljs-attr">        label:</span> <span class="hljs-string">Privacy</span>
+<span class="hljs-attr">nav:</span>
+<span class="hljs-attr">  meta:</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/imprint</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Imprint</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/privacy</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Privacy</span>
+<span class="hljs-attr">  main:</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/contact</span>
+<span class="hljs-attr">      slug:</span> <span class="hljs-string">contact</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Contact</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/work</span>
+<span class="hljs-attr">      slug:</span> <span class="hljs-string">work</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Work</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/blog</span>
+<span class="hljs-attr">      slug:</span> <span class="hljs-string">blog</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Blog</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/imprint</span>
+<span class="hljs-attr">      slug:</span> <span class="hljs-string">imprint</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Imprint</span>
+<span class="hljs-attr">    - href:</span> <span class="hljs-string">/privacy</span>
+<span class="hljs-attr">      slug:</span> <span class="hljs-string">privacy</span>
+<span class="hljs-attr">      label:</span> <span class="hljs-string">Privacy</span>
 <span class="hljs-attr">modifiers:</span> <span class="hljs-literal">null</span>
 <span class="hljs-attr">sizes:</span> <span class="hljs-number">100</span><span class="hljs-string">vw</span>
 <span class="hljs-attr">caption:</span> <span class="hljs-literal">null</span>

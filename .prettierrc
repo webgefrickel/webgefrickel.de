@@ -1,6 +1,6 @@
 # Prettier autoformating / fixing config, matching linters
 
-printWidth: 100
+printWidth: 120
 singleQuote: true
 jsxSingleQuote: true
 trailingComma: es5

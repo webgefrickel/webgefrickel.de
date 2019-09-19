@@ -20,6 +20,7 @@
 }
 
 .link--with-icon {
+  position: relative;
   text-decoration: none;
 
   @include attention {
@@ -31,9 +32,13 @@
   }
 }
 
+.link__icon {
+  position: relative;
+  top: -0.2em;
+}
+
 .link--section {
-  transition: background-color #{$animation-duration-fast} ease,
-    width #{$animation-duration-default} ease;
+  transition: background-color #{$animation-duration-fast} ease, width #{$animation-duration-default} ease;
   display: none;
 
   @include mediaquery(xl) {

@@ -2,6 +2,14 @@ Title: Home
 
 ----
 
+seotitle: webgefrickel.de
+
+----
+
+Description: Styleguide driven, ethical web development. Handmade in Leipzig with lots of love ❤
+
+----
+
 Welcome: Hi there!  
 My name is Steffen Rademacker.  
 I build accessible and responsive websites. Web development, fuck yeah!

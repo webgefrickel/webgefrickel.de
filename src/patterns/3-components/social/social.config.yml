@@ -6,10 +6,10 @@ context:
   items:
     - icon: mastodon
       title: 'Profile on mastodon.social'
-      baseUrl: 'https://mastodon.social/@'
+      url: 'https://mastodon.social/@webgefrickel'
     - icon: twitter
       title: 'Profile on Twitter'
-      baseUrl: 'https://twitter.com/'
+      url: 'https://twitter.com/webgefrickel'
     - icon: github
       title: 'Profile on GitHub'
-      baseUrl: 'https://github.com/'
+      url: 'https://github.com/webgefrickel'

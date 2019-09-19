@@ -1,11 +1,3 @@
-Title: webgefrickel
-
-----
-
-Description: Styleguide driven, ethical web development. Handmade in Leipzig with lots of love ❤
-
-----
-
 Author: Steffen Rademacker
 
 ----
@@ -42,11 +34,11 @@ Country: Germany
 
 ----
 
-Lat: 51.32402
+Latitude: 51.32402
 
 ----
 
-Lon: 12.33618
+Longitude: 12.33618
 
 ----
 
@@ -56,6 +48,3 @@ Authendpoint: https://indieauth.com/auth
 
 Tokenendpoint: https://tokens.indieauth.com/token
 
-----
-
-Micropubendpoint: https://webgefrickel.de/micropub.php

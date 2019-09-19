@@ -10,6 +10,7 @@ function getHandles(app) {
   if (handles) {
     return handles;
   }
+
   handles = [];
   app.components.flatten().each(comp => {
     handles.push(comp.handle);

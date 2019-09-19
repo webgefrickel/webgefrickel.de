@@ -1,12 +1,12 @@
-debug: true
-styleguide: true
-hash: 1562760812719
 config:
+  debug: true
+  styleguide: true
+  hash: 1562771938527
   config:
     title: webgefrickel
     version: 6.0.0
-    scheme: https
     proxy: wgf.dev.localhost
+    https: true
     port: 3000
     main: main
     root: ./public/
@@ -24,68 +24,54 @@ config:
     templates: templates/
     scripts: scripts/
     styles: styles/
-    browsers:
-      modern:
-        - last 2 Firefox versions
-        - last 2 Chrome versions
-        - last 2 Safari versions
-        - last 2 Edge versions
-        - last 2 iOS versions
-        - last 2 ChromeAndroid versions
-      legacy:
-        - '> 1% in DE'
   fonts:
-    fonts:
-      default:
-        family: Geomanist
-        fallback: sans-serif
-        weight: 600
-        style: normal
-        fontface: true
-        file: geomanist-medium
-      regular:
-        family: Geomanist
-        fallback: sans-serif
-        weight: 400
-        style: normal
-        fontface: true
-        file: geomanist-regular
-      code:
-        family: Menlo
-        fallback: monospace
-        weight: 400
-        style: normal
-        fontface: null
+    default:
+      family: Geomanist
+      fallback: sans-serif
+      weight: 600
+      style: normal
+      fontface: true
+      file: geomanist-medium
+    regular:
+      family: Geomanist
+      fallback: sans-serif
+      weight: 400
+      style: normal
+      fontface: true
+      file: geomanist-regular
+    code:
+      family: Menlo
+      fallback: monospace
+      weight: 400
+      style: normal
+      fontface: null
   mediaqueries:
-    mediaqueries:
-      s: 480
-      m: 640
-      l: 720
-      xl: 960
-      xxl: 1100
-      xxxl: 1250
-      xxxxl: 1600
-      portrait: '(orientation: portrait)'
-      landscape: '(orientation: landscape)'
-      print: print
-      custom: '(max-width: 30em)'
+    s: 48
+    m: 64
+    l: 72
+    xl: 96
+    xxl: 110
+    xxxl: 125
+    xxxxl: 160
+    portrait: '(orientation: portrait)'
+    landscape: '(orientation: landscape)'
+    print: print
+language:
+  code: en
+  locale: en_US
+  direction: ltr
 site:
   modifiers: null
   defaultColor: '#323232'
   mainColor: '#999'
-  lang:
-    code: en
-    locale: en_US
-    direction: ltr
-  url: https//wgf.dev.localhost
-  title: webgefrickel—Styleguide
-  documentTitle: This is the document title
-  description: General page description
+  url: 'https://'
+  title: Title of your website
+  description: General website description
   author: Site owners name
-  social: yoursocialhandle
   previewImage: //picsum.photos/300/300
   previewImageAlt: Alt text for preview image
   avatarImage: //picsum.photos/300/300
+  social: Social Handle
   street: Street 12
   postalcode: '39582'
   region: Some Region
@@ -98,28 +84,27 @@ site:
   publicKey: url-to-public-key.txt
   authEndpoint: //
   tokenEndpoint: //
-global:
-  nav:
-    meta:
-      - href: /imprint
-        label: Imprint
-      - href: /privacy
-        label: Privacy
-    main:
-      - href: /contact
-        slug: contact
-        label: Contact
-      - href: /work
-        slug: work
-        label: Work
-      - href: /blog
-        slug: blog
-        label: Blog
-      - href: /imprint
-        slug: imprint
-        label: Imprint
-      - href: /privacy
-        slug: privacy
-        label: Privacy
+nav:
+  meta:
+    - href: /imprint
+      label: Imprint
+    - href: /privacy
+      label: Privacy
+  main:
+    - href: /contact
+      slug: contact
+      label: Contact
+    - href: /work
+      slug: work
+      label: Work
+    - href: /blog
+      slug: blog
+      label: Blog
+    - href: /imprint
+      slug: imprint
+      label: Imprint
+    - href: /privacy
+      slug: privacy
+      label: Privacy
 titleText: Back to the homepage
 

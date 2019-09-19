@@ -1,12 +1,16 @@
-<div class="h-card  p-author">
-  <h2 class="page--contact__author  p-name">{{ site.author }}</h2>
+<div class="contact  h-card  p-author">
+  <h2 class="contact__heading  p-name">{{ site.author }}</h2>
+  <a class="contact__avatar" href="{{ site.avatarImage }}" title="{{ site.author }}">
+    <img src="{{ site.avatarImage }}" class="contact__avatar-image" alt="{{ site.author }}" />
+  </a>
   <p>
-    <a class="u-photo" href="{{ site.avatarImage }}" title="{{ site.author }}" />
-      <span class="p-street-address">{{ site.street}}</span>
+    <span class="p-street-address">{{ site.street }}</span>
     <br />
     <span class="p-postal-code">{{ site.postalcode }}</span>
     <span class="p-locality">{{ site.place }}</span>,
     <span class="p-country-name">{{ site.country }}</span>
+  </p>
+  <p>
     <br />
     <a class="link  u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
     <br />

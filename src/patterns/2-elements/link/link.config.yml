@@ -2,15 +2,15 @@ status: wip
 
 context:
   modifiers: ''
-  icon: false
   href: '#'
-  title: ''
   text: Linktext
+  icon: false
+  title: false
+  attributes: false
 
 variants:
   - name: with-icon
     context:
+      text: Link with an icon
       icon: default
-      modifiers: 'link--with-icon  u-url'
-      attributes:
-        - 'rel="me"'
+      modifiers: 'link--with-icon'

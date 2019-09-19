@@ -3,6 +3,8 @@ icon: file-text-o
 pages:
   template: article
 files: false
+
+
 fields:
   title:
     label: Pagetitle

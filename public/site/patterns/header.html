@@ -6,10 +6,8 @@
 
   {% render '@nav' %}
   {% render '@logo' %}
-  {% for metaItem in global.nav.meta %}
-    <a href="{{ metaItem.href }}" class="link  link--meta  header__meta">
-      {{ metaItem.label }}
-    </a>
+  {% for metaItem in nav.meta %}
+    {% render '@link', { modifiers: 'link--meta  header__meta', text: metaItem.label } %}
   {% endfor %}
 
 {% if headerDefault %}

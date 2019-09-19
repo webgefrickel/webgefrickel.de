@@ -1,0 +1,28 @@
+// first we include global variable-maps from the config
+@import '../config/colors.json';
+@import '../config/fonts.json';
+@import '../config/font-sizes.json';
+@import '../config/mediaqueries.json';
+
+// and then all mixins and config variables and global settings
+@import '1-config/**/*.scss';
+@import '2-tools/**/*.scss';
+
+// throw in all other 3rdparty styles here this way we can override
+// vendor-styles in our components/layouts, if we really need to later on
+@import '3-vendor/**/*.scss';
+
+// base styles - for raw html-elements, no classes
+// this is where basic css reset styles happen
+@import '4-reset/**/*.scss';
+
+// The core of every projectp: all your patterns
+@import '../patterns/**/*.scss';
+
+// theme styles can override component styles, so they go after
+@import '6-themes/**/*.scss';
+
+// global helpers, that do not fit into their own component
+// helpers classes like clearfix, visuallyhidden etc. — opinionated!
+// and any overrides, shame and whatnot
+@import '7-overrides/**/*.scss';

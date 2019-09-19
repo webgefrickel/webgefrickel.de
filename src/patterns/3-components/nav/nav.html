@@ -1,7 +1,7 @@
 {% if not page.isHomepage %}
   <nav class="nav  js-nav">
     <ul class="nav__list">
-      {% for navItem in global.nav.main %}
+      {% for navItem in nav.main %}
         <li class="nav__item  nav__item--{{ navItem.slug }}">
           <a class="nav__link  js-nav__link  {% if page.current == navItem.slug %}  nav__link--active{% endif %}"
              href="{{ navItem.href }}">

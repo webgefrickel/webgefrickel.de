@@ -5,7 +5,7 @@ import copy from './copy';
 import eslint from './eslint';
 import fractal from './fractal';
 import htmlhint from './htmlhint';
-import pa11y from './pa11y';
+// import pa11y from './pa11y';
 import postcss from './postcss';
 import rollup from './rollup';
 import sass from './sass';
@@ -57,7 +57,7 @@ const styles = async () => {
 
 const preBuild = async () => Promise.all([run(clean), run(sassLint), run(eslint)]);
 const compileAssets = async () => Promise.all([run(styles), run(scripts), run(svgSprite)]);
-const postBuild = async () => Promise.all([run(htmlhint), run(pa11y)]);
+const postBuild = async () => Promise.all([run(htmlhint) /* , run(pa11y) */]);
 
 const copyAssets = async () =>
   Promise.all([

@@ -10,10 +10,6 @@
       <title><?= html($page->title() . ' | ' . $site->title()) ?></title>
     <?php endif ?>
 
-    <?php snippet('metadata') ?>
-    <?php snippet('favicons') ?>
-    <?php snippet('indieweb') ?>
-    <?php snippet('og-data') ?>
 
     <?php if (c::get('debugmode')): ?>
       <?= css(asset('css/main.css')) ?>

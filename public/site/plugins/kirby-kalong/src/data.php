@@ -17,22 +17,15 @@ function kalong($pattern = null) {
   $data['styleguide'] = false;
 
   // global site data
-  $data['site']['modifiers'] = '';
-  $data['site']['dir'] = 'ltr';
-  $data['site']['lang'] = $site->language()->code();
-  $data['site']['title'] = $homepage->seotitle();
-  $data['site']['description'] = $homepage->seodescription();
-  $data['site']['author'] = $homepage->hometitle();
+  $data['kirby'] = kirby();
+  $data['language'] = kirby()->language();
 
-  // page data
-  $data['page']['title'] = $page->title();
-  $data['page']['description'] = $page->description();
+  $data['site']['author'] = $site->author();
 
   // main navigation
   $data['global']['nav'] = [];
   $data['global']['nav']['main'] = [];
   $data['global']['nav']['meta'] = [];
-
 
   foreach ($site->children()->published() as $p)  {
     $data['global']['nav']['main'][] = [
@@ -42,7 +35,7 @@ function kalong($pattern = null) {
     ];
   }
 
-  //  documentTitle <title><?= html('A note from ' . strftime('%d. %B %Y, %H:%I', $page->date()) . ' | ' . $site->title())
+  //  title <title><?= html('A note from ' . strftime('%d. %B %Y, %H:%I', $page->date()) . ' | ' . $site->title())
 
   /* page.description etc, and documentTitle:
       {%- if page.isHomePage %}
@@ -51,6 +44,7 @@ function kalong($pattern = null) {
         {{ page.title }} — {{ site.title }}
       {%- endif %}
    */
+
 
   return $data;
 }

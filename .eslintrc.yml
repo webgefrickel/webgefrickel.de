@@ -6,7 +6,7 @@ extends:
   - 'prettier'
 
 parserOptions:
-  ecmaVersion: 2018
+  ecmaVersion: 2019
   sourceType: module
 
 env:
@@ -22,8 +22,6 @@ rules:
     - error
     - only-multiline
   capitalized-comments:
-    - off
-  no-console:
     - off
   object-curly-spacing:
     - error

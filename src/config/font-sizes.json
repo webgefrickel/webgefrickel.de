@@ -1,13 +1,13 @@
 {
   "font-sizes": {
-    "default": "24px",
-    "h1": "64px",
-    "h1-mobile": "36px",
-    "h2": "48px",
-    "h3": "24px",
-    "h4": "18px",
-    "h5": "18px",
-    "h6": "18px",
-    "small": "14px"
+    "default": "2.4rem",
+    "h1": "6.4rem",
+    "h1-mobile": "3.6rem",
+    "h2": "4.8rem",
+    "h3": "2.4rem",
+    "h4": "1.8rem",
+    "h5": "1.8rem",
+    "h6": "1.8rem",
+    "small": "1.4rem"
   }
 }
