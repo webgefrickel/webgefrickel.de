@@ -1,8 +1,0 @@
-<a href="{{ href }}" class="link{% if modifiers %}  {{ modifiers }}{% endif %}"
-  {% if title %} title="{{ title }}"{% endif %}
-  {% if attributes %} {{ attributes | join(' ') | safe }}{% endif %}>
-  {% if icon %}
-    {% render '@icon', { icon: icon, modifiers: 'link__icon' }, true %}
-  {% endif %}
-  <span class="link__text">{{ text }}</span>
-</a>

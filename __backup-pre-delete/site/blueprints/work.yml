@@ -1,8 +1,0 @@
-title: Work
-pages: true
-files: false
-icon: folder-o
-fields:
-  title:
-    label: Pagetitle
-    type: text

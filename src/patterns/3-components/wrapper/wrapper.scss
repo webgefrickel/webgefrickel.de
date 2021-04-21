@@ -1,6 +1,0 @@
-.wrapper {
-  @include mediaquery(xl) {
-    @include center;
-    max-width: $width-max;
-  }
-}

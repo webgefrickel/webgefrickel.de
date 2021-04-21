@@ -1,5 +1,0 @@
-@each $font-size, $font-size-value in $font-sizes {
-  .font-size--#{$font-size} {
-    @include font-size($font-size);
-  }
-}

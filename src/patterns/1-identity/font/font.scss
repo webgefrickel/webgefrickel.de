@@ -1,5 +1,0 @@
-@each $font, $config in $fonts {
-  .font--#{$font} {
-    @include font($font);
-  }
-}
