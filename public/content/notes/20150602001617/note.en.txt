@@ -1,0 +1,47 @@
+Title: 20150602001617
+
+----
+
+Date: 2015-06-02 00:15
+
+----
+
+Text: @tkadlec: This video on service workers by @jaffathecake is yet another example of how very excellent he is at explaining tech https://t…
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/605498127307698176
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20140805001358
+
+----
+
+Date: 2014-08-05 00:10
+
+----
+
+Text: @asciidisco @justb3a @gurkendoktor Ich auch!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/496343607524478976
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/496418794559254529
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

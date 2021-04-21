@@ -1,0 +1,51 @@
+Title: 20130130120402
+
+----
+
+Date: 2013-01-30 12:00
+
+----
+
+Text: @mann_ey kann jetzt schon keinen Tee mehr sehen :-/
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/296571785950949377
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/296574489079197696
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

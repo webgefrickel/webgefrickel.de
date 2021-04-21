@@ -1,0 +1,49 @@
+Title: 20140821004601
+
+----
+
+Date: 2014-08-21 00:45
+
+----
+
+Text: @csswizardry: Troll your coworkers: replace some of their hyphens with en dashes http://csswz.it/1s070Jm #wtfcss
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/502225065371779072
+
+----
+
+Hashtags:
+
+- wtfcss
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

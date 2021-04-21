@@ -1,0 +1,51 @@
+Title: 20170913131110
+
+----
+
+Date: 2017-09-13 13:10
+
+----
+
+Text: @bkastl Wenn ich die Seite bei mir aufm Mac in Chrome komplett anschaue: 149 requests, 32.4MB transferred. Oh boy...
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/907688601147920395
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/907924611962216449
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20130101021412
+
+----
+
+Date: 2013-01-01 02:10
+
+----
+
+Text: Bäm! Frohes Neues!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/285916801513177090
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

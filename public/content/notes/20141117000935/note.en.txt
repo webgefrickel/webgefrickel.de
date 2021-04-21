@@ -1,0 +1,51 @@
+Title: 20141117000935
+
+----
+
+Date: 2014-11-17 00:05
+
+----
+
+Text: @himg Du meinst dem Twitter, oder?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/534119509192617985
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/534121131159330816
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

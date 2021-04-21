@@ -1,0 +1,47 @@
+Title: 20150305222123
+
+----
+
+Date: 2015-03-05 22:20
+
+----
+
+Text: @wowa_TYPO3: WTF?? - Announcing TYPO3 CMS 4.5 Extended Long-Term-Support Plans http://typo3.org/news/article/announcing-typo3-cms-45-extended-long-term-support-plans/
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/573594177130340352
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20160812101706
+
+----
+
+Date: 2016-08-12 10:15
+
+----
+
+Text: @drublic: “I Peeked Into My Node_Modules Directory And You Won’t Believe What Happened Next” @jdan https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/764012821658996736
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

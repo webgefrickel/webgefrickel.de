@@ -1,0 +1,51 @@
+Title: 20150406010028
+
+----
+
+Date: 2015-04-06 01:00
+
+----
+
+Text: @helloanselm Geilhansen.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/584769240072224768
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/584853136436789248
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

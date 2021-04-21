@@ -1,0 +1,51 @@
+Title: 20170610135256
+
+----
+
+Date: 2017-06-10 13:50
+
+----
+
+Text: Mit dem Bus fühlt sich das erst richtig nach Rock an.
+
+----
+
+Location: 49.49986,11.33723
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 5
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/873508273546199040
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

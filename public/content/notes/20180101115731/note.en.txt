@@ -1,0 +1,51 @@
+Title: 20180101115731
+
+----
+
+Date: 2018-01-01 11:55
+
+----
+
+Text: What a beautiful way to start the new year!
+
+----
+
+Location: 49.83,14.46045
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 10
+
+----
+
+Retweets: 1
+
+----
+
+Remoteurl: https://twitter.com/statuses/947783842471047168
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

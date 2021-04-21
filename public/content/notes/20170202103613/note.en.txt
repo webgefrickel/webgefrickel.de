@@ -1,0 +1,47 @@
+Title: 20170202103613
+
+----
+
+Date: 2017-02-02 10:35
+
+----
+
+Text: @JeffGreenspan: I have no idea, Twitter. I have no idea.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/827088224040390656
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20120117124811
+
+----
+
+Date: 2012-01-17 12:45
+
+----
+
+Text: Hehe: https://www.emacswiki.org/emacs/TabsSpacesBoth
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/159240596370890752
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

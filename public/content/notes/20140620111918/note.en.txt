@@ -1,0 +1,47 @@
+Title: 20140620111918
+
+----
+
+Date: 2014-06-20 11:15
+
+----
+
+Text: @catalinred: A hexadecimal color clock, from #000000 to #235959 http://www.jacopocolo.com/hexclock/
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/479916390519177216
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

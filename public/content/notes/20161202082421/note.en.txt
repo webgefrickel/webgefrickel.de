@@ -1,0 +1,47 @@
+Title: 20161202082421
+
+----
+
+Date: 2016-12-02 08:20
+
+----
+
+Text: @ThePracticalDev: "And these are our node dependencies"
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/804586990058541056
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

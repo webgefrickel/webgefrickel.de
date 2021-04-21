@@ -1,0 +1,49 @@
+Title: 20171105190710
+
+----
+
+Date: 2017-11-05 19:05
+
+----
+
+Text: @btconf: A little change for #btconf's Warm-Up tomorrow. We have to start at 19:30 instead of 18:30. Sorry for that, but see you there!…
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/927235858872365058
+
+----
+
+Hashtags:
+
+- btconf
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

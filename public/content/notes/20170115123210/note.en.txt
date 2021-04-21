@@ -1,0 +1,51 @@
+Title: 20170115123210
+
+----
+
+Date: 2017-01-15 12:30
+
+----
+
+Text: @jaffathecake Hmm. I think I’d go 2.0.0 but add a deprecated note when someone is calling foo._bar — and kick it completely in 3.0.0 ;)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/820593544398249984
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/820594422354182144
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

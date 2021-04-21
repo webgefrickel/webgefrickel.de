@@ -1,0 +1,47 @@
+Title: 20160730182815
+
+----
+
+Date: 2016-07-30 18:25
+
+----
+
+Text: @ThingsWork: This is how a bat swims
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/759425382957342720
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

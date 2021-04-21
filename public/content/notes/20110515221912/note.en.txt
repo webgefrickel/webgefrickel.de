@@ -1,0 +1,49 @@
+Title: 20110515221912
+
+----
+
+Date: 2011-05-15 22:15
+
+----
+
+Text: Firefox4 spackt rum, wenn die font-face-Deklaration innerhalb einem @media-Bereich steht. Wieder ne Stunde verplempert. #frickelfox
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/69859394657062912
+
+----
+
+Hashtags:
+
+- frickelfox
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

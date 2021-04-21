@@ -1,0 +1,47 @@
+Title: 20150909223612
+
+----
+
+Date: 2015-09-09 22:35
+
+----
+
+Text: @aliciability:
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/641711726090690561
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

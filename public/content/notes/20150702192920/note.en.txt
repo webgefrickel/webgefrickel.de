@@ -1,0 +1,51 @@
+Title: 20150702192920
+
+----
+
+Date: 2015-07-02 19:25
+
+----
+
+Text: @fhemberger yeah, documentation is really sparse. My best bet always were existing issues on github - that says a lot :/
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/616658415478251520
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/616659937188560896
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

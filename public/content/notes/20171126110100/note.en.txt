@@ -1,0 +1,47 @@
+Title: 20171126110100
+
+----
+
+Date: 2017-11-26 11:00
+
+----
+
+Text: @NorthShore_DSA:
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/934723655174631431
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

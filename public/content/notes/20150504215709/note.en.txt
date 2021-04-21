@@ -1,0 +1,49 @@
+Title: 20150504215709
+
+----
+
+Date: 2015-05-04 21:55
+
+----
+
+Text: @Oatmeal: #MayThe4thBeWithYou
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/595316252538703872
+
+----
+
+Hashtags:
+
+- MayThe4thBeWithYou
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

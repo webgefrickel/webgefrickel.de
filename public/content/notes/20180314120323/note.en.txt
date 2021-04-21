@@ -1,0 +1,51 @@
+Title: 20180314120323
+
+----
+
+Date: 2018-03-14 12:00
+
+----
+
+Text: @bseppl I am still writing part 2, it's getting longer than anticipated ;) I decided against notmuch in favor of mu, because mu provides an interface for autocompletion of email-addresses from all archived/sent emails. So I will always find a lost email. I would not advice against it ;)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/973849700104396800
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/973877245461884928
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

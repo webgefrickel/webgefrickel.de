@@ -1,0 +1,49 @@
+Title: 20120402122529
+
+----
+
+Date: 2012-04-02 12:25
+
+----
+
+Text: @chriseppstein: I don't really see the point of maintaining sass now that there is #morecss. http://morecss.com/
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/186761261613191168
+
+----
+
+Hashtags:
+
+- morecss
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

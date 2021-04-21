@@ -1,0 +1,47 @@
+Title: 20160902193143
+
+----
+
+Date: 2016-09-02 19:30
+
+----
+
+Text: Omnomnom.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 3
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/771762542922305536
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

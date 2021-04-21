@@ -1,0 +1,49 @@
+Title: 20130921004037
+
+----
+
+Date: 2013-09-21 00:40
+
+----
+
+Text: @razvancaliman: Hello, @CSSconfeu attendees! I have a confession to make. This video is for you http://www.youtube.com/watch?v=evK4QaJlXPY #cssconfeu
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/381186160556777472
+
+----
+
+Hashtags:
+
+- cssconfeu
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

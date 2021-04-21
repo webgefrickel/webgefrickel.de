@@ -1,0 +1,47 @@
+Title: 20150605125550
+
+----
+
+Date: 2015-06-05 12:55
+
+----
+
+Text: @filip_axani Sth. like the fontsquirrel webfont generator, only for offline usage :)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/606776434615558144
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

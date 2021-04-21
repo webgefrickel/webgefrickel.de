@@ -1,0 +1,51 @@
+Title: 20170201111110
+
+----
+
+Date: 2017-02-01 11:10
+
+----
+
+Text: @dantz Was genau bedeutet das bei Dir?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/826734175919161344
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/826734630208409601
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

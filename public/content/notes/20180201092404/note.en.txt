@@ -1,0 +1,47 @@
+Title: 20180201092404
+
+----
+
+Date: 2018-02-01 09:20
+
+----
+
+Text: @drvinceknight: Is your child texting whilst using vim? rofl - replace current char with o and find l brb - replace 1st char of previo…
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/958979247548325888
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

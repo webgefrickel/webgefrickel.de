@@ -1,0 +1,47 @@
+Title: 20150601215300
+
+----
+
+Date: 2015-06-01 21:50
+
+----
+
+Text: @elliottkember: can anybody help me browserify my gulpconfig so webpack sourcemaps cjsx KILL ME
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/605462065831124992
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

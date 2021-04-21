@@ -1,0 +1,51 @@
+Title: 20170301132555
+
+----
+
+Date: 2017-03-01 13:25
+
+----
+
+Text: @cbeutenmueller Jupp.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/836914724143001600
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/836915400650723328
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

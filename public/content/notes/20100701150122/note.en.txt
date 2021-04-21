@@ -1,0 +1,47 @@
+Title: 20100701150122
+
+----
+
+Date: 2010-07-01 15:00
+
+----
+
+Text: Zero-Inbox. Yay!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/17490664458
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

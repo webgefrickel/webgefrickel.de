@@ -1,0 +1,47 @@
+Title: 20120210221340
+
+----
+
+Date: 2012-02-10 22:10
+
+----
+
+Text: @stubbornella: Me on vendor prefixes: The working group needs to move faster to standardize CSS3 so prefixes can be retired before th ...
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/168080215506042880
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

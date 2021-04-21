@@ -1,0 +1,51 @@
+Title: 20160310081437
+
+----
+
+Date: 2016-03-10 08:10
+
+----
+
+Text: @bastianallgeier needs more fuzz! ;)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/707674129974038532
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/707826978020261888
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

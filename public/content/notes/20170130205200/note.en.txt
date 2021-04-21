@@ -1,0 +1,51 @@
+Title: 20170130205200
+
+----
+
+Date: 2017-01-30 20:50
+
+----
+
+Text: @gurkendoktor There's a list? _.difference(allCountries, countriesIveBeenTo)?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/825788748289961984
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/826156024595886080
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

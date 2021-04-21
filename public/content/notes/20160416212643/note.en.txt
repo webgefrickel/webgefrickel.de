@@ -1,0 +1,55 @@
+Title: 20160416212643
+
+----
+
+Date: 2016-04-16 21:25
+
+----
+
+Text: @iwontsignuphere is nich!
+
+----
+
+Location: 49.45268253,11.0776826
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/721390962661027840
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/721419571303985152
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

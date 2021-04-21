@@ -1,0 +1,51 @@
+Title: 20141104140659
+
+----
+
+Date: 2014-11-04 14:05
+
+----
+
+Text: @asciidisco Not even for padding/margin-declarations? I like shorthands, but sometimes for git-diff purposes they can be to long :-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/529602813866033152
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/529620826640097282
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

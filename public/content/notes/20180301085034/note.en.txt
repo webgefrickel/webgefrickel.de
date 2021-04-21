@@ -1,0 +1,51 @@
+Title: 20180301085034
+
+----
+
+Date: 2018-03-01 08:50
+
+----
+
+Text: @webrocker Sieh es als Training!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/969115304642203648
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/969117679771684864
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

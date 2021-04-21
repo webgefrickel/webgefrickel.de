@@ -1,0 +1,47 @@
+Title: 20130208000320
+
+----
+
+Date: 2013-02-08 00:00
+
+----
+
+Text: @iancorey: Google: "40% of Gmail's storage is signature files and attached logo images."
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/299654607108464641
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

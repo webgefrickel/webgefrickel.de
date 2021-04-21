@@ -1,0 +1,51 @@
+Title: 20170525223018
+
+----
+
+Date: 2017-05-25 22:30
+
+----
+
+Text: @agross @pixelplastic Das sieht unverschämt lecker aus. Wo?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/867839437530640384
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/867840267197480960
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

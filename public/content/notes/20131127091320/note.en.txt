@@ -1,0 +1,47 @@
+Title: 20131127091320
+
+----
+
+Date: 2013-11-27 09:10
+
+----
+
+Text: Git Commit ;-) http://xkcd.com/1296/
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/405610275728285696
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

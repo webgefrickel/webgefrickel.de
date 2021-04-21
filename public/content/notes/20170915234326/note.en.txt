@@ -1,0 +1,51 @@
+Title: 20170915234326
+
+----
+
+Date: 2017-09-15 23:40
+
+----
+
+Text: @bastianallgeier Any ideas on what this means for kirby3?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/908787537291988994
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/908808501107060736
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

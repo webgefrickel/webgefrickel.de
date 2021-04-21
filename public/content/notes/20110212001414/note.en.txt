@@ -1,0 +1,50 @@
+Title: 20110212001414
+
+----
+
+Date: 2011-02-12 00:10
+
+----
+
+Text: Gesagt, getan: http://dev.webgefrickel.de/nicegrid - yay. Jetzt muss ich nur noch auf das nächste schöne Projekt warten. #css #framework
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/36201370772045824
+
+----
+
+Hashtags:
+
+- css
+- framework
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

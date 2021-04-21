@@ -1,0 +1,47 @@
+Title: 20170115121310
+
+----
+
+Date: 2017-01-15 12:10
+
+----
+
+Text: @freddyolo:
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/820589638020714496
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

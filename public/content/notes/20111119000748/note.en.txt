@@ -1,0 +1,47 @@
+Title: 20111119000748
+
+----
+
+Date: 2011-11-19 00:05
+
+----
+
+Text: Yay. https://github.com/Lokaltog/vim-easymotion
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/137668355212587008
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

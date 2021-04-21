@@ -1,0 +1,47 @@
+Title: 20150812225946
+
+----
+
+Date: 2015-08-12 22:55
+
+----
+
+Text: @ThePracticalDev: Debugging
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/631570794854883328
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20090214143931
+
+----
+
+Date: 2009-02-14 14:35
+
+----
+
+Text: @it_spirit you could make a ajax-request, if header 404, no image there...
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/1206482605
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1209680099
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

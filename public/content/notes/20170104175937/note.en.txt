@@ -1,0 +1,51 @@
+Title: 20170104175937
+
+----
+
+Date: 2017-01-04 17:55
+
+----
+
+Text: @FischaelaMeer hjkl, I remapped the arrow keys to move through buffers/split windows. Sooner or later you will use b, w, f and / more anyway
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/816677344303792128
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/816690559385473024
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

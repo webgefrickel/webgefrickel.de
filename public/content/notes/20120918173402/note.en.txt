@@ -1,0 +1,51 @@
+Title: 20120918173402
+
+----
+
+Date: 2012-09-18 17:30
+
+----
+
+Text: @paul_irish Regarding AceJump: You can also switch to Vim and use the easymotion plugin ;-) http://www.vim.org/scripts/script.php?script_id=3526
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/247474376495214592
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/248082460125061121
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

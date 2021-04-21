@@ -1,0 +1,47 @@
+Title: 20150124101353
+
+----
+
+Date: 2015-01-24 10:10
+
+----
+
+Text: @paulg: Many conversations on the Internet: Person 1: ∃x P(x) Person 2: -(∀x P(x))!
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/558915580594749440
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

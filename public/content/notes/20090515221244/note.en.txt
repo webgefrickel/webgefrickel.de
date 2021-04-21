@@ -1,0 +1,47 @@
+Title: 20090515221244
+
+----
+
+Date: 2009-05-15 22:10
+
+----
+
+Text: Geil. Das PHP-last.fm-API-Skript, das ich grad geschrieben hab funktioniert und tagged gerade meine Musik nach Genre. Yay.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1809739444
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,55 @@
+Title: 20101211020051
+
+----
+
+Date: 2010-12-11 02:00
+
+----
+
+Text: @Unterseeboot Freundlich, bunt, lecker Essen und so. Anders asiatisch, halt.
+
+----
+
+Location: 21.03158509,105.84791076
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/12525638694993920
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/13397768202616832
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

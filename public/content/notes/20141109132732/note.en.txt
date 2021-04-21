@@ -1,0 +1,47 @@
+Title: 20141109132732
+
+----
+
+Date: 2014-11-09 13:25
+
+----
+
+Text: @McFunkypants: This is a million dollar idea.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/531422838058930176
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

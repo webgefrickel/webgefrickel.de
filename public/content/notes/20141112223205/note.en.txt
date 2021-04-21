@@ -1,0 +1,51 @@
+Title: 20141112223205
+
+----
+
+Date: 2014-11-12 22:30
+
+----
+
+Text: @masteralf Schickes Teil!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/532646808703758336
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/532647043509256192
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

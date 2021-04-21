@@ -1,0 +1,51 @@
+Title: 20170529090417
+
+----
+
+Date: 2017-05-29 09:00
+
+----
+
+Text: @webrocker Tschakka!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/869086179714633728
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/869086979455102976
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

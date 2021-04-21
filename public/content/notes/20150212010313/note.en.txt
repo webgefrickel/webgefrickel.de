@@ -1,0 +1,51 @@
+Title: 20150212010313
+
+----
+
+Date: 2015-02-12 01:00
+
+----
+
+Text: @andi1984 Try the Inuit.css version - works fine for me :-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/565609123694514176
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/565662369326829569
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

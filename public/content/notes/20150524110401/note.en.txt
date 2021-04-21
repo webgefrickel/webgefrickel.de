@@ -1,0 +1,47 @@
+Title: 20150524110401
+
+----
+
+Date: 2015-05-24 11:00
+
+----
+
+Text: @FrancescoK: Helene Fischer, Frontend–Entwicklerin.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/602399641049702400
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

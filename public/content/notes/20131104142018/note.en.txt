@@ -1,0 +1,51 @@
+Title: 20131104142018
+
+----
+
+Date: 2013-11-04 14:20
+
+----
+
+Text: @derSchepp How many different version of jQuery and/or mootools/prototype/scriptaculous are included? ;-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/397318368509698048
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/397352605195964416
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

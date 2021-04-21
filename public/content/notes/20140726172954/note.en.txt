@@ -1,0 +1,47 @@
+Title: 20140726172954
+
+----
+
+Date: 2014-07-26 17:25
+
+----
+
+Text: @thedirtycoder: Never mastered TDD. We use GDD: Google, Duplicate, Deploy.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/493055618732023808
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

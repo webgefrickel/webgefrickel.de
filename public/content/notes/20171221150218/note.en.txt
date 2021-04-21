@@ -1,0 +1,51 @@
+Title: 20171221150218
+
+----
+
+Date: 2017-12-21 15:00
+
+----
+
+Text: New bag!
+
+----
+
+Location: 51.32403,12.33648
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/943844079103770624
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

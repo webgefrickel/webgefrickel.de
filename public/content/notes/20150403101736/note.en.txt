@@ -1,0 +1,51 @@
+Title: 20150403101736
+
+----
+
+Date: 2015-04-03 10:15
+
+----
+
+Text: @masteralf Zumindest 1password lässt sich auch per WLAN syncen, das muss man zwar aktiv machen, ist mir aber lieber als über Dropbox…
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/583891227424133120
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/583906182177431553
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

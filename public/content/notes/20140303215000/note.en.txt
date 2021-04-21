@@ -1,0 +1,47 @@
+Title: 20140303215000
+
+----
+
+Date: 2014-03-03 21:50
+
+----
+
+Text: @b0ringtweets: Retweet if you think this photo of a staple can beat Ellen DeGeneres world record tweet.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/440589934068760576
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

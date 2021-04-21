@@ -1,0 +1,47 @@
+Title: 20130515181146
+
+----
+
+Date: 2013-05-15 18:10
+
+----
+
+Text: @csswizardry: I secretly judge people who write `0px` in their CSS…
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/334702656293568512
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

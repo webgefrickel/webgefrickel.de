@@ -1,0 +1,53 @@
+Title: 20180116212534
+
+----
+
+Date: 2018-01-16 21:25
+
+----
+
+Text: Prost #btconf (in Düsseldorf bin ich dann wieder dabei)!
+
+----
+
+Location: 51.33918,12.41059
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 10
+
+----
+
+Retweets: 1
+
+----
+
+Remoteurl: https://twitter.com/statuses/953362615199240192
+
+----
+
+Hashtags:
+
+- btconf
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

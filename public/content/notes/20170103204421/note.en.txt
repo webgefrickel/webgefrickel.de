@@ -1,0 +1,51 @@
+Title: 20170103204421
+
+----
+
+Date: 2017-01-03 20:40
+
+----
+
+Text: @jkphl Dir auch!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/816346081676107776
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/816369629006274560
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

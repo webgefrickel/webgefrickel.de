@@ -1,0 +1,47 @@
+Title: 20140201095342
+
+----
+
+Date: 2014-02-01 09:50
+
+----
+
+Text: @iamdevloper: Things to try when fixing a bug: 1. Google 2. Stack Overflow 3. Documentation ... 8277. Disturb your co-worker who has…
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/429538034942750720
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

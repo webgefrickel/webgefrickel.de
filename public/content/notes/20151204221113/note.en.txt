@@ -1,0 +1,47 @@
+Title: 20151204221113
+
+----
+
+Date: 2015-12-04 22:10
+
+----
+
+Text: @Pandialo: Ich hasse Berlin.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/672885893477310464
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20170517103816
+
+----
+
+Date: 2017-05-17 10:35
+
+----
+
+Text: @_marcusherrmann Hehe, das ist so halb static. Danke! Wird auf 1999 umgestellt 😃
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/864761307400216580
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/864761978803429376
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

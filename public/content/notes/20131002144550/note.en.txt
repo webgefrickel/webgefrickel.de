@@ -1,0 +1,47 @@
+Title: 20131002144550
+
+----
+
+Date: 2013-10-02 14:45
+
+----
+
+Text: Ist schon nerdig wenn man sich drüber freut im Vim 42kdd einzugeben, wa?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/385385131705638912
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

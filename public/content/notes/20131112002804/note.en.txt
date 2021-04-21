@@ -1,0 +1,47 @@
+Title: 20131112002804
+
+----
+
+Date: 2013-11-12 00:25
+
+----
+
+Text: @wohali: ENTERPRISE, FUCK YEAH™ : "JSONx is an IBM® standard format to represent JSON as XML." I can't make this shit up, folks.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/400042271275765760
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

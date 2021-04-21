@@ -1,0 +1,51 @@
+Title: 20160518103542
+
+----
+
+Date: 2016-05-18 10:35
+
+----
+
+Text: @himg Für ne dev-Umgebung extra immer n Raspi rumschleppen kommt für mich leider nicht in Frage... Container a la Docker schmecken gut!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/732851468512940032
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/732852146106998785
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

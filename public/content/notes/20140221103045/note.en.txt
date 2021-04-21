@@ -1,0 +1,51 @@
+Title: 20140221103045
+
+----
+
+Date: 2014-02-21 10:30
+
+----
+
+Text: @semantosoph Hm, es wurde ja nicht das Internet abgeschaltet, sondern nur als Streikmedium benutzt, oder versteh ich da was falsch?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/436789943390982144
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/436795117647966208
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

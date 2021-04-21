@@ -1,0 +1,51 @@
+Title: 20170520092345
+
+----
+
+Date: 2017-05-20 09:20
+
+----
+
+Text: @schoschie Spell-checking for words only would be quite a simple task, I assume. Grammar is a whole different thing…
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/865689692498534401
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/865830387532132352
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

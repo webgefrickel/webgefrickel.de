@@ -1,0 +1,51 @@
+Title: 20170525222242
+
+----
+
+Date: 2017-05-25 22:20
+
+----
+
+Text: @schoschie Yesterday:
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/867789483084828672
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/867838356587249666
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20170723174429
+
+----
+
+Date: 2017-07-23 17:40
+
+----
+
+Text: @HugoGiraudel I’ve put my trust into http://mailbox.org and am quite satisfied so far.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/889136034876928000
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/889149224423751680
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

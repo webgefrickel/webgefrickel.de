@@ -1,0 +1,51 @@
+Title: 20170207092213
+
+----
+
+Date: 2017-02-07 09:20
+
+----
+
+Text: @coffeepyros How did it go?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/828403091875700736
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/828881539907870720
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20150602223600
+
+----
+
+Date: 2015-06-02 22:35
+
+----
+
+Text: Implementing srcset and throwing in @scottjehl 's picturefill is way better invested time, than debating over 'if or not to use jQuery' :)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/605835278473830400
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

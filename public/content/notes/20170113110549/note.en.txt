@@ -1,0 +1,51 @@
+Title: 20170113110549
+
+----
+
+Date: 2017-01-13 11:05
+
+----
+
+Text: @helloanselm @MadeMyDay Das war bestimmt slate, oder? Da kannste alles mit JS konfigurieren. Wird aber afaik nicht mehr weiterentwickelt…
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/819847367616851968
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/819847915875237889
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

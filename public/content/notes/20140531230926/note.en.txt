@@ -1,0 +1,51 @@
+Title: 20140531230926
+
+----
+
+Date: 2014-05-31 23:05
+
+----
+
+Text: @Pandialo ein Fläschchen ist hiermit reserviert :-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/471953039969234944
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/472847345043124224
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

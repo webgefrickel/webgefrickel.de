@@ -1,0 +1,49 @@
+Title: 20090729113941
+
+----
+
+Date: 2009-07-29 11:35
+
+----
+
+Text: Yeeha, das Update auf 5.3 über macports hat mir grade die lokale Typo3-Testumgebung zerschossen - n Haufen deprecated. Tsts #typo3
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/2907118966
+
+----
+
+Hashtags:
+
+- typo3
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

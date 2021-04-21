@@ -1,0 +1,47 @@
+Title: 20140820013752
+
+----
+
+Date: 2014-08-20 01:35
+
+----
+
+Text: @lukew: Great programmers delete code. Great interface designers delete UI.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/501875726665383936
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

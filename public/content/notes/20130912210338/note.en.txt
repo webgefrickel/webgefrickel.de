@@ -1,0 +1,49 @@
+Title: 20130912210338
+
+----
+
+Date: 2013-09-12 21:00
+
+----
+
+Text: Arrived in Berlin @CSSconfeu - anyone for a beer? #cssconfeu
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/378232453280071680
+
+----
+
+Hashtags:
+
+- cssconfeu
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

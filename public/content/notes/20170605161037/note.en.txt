@@ -1,0 +1,51 @@
+Title: 20170605161037
+
+----
+
+Date: 2017-06-05 16:10
+
+----
+
+Text: So ein eigener Garten ist schon was feines.
+
+----
+
+Location: 51.33941,12.41126
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 7
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/871730983657144321
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

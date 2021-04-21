@@ -1,0 +1,51 @@
+Title: 20170224090601
+
+----
+
+Date: 2017-02-24 09:05
+
+----
+
+Text: @m_ott Bist Du auch aufm Indiewebcamp davor da?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/835037837284237312
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/835038055304212480
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

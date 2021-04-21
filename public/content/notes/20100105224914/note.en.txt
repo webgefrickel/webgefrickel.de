@@ -1,0 +1,51 @@
+Title: 20100105224914
+
+----
+
+Date: 2010-01-05 22:45
+
+----
+
+Text: @Flocke Ich nutze Timelog4 und GrandTotal, bin zufrieden. Wär auf jeden Fall ne Alternative zu billings.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/7400150359
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/7416579774
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

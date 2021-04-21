@@ -1,0 +1,47 @@
+Title: 20140113172806
+
+----
+
+Date: 2014-01-13 17:25
+
+----
+
+Text: Not bad. npm_lazy - von 120sec npm-install-zeit runter auf 72 - immerhin. https://github.com/mixu/npm_lazy
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/422767017964605440
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

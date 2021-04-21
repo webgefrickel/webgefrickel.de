@@ -1,0 +1,51 @@
+Title: 20140724202609
+
+----
+
+Date: 2014-07-24 20:25
+
+----
+
+Text: @getkirby whoa, can’t wait for the stable release :-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/492323790723227648
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/492375198671589376
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

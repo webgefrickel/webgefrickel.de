@@ -1,0 +1,47 @@
+Title: 20150705213557
+
+----
+
+Date: 2015-07-05 21:35
+
+----
+
+Text: @sindresorhus: Hey, can everyone stop making new frameworks for a while so I can catch up?
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/617778964417904641
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20130403153256
+
+----
+
+Date: 2013-04-03 15:30
+
+----
+
+Text: Maaaan. Und ich wunder mich die ganze Zeit warum das scheiss Stylesheet nicht greift. Einmal SASS immer SASS. // inlinecommentbreakingstuff
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/319442395106258946
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

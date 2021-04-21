@@ -1,0 +1,47 @@
+Title: 20190422155955
+
+----
+
+Date: 2019-04-22 15:55
+
+----
+
+Text: Finally, after haven't blogged for 1.5 years, here is part two of my series on using mutt as an email-client: https://webgefrickel.de/blog/a-modern-mutt-setup-part-two — part three is already in the making! :) Thanks for your patience.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 4
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1120326369584525314
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

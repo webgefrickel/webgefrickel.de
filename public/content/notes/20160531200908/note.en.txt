@@ -1,0 +1,51 @@
+Title: 20160531200908
+
+----
+
+Date: 2016-05-31 20:05
+
+----
+
+Text: @fredericmarx WTF?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/737659704411889664
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/737707499999105025
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

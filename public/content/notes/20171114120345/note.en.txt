@@ -1,0 +1,51 @@
+Title: 20171114120345
+
+----
+
+Date: 2017-11-14 12:00
+
+----
+
+Text: @semantosoph Oh noes! Gute Besserung!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/930351512131432448
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/930390791725477893
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

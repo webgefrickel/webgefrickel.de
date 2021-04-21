@@ -1,0 +1,47 @@
+Title: 20150713195302
+
+----
+
+Date: 2015-07-13 19:50
+
+----
+
+Text: @aarongreenberg:
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/620652166299131904
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

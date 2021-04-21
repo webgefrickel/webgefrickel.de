@@ -1,0 +1,51 @@
+Title: 20161019091357
+
+----
+
+Date: 2016-10-19 09:10
+
+----
+
+Text: @foobartel well, let’s hope they will be ready to ship as soon as possible…
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/788636872918446080
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/788639305933742080
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

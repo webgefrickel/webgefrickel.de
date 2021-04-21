@@ -1,0 +1,51 @@
+Title: 20120621102838
+
+----
+
+Date: 2012-06-21 10:25
+
+----
+
+Text: @rockpiper what about a simple git alias for pushing to the ‘default’ branch?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/215381369419874304
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/215722885623451649
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20150412171130
+
+----
+
+Date: 2015-04-12 17:10
+
+----
+
+Text: @asciidisco I really would be interested in that, too. Or RxJS, doesn't matter :-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/587232281087111168
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/587271832241315840
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

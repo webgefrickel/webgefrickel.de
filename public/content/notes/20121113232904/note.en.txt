@@ -1,0 +1,47 @@
+Title: 20121113232904
+
+----
+
+Date: 2012-11-13 23:25
+
+----
+
+Text: @codinghorror: The greatest trick the devil ever pulled was getting everyone to pay $100 extra for another 16GB of flash memory on th ...
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/268480627953778688
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20091026102559
+
+----
+
+Date: 2009-10-26 10:25
+
+----
+
+Text: @Flocke Ctrl+Shift+D zum duplizieren, Ctrl+Cmd CursorUp/Down zum Zeilen verschieben.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/5169205035
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/5169261733
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

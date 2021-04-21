@@ -1,0 +1,51 @@
+Title: 20160330000120
+
+----
+
+Date: 2016-03-30 00:00
+
+----
+
+Text: @oliverwehn That's perfectly normal.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/714754785371619329
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/714935498079412228
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20090810144044
+
+----
+
+Date: 2009-08-10 14:40
+
+----
+
+Text: Shorten This: URL shorteners, obfuscation, failure, and rolling your own in WordPress. http://www.zeldman.com/x/50 (via @zeldman) - HA!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/3224254971
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20180224145224
+
+----
+
+Date: 2018-02-24 14:50
+
+----
+
+Text: @SecretCoAuthor: Das Auto ist das ineffizienteste und schmutzigste Verkehrsmittel.
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/967396797512667136
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

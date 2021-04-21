@@ -1,0 +1,51 @@
+Title: 20160509024823
+
+----
+
+Date: 2016-05-09 02:45
+
+----
+
+Text: @m_ott Ha! Überbewertet!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/729472919668150273
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/729473054548606977
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20190315132325
+
+----
+
+Date: 2019-03-15 13:20
+
+----
+
+Text: @webrocker Das kann ich nur zurückgeben. Vielen Dank!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/1106518893638479873
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1106531342265782272
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

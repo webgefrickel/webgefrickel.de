@@ -1,0 +1,47 @@
+Title: 20170314194921
+
+----
+
+Date: 2017-03-14 19:45
+
+----
+
+Text: @VolkerGoebbels: You use git? Then you need gti: https://github.com/rwos/gti
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/841722936247627781
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

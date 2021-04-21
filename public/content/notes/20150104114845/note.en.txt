@@ -1,0 +1,51 @@
+Title: 20150104114845
+
+----
+
+Date: 2015-01-04 11:45
+
+----
+
+Text: @verpixelt System Preferencs / Keyboard, first Tab, "Modifier Keys", though you can only remap to Ctrl/Alt/Cmd. Karabiner is a nice tool :-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/551496765602803715
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/551691696560685056
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

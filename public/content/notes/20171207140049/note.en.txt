@@ -1,0 +1,47 @@
+Title: 20171207140049
+
+----
+
+Date: 2017-12-07 14:00
+
+----
+
+Text: @brucel: Finally, a helpful explainer diagram for the webpack plugin API
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/938755174264434688
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

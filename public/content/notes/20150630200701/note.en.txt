@@ -1,0 +1,47 @@
+Title: 20150630200701
+
+----
+
+Date: 2015-06-30 20:05
+
+----
+
+Text: @gurkendoktor Thank you for your article on fastcgi_cache - I got it up and running, and it is blazingly fast: https://webgefrickel.de/blog/nginx-and-wordpress
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/615944644044713984
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

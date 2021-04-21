@@ -1,0 +1,51 @@
+Title: 20141127093031
+
+----
+
+Date: 2014-11-27 09:30
+
+----
+
+Text: @webrocker ich vermeide deshalb immer mehr überhaupt TYPO3 einzusetzen. Das wird immer mehr ge-kaputt-enterprised…
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/537868441139830784
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 1
+
+----
+
+Remoteurl: https://twitter.com/statuses/537886170618011648
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

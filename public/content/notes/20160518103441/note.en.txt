@@ -1,0 +1,51 @@
+Title: 20160518103441
+
+----
+
+Date: 2016-05-18 10:30
+
+----
+
+Text: @himg Das ist/war ja genau das Problem: OS X muckt. Den Rest hab ich in Containern/so geskriptet, dass das mittlerweile ein no-Brainer ist.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/732851468512940032
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/732851890313138176
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

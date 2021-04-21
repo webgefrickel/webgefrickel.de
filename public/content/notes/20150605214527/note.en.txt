@@ -1,0 +1,51 @@
+Title: 20150605214527
+
+----
+
+Date: 2015-06-05 21:45
+
+----
+
+Text: @gurkendoktor that’s why I still haven’t installed 10.10 - I ignore every second update :-) well, the old tweebot/1passwd versions still run
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/606823668501630977
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/606909717009559552
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

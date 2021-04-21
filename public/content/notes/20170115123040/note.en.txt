@@ -1,0 +1,51 @@
+Title: 20170115123040
+
+----
+
+Date: 2017-01-15 12:30
+
+----
+
+Text: @jaffathecake would be ok for me. 2.0.0 if you kick it, and 1.3.0 if you ‘just add’ http://foo.bar
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/820593544398249984
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/820594042857725952
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,47 @@
+Title: 20150331231809
+
+----
+
+Date: 2015-03-31 23:15
+
+----
+
+Text: Goodbye Gmail.
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/583015447630577664
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

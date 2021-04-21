@@ -1,0 +1,53 @@
+Title: 20160417192518
+
+----
+
+Date: 2016-04-17 19:25
+
+----
+
+Text: @jkphl Thanks again for hosting #IndieWebCamp - had a blast the last two days. See you all @btconf in three weeks!
+
+----
+
+Location: 49.65508335,11.45673961
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Favorites: 5
+
+----
+
+Retweets: 1
+
+----
+
+Remoteurl: https://twitter.com/statuses/721751402020802562
+
+----
+
+Hashtags:
+
+- IndieWebCamp
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

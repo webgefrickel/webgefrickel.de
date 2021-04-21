@@ -1,0 +1,47 @@
+Title: 20161110173830
+
+----
+
+Date: 2016-11-10 17:35
+
+----
+
+Text: @bassistance: Suche ab sofort Freelancer für ein Projekt in Köln, nähe Hbf, 4-5 Tage/W, möglichst vor Ort. Web App mit React, webpack, f…
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/796753914611769346
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

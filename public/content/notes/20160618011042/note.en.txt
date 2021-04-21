@@ -1,0 +1,51 @@
+Title: 20160618011042
+
+----
+
+Date: 2016-06-18 01:10
+
+----
+
+Text: @masteralf Kein Ding! Das wird wieder vorkommen :)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/743941932590768129
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/743943984574246912
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

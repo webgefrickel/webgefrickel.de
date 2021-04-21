@@ -1,0 +1,51 @@
+Title: 20190517121947
+
+----
+
+Date: 2019-05-17 12:15
+
+----
+
+Text: @t @btconf @indiewebcamp I am honestly thinking about that :)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/1129173883922178048
+
+----
+
+Favorites: 3
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1129330665101627392
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

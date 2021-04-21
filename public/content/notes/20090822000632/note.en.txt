@@ -1,0 +1,51 @@
+Title: 20090822000632
+
+----
+
+Date: 2009-08-22 00:05
+
+----
+
+Text: @matcek Was zahlstn?
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/3453316464
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/3459504399
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

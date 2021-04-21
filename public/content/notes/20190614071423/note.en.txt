@@ -1,0 +1,47 @@
+Title: 20190614071423
+
+----
+
+Date: 2019-06-14 07:10
+
+----
+
+Text: @cbeutenmueller: @webgefrickel
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1139400670925037571
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

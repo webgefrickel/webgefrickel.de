@@ -1,0 +1,51 @@
+Title: 20140123124005
+
+----
+
+Date: 2014-01-23 12:40
+
+----
+
+Text: @chriscoyier like, a real hangout or that google thingie? ;-)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/426144325320192000
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/426318413527789568
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

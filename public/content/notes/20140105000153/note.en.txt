@@ -1,0 +1,47 @@
+Title: 20140105000153
+
+----
+
+Date: 2014-01-05 00:00
+
+----
+
+Text: @solomonstre: Testers wanted for the first official OSX build of @docker: http://test.docker.io/builds/Darwin/x86_64/docker-0.7.3.tgz
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/419604627076956160
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

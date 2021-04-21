@@ -1,0 +1,47 @@
+Title: 20150129223035
+
+----
+
+Date: 2015-01-29 22:30
+
+----
+
+Text: @horse_js: Stop it with this ASI nonsense. Semicolons are cool
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/560912918745608192
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

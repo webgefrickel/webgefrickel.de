@@ -1,0 +1,51 @@
+Title: 20150412172434
+
+----
+
+Date: 2015-04-12 17:20
+
+----
+
+Text: @asciidisco And another tool to look into :-) Documentation for most looks good...
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/587272686608506881
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/587275122475663360
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

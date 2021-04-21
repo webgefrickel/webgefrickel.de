@@ -1,0 +1,47 @@
+Title: 20160425234427
+
+----
+
+Date: 2016-04-25 23:40
+
+----
+
+Text: This is so wrong...
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 1
+
+----
+
+Remoteurl: https://twitter.com/statuses/724715722971164673
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

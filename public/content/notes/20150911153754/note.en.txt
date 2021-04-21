@@ -1,0 +1,51 @@
+Title: 20150911153754
+
+----
+
+Date: 2015-09-11 15:35
+
+----
+
+Text: @helloanselm It's not the tooling, it's developers not bothering to do a github search for already existing ${buildToolOfChoice}-plugins ;)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/642320670823718913
+
+----
+
+Favorites: 1
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/642331234455171072
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

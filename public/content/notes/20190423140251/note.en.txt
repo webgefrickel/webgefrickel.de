@@ -1,0 +1,51 @@
+Title: 20190423140251
+
+----
+
+Date: 2019-04-23 14:00
+
+----
+
+Text: @faulancr @nebu Yay!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/1120627570737860608
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1120659293538258945
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

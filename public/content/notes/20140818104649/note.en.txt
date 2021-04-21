@@ -1,0 +1,47 @@
+Title: 20140818104649
+
+----
+
+Date: 2014-08-18 10:45
+
+----
+
+Text: @meta_bene: Der Aufstand
+
+----
+
+Isretweet: 1
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/501289101325529090
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

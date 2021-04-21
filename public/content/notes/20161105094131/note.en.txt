@@ -1,0 +1,51 @@
+Title: 20161105094131
+
+----
+
+Date: 2016-11-05 09:40
+
+----
+
+Text: @jkphl wohoo! See you later!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/794818530357153793
+
+----
+
+Favorites: 2
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/794821937474183170
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

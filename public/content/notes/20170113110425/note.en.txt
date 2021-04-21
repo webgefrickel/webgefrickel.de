@@ -1,0 +1,51 @@
+Title: 20170113110425
+
+----
+
+Date: 2017-01-13 11:00
+
+----
+
+Text: @MadeMyDay Ich nutze kwm/khd - ist aber frickelig zu konfigurieren und ne Umgewöhnungsphase nötig. Dann aber klasse :)
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/819843028626079744
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/819847563897700352
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

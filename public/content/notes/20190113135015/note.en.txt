@@ -1,0 +1,47 @@
+Title: 20190113135015
+
+----
+
+Date: 2019-01-13 13:50
+
+----
+
+Text: Because, why not...
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 
+
+----
+
+Favorites: 9
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/1084432435817955328
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

@@ -1,0 +1,51 @@
+Title: 20171214002319
+
+----
+
+Date: 2017-12-14 00:20
+
+----
+
+Text: @adactio No sir, thank you!
+
+----
+
+Isretweet: 
+
+----
+
+Isreply: 1
+
+----
+
+Inreplyto: https://twitter.com/statuses/941080673506471936
+
+----
+
+Favorites: 0
+
+----
+
+Retweets: 0
+
+----
+
+Remoteurl: https://twitter.com/statuses/941086160805421056
+
+----
+
+Hashtags: 
+
+----
+
+Author:
+
+- kirby
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
