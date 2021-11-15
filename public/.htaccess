@@ -711,6 +711,24 @@ FileETag None
 </IfModule>
 
 
+# ----------------------------------------------------------------------
+# | Redirecting old subfolders to root
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RedirectMatch 301 ^/contact/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/work/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/blog/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/legal-notice/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/error/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/leihamt/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/notes/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/offline/?$ https://webgefrickel.de
+  RedirectMatch 301 ^/with-love/?$ https://webgefrickel.de
+</IfModule>
+
+
 # ######################################################################
 # KIRBY
 # ######################################################################

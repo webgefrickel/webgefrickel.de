@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>webgefrickel.de</title>
-    <meta name="description" content="Web development handmade in Leipzig" />
+    <meta name="description" content="Web development—handmade in Leipzig" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="robots" content="index,follow" />
@@ -30,7 +30,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://webgefrickel.de" />
     <meta property="og:site_name" content="webgefrickel" />
-    <meta property="og:description" content="Web development handmade in Leipzig" />
+    <meta property="og:description" content="Web development—handmade in Leipzig" />
     <meta name="twitter:site" content="@webgefrickel" />
     <meta name="twitter:creator" content="@webgefrickel" />
     <meta name="twitter:card" content="summary" />
@@ -54,38 +54,14 @@
       body {
         padding-top: calc(100vh + 6rem);
         margin: 0;
-        font-size: 1.6rem;
-        line-height: 1.5;
+        font-size: 1.8rem;
+        font-weight: normal;
+        line-height: 1.45;
         font-family: "Fira Code", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
         background: #323232;
         color: #70c382;
       }
 
-      h1 {
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: 0;
-        text-align: center;
-        font-size: 50vw;
-        font-weight: 700;
-        line-height: 1;
-        transform: translate(-50%, -50%) scale(1);
-        animation: heartbeat 1.7s infinite 1s;
-        will-change: transform;
-      }
-
-      h2, h3 {
-        font-size: 1.8rem;
-        font-weight: 600;
-      }
-
-      a {
-        color: inherit;
-      }
-
-      aside,
       article {
         position: relative;
         max-width: 86rem;
@@ -93,20 +69,74 @@
         margin: 0 auto;
       }
 
-      aside::before,
       article::before {
         display: block;
         height: 0.1rem;
         position: absolute;
         top: 0;
-        left: 25%;
-        right: 25%;
+        left: 35%;
+        right: 35%;
         content: '';
         background: #70c382;
       }
 
-      aside {
-        font-size: 1.2rem;
+      article:nth-child(4),
+      article:nth-child(5) {
+        font-size: 1.4rem;
+      }
+
+      h1, h2, h3 {
+        font-size: 2.4rem;
+        font-weight: bolder;
+      }
+
+      strong {
+        font-weight: bolder;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      h1 {
+        position: relative;
+        padding: 0rem 0rem 6rem;
+        margin: 0 auto 6rem;
+        text-align: center;
+      }
+
+      h1:first-of-type::before {
+        display: block;
+        height: 0.1rem;
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        right: 35%;
+        content: '';
+        background: #70c382;
+      }
+
+      svg {
+        display: block;
+        position: absolute;
+        width: 60vw;
+        height: 60vw;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        text-align: center;
+        line-height: 1;
+        transform: translate(-50%, -50%) scale(1);
+        animation: heartbeat 1.7s infinite;
+        will-change: transform;
+        fill: #70c382;
+      }
+
+      @media (orientation: landscape) {
+        svg {
+          width: 60vh;
+          height: 60vh;
+        }
       }
 
       @keyframes heartbeat {
@@ -118,39 +148,50 @@
   </head>
 
   <body>
-    <h1>♥</h1>
+    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title">
+      <title id="svg-title">A heart-shape</title>
+      <path d="M17.442,1.758c-9.738,-0 -17.442,7.849 -17.442,17.442c0,9.477 4.707,15.479 11.095,21.411c6.043,5.611 13.626,11.175 19.734,20.006l1.124,1.625l1.096,-1.644c5.839,-8.758 13.451,-14.483 19.588,-20.189c6.494,-6.037 11.363,-12.083 11.363,-21.209c0,-9.593 -7.849,-17.442 -17.442,-17.442c-6.084,-0 -11.503,3.098 -14.622,7.842c-3.093,-4.746 -8.406,-7.842 -14.494,-7.842Zm0,2.683c5.9,0 10.938,3.442 13.274,8.48l1.217,2.627l1.217,-2.627c2.337,-5.042 7.505,-8.48 13.408,-8.48c8.117,0 14.759,6.642 14.759,14.759c-0,8.316 -4.59,13.742 -10.507,19.244c-5.896,5.481 -13.096,11.005 -18.896,19.08c-6.02,-8.122 -13.19,-13.492 -18.993,-18.879c-5.821,-5.406 -10.238,-10.809 -10.238,-19.445c0,-8.117 6.519,-14.759 14.759,-14.759Z" />
+    </svg>
 
     <article>
-      <h2>¡Hola!</h2>
-      <p>Thanks for the ride—I had lots of fun, love y'all and see you later! This website will no longer be maintained ¯\_(ツ)_/¯<p>
-      <p>(If you are looking for articles from my old blog, you can find an archive <a href="https://github.com/webgefrickel/webgefrickel.de/tree/master/public/content/3-blog">in this git repository</a>)
+      <h1>Spread love, stay curious, be kind.</h1>
+      <p>
+        If you are looking for articles from my old website, you can find an archive <a href="https://github.com/webgefrickel/webgefrickel.de/tree/master/public/content/3-blog">in this git repository</a>. If you are specifically looking for the articles on my mutt-setup, you can find a nice summary in the <a href="https://wiki.installgentoo.com/wiki/A_modern_mutt_setup">Gentoo wiki</a>, and I always will keep <a href="https://github.com/webgefrickel/dotfiles/tree/master">my dotfiles config</a> up to date.
+      </p>
+      <p>
+        If you are interested in how I work nowadays: have a look at <a href="https://github.com/webgefrickel/kalong">kalong</a> (in constant progress, for smaller projects), or ask the awesome people from <a href="https://viu.ch">VIU</a>, with whom I work on different kind of projects.<br />
+        Regarding work-related requests, as a disclaimer: for now, I am not open for any new projects. I hope this will change in the beginning of 2022.
+      </p>
+      <p>
+        If you just want to chat or stay in contact: I'd love to make you a coffee or tea at my office, in our garden or in some Videochannel. Or just write me a letter via email or even a postcard. I mean it—you can still find me on the interwebs, but I chose to not really participate any longer—I'd rather give you my full attention.
+      </p>
+      <p>
+        <strong>Get vaccinated, stay healthy, love y'all.</strong>
       </p>
     </article>
 
     <article>
-      <h3>Imprint</h3>
+      <h2>Imprint</h2>
       <p>
         Steffen Rademacker<br />
         Erich-Zeigner-Allee 64a<br />
         04229 Leipzig, Germany
       </p>
-
       <p>
-        E-Mail:<br />
+        E-Mail:
         <a href="mailto:kontakt@webgefrickel.de">kontakt@webgefrickel.de</a><br />
-        Homepage:<br />
-        <a href="https://webgefrickel.de">https://webgefrickel.de</a><br />
-        Phone:<br />
+        Homepage:
+        <a href="https://webgefrickel.de">webgefrickel.de</a><br />
+        Phone:
         <a href="tel:+491775533074">+49 177 55 33 074</a>
       </p>
       <p>
-        You can also find me on<br />
-        Twitter:<br />
+        You can still find me on<br />
+        Twitter:
         <a href="https://twitter.com/webgefrickel">@webgefrickel</a><br />
-        GitHub:<br />
+        GitHub:
         <a href="https://github.com/webgefrickel">@webgefrickel</a>
       </p>
-
       <p>
         VATID: DE282237479<br />
         Finanzamt Leipzig I<br />
@@ -158,7 +199,7 @@
       </p>
     </article>
 
-    <aside>
+    <article>
       <h3>Legal Disclaimer</h3>
       <p>
         TL;DR: please contact me if you find anything suspicious, offending, illegal or otherwise concerning on this website.
@@ -175,8 +216,9 @@
       <p>
         I hereby expressly object to the third-party use of contact data, which has been published in accordance with the requirement in Germany to provide such information, for the transmission of not expressly solicited advertising and information material. I expressly reserve the right to take legal steps in the case of the unsolicited sending of advertising material, such as via spam emails.
       </p>
-    </aside>
-    <aside>
+    </article>
+
+    <article>
       <h3>Your privacy matters</h3>
       <p>
         By default, no personal data or information is collected by visiting this website. I do not need data about you, nor does my server, so nothing is or will ever be collected. Please contact me if you find anything suspicious, offending, illegal or otherwise concerning on this website.
@@ -199,7 +241,7 @@
       <p>
         I will improve or change on this privacy policy to reflect any upcoming changes, current version is 1.1, 2021-04-21.
       </p>
-    </aside>
+    </article>
 
     <script>
       if ('serviceWorker' in navigator) {
