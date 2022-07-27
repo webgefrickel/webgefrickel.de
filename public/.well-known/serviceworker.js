@@ -1,11 +1,10 @@
-const OFFLINE_VERSION = 1;
-const CACHE_NAME = 'offline';
-const OFFLINE_URL = 'index.html';
+const cacheName = 'offline';
+const offlineUrl = 'index.html';
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    await cache.add(new Request(OFFLINE_URL, { cache: 'reload' }));
+    const cache = await caches.open(cacheName);
+    await cache.add(new Request(offlineUrl, { cache: 'reload' }));
   })());
 });
 
@@ -30,8 +29,8 @@ self.addEventListener('fetch', (event) => {
         const networkResponse = await fetch(event.request);
         return networkResponse;
       } catch (error) {
-        const cache = await caches.open(CACHE_NAME);
-        const cachedResponse = await cache.match(OFFLINE_URL);
+        const cache = await caches.open(cacheName);
+        const cachedResponse = await cache.match(offlineUrl);
         return cachedResponse;
       }
     })());
