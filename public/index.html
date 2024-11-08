@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>webgefrickel.de</title>
-    <meta name="description" content="Web development—handcrafted in Leipzig">
+    <meta name="description" content="everything web—handcrafted in Leipzig">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="robots" content="index,follow">
@@ -65,33 +65,24 @@
       article {
         position: relative;
         max-width: 86rem;
-        padding: 6rem 2rem;
+        padding: 0 2rem;
         margin: 0 auto;
       }
 
-      article::before {
-        display: block;
-        height: 0.1rem;
-        position: absolute;
-        top: 0;
-        left: 35%;
-        right: 35%;
-        content: '';
-        background: #70c382;
-      }
-
-      hr {
-        display: block;
-        margin: 0 auto;
-        height: 0.1rem;
-        border: 0;
-        outline: 0;
-        background: #70c382;
+      article > * + * {
+        margin-block-start: 1em;
       }
 
       h1, h2, h3 {
         font-size: 2.4rem;
         font-weight: bolder;
+        margin-top: 0;
+      }
+
+      h1 {
+        position: relative;
+        margin: 24rem auto;
+        text-align: center;
       }
 
       .typo-small {
@@ -104,24 +95,6 @@
 
       a {
         color: inherit;
-      }
-
-      h1 {
-        position: relative;
-        padding: 0rem 0rem 6rem;
-        margin: 0 auto 6rem;
-        text-align: center;
-      }
-
-      h1:first-of-type::before {
-        display: block;
-        height: 0.1rem;
-        position: absolute;
-        bottom: 0;
-        left: 35%;
-        right: 35%;
-        content: '';
-        background: #70c382;
       }
 
       svg {
@@ -163,9 +136,8 @@
       </svg>
 
       <article>
-        <h1>Spread love, stay curious.</h1>
         <p>
-          Hi! My name is Steffen Rademacker and I work as a freelance web developer and consultant. I am fully booked and _not_ open for new projects.
+          Hi! My name is Steffen Rademacker and I work as a freelance web developer and consultant. I do everything from frontend to devOps, I like to build small websites with <a href="https://getkirby.com">kirby</a> and I will share my knowledge doing workshops. I am open for new projects, so please feel free to get in contact.
         </p>
         <p>
           If you are looking for articles from my old website, you can find an archive <a href="https://github.com/webgefrickel/webgefrickel.de/tree/pre-reboot/public/content/3_blog">in this git repository</a>. If you are specifically looking for the articles on my mutt-setup, you can find a nice summary in the <a href="https://wiki.installgentoo.com/wiki/A_modern_mutt_setup">Gentoo wiki</a>, and I always will keep <a href="https://github.com/webgefrickel/dotfiles/tree/master">my dotfiles config</a> up to date.
@@ -173,14 +145,16 @@
         <p>
           If you want to chat or stay in contact: I'd love to make you a coffee or tea at my office or in our garden. I mean it—you can still find me on the interwebs, but I chose to not really participate any longer—I'd rather give you my full attention in real life.
         </p>
+        <h1>Spread love, stay curious.</h1>
       </article>
 
       <article>
         <h2>Imprint / Contact</h2>
         <p>
           Steffen Rademacker<br>
-          Erich-Zeigner-Allee 64a<br>
-          04229 Leipzig, Germany
+          webgefrickel c/o HawaiiF3<br>
+          Gießerstr. 14<br>
+          DE-04229 Leipzig
         </p>
         <p>
           E-Mail:
@@ -188,14 +162,11 @@
           Homepage:
           <a href="https://webgefrickel.de">webgefrickel.de</a><br>
           Phone:
-          <a href="tel:+491775533074">+49&nbsp;177&nbsp;55&nbsp;33&nbsp;074</a>
-        </p>
-        <p>
-          You can still find me on<br>
-          Twitter:
-          <a href="https://twitter.com/webgefrickel">@webgefrickel</a><br>
+          <a href="tel:+491775533074">+49&nbsp;177&nbsp;55&nbsp;33&nbsp;074</a><br>
           GitHub:
-          <a href="https://github.com/webgefrickel">@webgefrickel</a>
+          <a href="https://github.com/webgefrickel">@webgefrickel</a><br />
+          Mastodon:
+          <a href="https://mstdn.social/@webgefrickel">@webgefrickel@mstdn.social</a>
         </p>
         <p>
           VATID: DE282237479<br>
